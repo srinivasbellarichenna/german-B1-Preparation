@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B1 German Exam Prep - Complete Study Program</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header -->
+        <header class="app-header">
+            <div class="container flex items-center justify-between">
+                <h1 class="app-title">🎯 B1 German Complete Prep</h1>
+                <div class="header-stats">
+                    <span class="readiness-score">⭐ <span id="readinessScore">0%</span> ready</span>
+                    <span class="countdown">📅 <span id="countdown">31</span> days to exam</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Navigation -->
+        <nav class="app-nav">
+            <div class="container">
+                <ul class="nav-list">
+                    <li><button class="nav-btn active" data-view="dashboard">📊 Dashboard</button></li>
+                    <li><button class="nav-btn" data-view="schedule">📅 35-Day Schedule</button></li>
+                    <li><button class="nav-btn" data-view="tasks">✅ Today's Tasks</button></li>
+                    <li><button class="nav-btn" data-view="grammar">📚 Grammar Progress</button></li>
+                    <li><button class="nav-btn" data-view="tests">📝 Practice Tests</button></li>
+                    <li><button class="nav-btn" data-view="resources">📖 Resources</button></li>
+                    <li><button class="nav-btn" data-view="analytics">📈 Analytics</button></li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="app-main">
+            <div class="container">
+                <!-- Dashboard View -->
+                <section id="dashboard" class="view active">
+                    <div class="dashboard-header">
+                        <h2>Your Complete B1 German Preparation Journey</h2>
+                        <div class="program-overview">
+                            <div class="program-stat">
+                                <span class="program-number">35</span>
+                                <span class="program-label">Study Days</span>
+                            </div>
+                            <div class="program-stat">
+                                <span class="program-number">5</span>
+                                <span class="program-label">Weeks</span>
+                            </div>
+                            <div class="program-stat">
+                                <span class="program-number" id="totalSessions">105</span>
+                                <span class="program-label">Sessions</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="dashboard-grid">
+                        <div class="card readiness-card">
+                            <div class="card__body">
+                                <h3>Exam Readiness Score</h3>
+                                <div class="readiness-circle">
+                                    <span class="readiness-percentage" id="overallReadiness">0%</span>
+                                </div>
+                                <div class="readiness-breakdown">
+                                    <div class="skill-progress">
+                                        <span>Grammar</span>
+                                        <div class="skill-bar">
+                                            <div class="skill-fill grammar" style="width: 0%" id="grammarProgress"></div>
+                                        </div>
+                                        <span id="grammarScore">0%</span>
+                                    </div>
+                                    <div class="skill-progress">
+                                        <span>Reading</span>
+                                        <div class="skill-bar">
+                                            <div class="skill-fill reading" style="width: 0%" id="readingProgress"></div>
+                                        </div>
+                                        <span id="readingScore">0%</span>
+                                    </div>
+                                    <div class="skill-progress">
+                                        <span>Writing</span>
+                                        <div class="skill-bar">
+                                            <div class="skill-fill writing" style="width: 0%" id="writingProgress"></div>
+                                        </div>
+                                        <span id="writingScore">0%</span>
+                                    </div>
+                                    <div class="skill-progress">
+                                        <span>Listening</span>
+                                        <div class="skill-bar">
+                                            <div class="skill-fill listening" style="width: 0%" id="listeningProgress"></div>
+                                        </div>
+                                        <span id="listeningScore">0%</span>
+                                    </div>
+                                    <div class="skill-progress">
+                                        <span>Speaking</span>
+                                        <div class="skill-bar">
+                                            <div class="skill-fill speaking" style="width: 0%" id="speakingProgress"></div>
+                                        </div>
+                                        <span id="speakingScore">0%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card week-overview-card">
+                            <div class="card__body">
+                                <h3>Weekly Progress Overview</h3>
+                                <div class="weeks-progress" id="weeksProgress">
+                                    <!-- Week progress will be generated here -->
+                                </div>
+                                <div class="current-week-info">
+                                    <span>Current: </span>
+                                    <strong id="currentWeekTitle">Week 1 - Foundation & Diagnostic</strong>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card today-focus-card">
+                            <div class="card__body">
+                                <h3>Today's Focus</h3>
+                                <div id="todayFocus">
+                                    <p>Program starts October 7th</p>
+                                </div>
+                                <div class="session-progress">
+                                    <span id="sessionProgress">0/3 sessions completed</span>
+                                    <button class="btn btn--primary btn--sm" onclick="switchView('tasks')">Start Today</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card recommendations-card">
+                            <div class="card__body">
+                                <h3>Study Recommendations</h3>
+                                <div id="studyRecommendations">
+                                    <p>Complete your diagnostic test to get personalized recommendations.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Schedule View -->
+                <section id="schedule" class="view">
+                    <div class="schedule-header">
+                        <h2>Complete 35-Day Study Schedule</h2>
+                        <div class="schedule-legend">
+                            <span class="legend-item completed">🟢 Completed (≥80%)</span>
+                            <span class="legend-item partial">🟡 Partial (60-79%)</span>
+                            <span class="legend-item incomplete">🔴 Incomplete (<60%)</span>
+                            <span class="legend-item future">⚪ Future</span>
+                        </div>
+                    </div>
+                    <div class="weeks-container" id="weeksContainer">
+                        <!-- Complete schedule will be generated here -->
+                    </div>
+                </section>
+
+                <!-- Daily Tasks View -->
+                <section id="tasks" class="view">
+                    <div class="tasks-header">
+                        <h2>Today's Tasks - <span id="todayDate">October 6, 2025</span></h2>
+                        <div class="task-timer">
+                            <span id="timerDisplay">00:00:00</span>
+                            <button class="btn btn--secondary btn--sm" id="timerBtn">Start Timer</button>
+                        </div>
+                    </div>
+
+                    <div class="sessions-container" id="sessionsContainer">
+                        <!-- Today's sessions will be generated here -->
+                    </div>
+
+                    <div class="tasks-grid">
+                        <div class="card">
+                            <div class="card__body">
+                                <h3>Study Notes</h3>
+                                <textarea class="form-control" id="dailyNotes" placeholder="Add your study notes, insights, and reflections for today..." rows="6"></textarea>
+                                <button class="btn btn--primary btn--sm mt-8" onclick="saveDailyNotes()">Save Notes</button>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card__body">
+                                <h3>Quick Quiz</h3>
+                                <div id="quickQuiz">
+                                    <p>Complete a session to unlock quick quiz</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Grammar View -->
+                <section id="grammar" class="view">
+                    <h2>Grammar Mastery Tracker</h2>
+                    <div class="grammar-overview">
+                        <div class="grammar-stats-grid">
+                            <div class="stat-card">
+                                <span class="stat-number" id="grammarMastered">0</span>
+                                <span class="stat-label">Topics Mastered</span>
+                            </div>
+                            <div class="stat-card">
+                                <span class="stat-number" id="grammarInProgress">0</span>
+                                <span class="stat-label">In Progress</span>
+                            </div>
+                            <div class="stat-card">
+                                <span class="stat-number" id="grammarAccuracy">0%</span>
+                                <span class="stat-label">Avg Accuracy</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grammar-topics-container" id="grammarTopicsContainer">
+                        <!-- Grammar topics will be generated here -->
+                    </div>
+                </section>
+
+                <!-- Practice Tests View -->
+                <section id="tests" class="view">
+                    <h2>Practice Test Tracker</h2>
+                    
+                    <div class="tests-overview">
+                        <div class="test-stats-grid">
+                            <div class="stat-card">
+                                <span class="stat-number" id="testsCompleted">0</span>
+                                <span class="stat-label">Tests Completed</span>
+                            </div>
+                            <div class="stat-card">
+                                <span class="stat-number" id="averageScore">0%</span>
+                                <span class="stat-label">Average Score</span>
+                            </div>
+                            <div class="stat-card">
+                                <span class="stat-number" id="improvement">+0%</span>
+                                <span class="stat-label">Improvement</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tests-grid">
+                        <div class="card">
+                            <div class="card__body">
+                                <h3>Add Test Result</h3>
+                                <form id="testForm">
+                                    <div class="form-group">
+                                        <label class="form-label">Test Date</label>
+                                        <input type="date" class="form-control" id="testDate" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="form-label">Test Type</label>
+                                        <select class="form-control" id="testType" required>
+                                            <option value="">Select test type</option>
+                                            <option value="diagnostic">Diagnostic Test</option>
+                                            <option value="practice">Practice Test</option>
+                                            <option value="mock">Mock Exam</option>
+                                            <option value="final">Final Practice</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="form-label">Reading Score (%)</label>
+                                        <input type="number" class="form-control" id="readingTestScore" min="0" max="100" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="form-label">Writing Score (%)</label>
+                                        <input type="number" class="form-control" id="writingTestScore" min="0" max="100" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="form-label">Listening Score (%)</label>
+                                        <input type="number" class="form-control" id="listeningTestScore" min="0" max="100" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label class="form-label">Speaking Score (%)</label>
+                                        <input type="number" class="form-control" id="speakingTestScore" min="0" max="100" required>
+                                    </div>
+                                    <button type="submit" class="btn btn--primary">Add Test Result</button>
+                                </form>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card__body">
+                                <h3>Test Progress Chart</h3>
+                                <div class="chart-container" style="position: relative; height: 300px;">
+                                    <canvas id="testProgressChart"></canvas>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card__body">
+                                <h3>Target Progress</h3>
+                                <div id="testTargets">
+                                    <!-- Test targets will be shown here -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Resources View -->
+                <section id="resources" class="view">
+                    <h2>Study Resources Library</h2>
+                    <div class="resources-grid" id="resourcesGrid">
+                        <!-- Resources will be generated here -->
+                    </div>
+                </section>
+
+                <!-- Analytics View -->
+                <section id="analytics" class="view">
+                    <h2>Progress Analytics</h2>
+                    
+                    <div class="analytics-grid">
+                        <div class="card">
+                            <div class="card__body">
+                                <h3>Daily Study Time</h3>
+                                <div class="chart-container" style="position: relative; height: 250px;">
+                                    <canvas id="dailyTimeChart"></canvas>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card__body">
+                                <h3>Skill Development</h3>
+                                <div class="chart-container" style="position: relative; height: 250px;">
+                                    <canvas id="skillRadarChart"></canvas>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card__body">
+                                <h3>Weekly Completion</h3>
+                                <div class="chart-container" style="position: relative; height: 250px;">
+                                    <canvas id="weeklyCompletionChart"></canvas>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card__body">
+                                <h3>Validation Results</h3>
+                                <div class="chart-container" style="position: relative; height: 250px;">
+                                    <canvas id="validationChart"></canvas>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+
+        <!-- Session Detail Modal -->
+        <div class="modal hidden" id="sessionModal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 id="sessionModalTitle">Session Details</h3>
+                    <button class="modal-close" onclick="closeModal('sessionModal')">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div id="sessionModalContent">
+                        <!-- Session details will be populated here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Validation Quiz Modal -->
+        <div class="modal hidden" id="quizModal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 id="quizModalTitle">Validation Quiz</h3>
+                    <button class="modal-close" onclick="closeModal('quizModal')">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div id="quizModalContent">
+                        <!-- Quiz content will be populated here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,1613 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B1 German Exam Prep - telc Preparation Assistant</title>
+    <style>
+        :root {
+  /* Primitive Color Tokens */
+  --color-white: rgba(255, 255, 255, 1);
+  --color-black: rgba(0, 0, 0, 1);
+  --color-cream-50: rgba(252, 252, 249, 1);
+  --color-cream-100: rgba(255, 255, 253, 1);
+  --color-gray-200: rgba(245, 245, 245, 1);
+  --color-gray-300: rgba(167, 169, 169, 1);
+  --color-gray-400: rgba(119, 124, 124, 1);
+  --color-slate-500: rgba(98, 108, 113, 1);
+  --color-brown-600: rgba(94, 82, 64, 1);
+  --color-charcoal-700: rgba(31, 33, 33, 1);
+  --color-charcoal-800: rgba(38, 40, 40, 1);
+  --color-slate-900: rgba(19, 52, 59, 1);
+  --color-teal-300: rgba(50, 184, 198, 1);
+  --color-teal-400: rgba(45, 166, 178, 1);
+  --color-teal-500: rgba(33, 128, 141, 1);
+  --color-teal-600: rgba(29, 116, 128, 1);
+  --color-teal-700: rgba(26, 104, 115, 1);
+  --color-teal-800: rgba(41, 150, 161, 1);
+  --color-red-400: rgba(255, 84, 89, 1);
+  --color-red-500: rgba(192, 21, 47, 1);
+  --color-orange-400: rgba(230, 129, 97, 1);
+  --color-orange-500: rgba(168, 75, 47, 1);
+
+  /* RGB versions for opacity control */
+  --color-brown-600-rgb: 94, 82, 64;
+  --color-teal-500-rgb: 33, 128, 141;
+  --color-slate-900-rgb: 19, 52, 59;
+  --color-slate-500-rgb: 98, 108, 113;
+  --color-red-500-rgb: 192, 21, 47;
+  --color-red-400-rgb: 255, 84, 89;
+  --color-orange-500-rgb: 168, 75, 47;
+  --color-orange-400-rgb: 230, 129, 97;
+
+  /* Background color tokens (Light Mode) */
+  --color-bg-1: rgba(59, 130, 246, 0.08);
+  --color-bg-2: rgba(245, 158, 11, 0.08);
+  --color-bg-3: rgba(34, 197, 94, 0.08);
+  --color-bg-4: rgba(239, 68, 68, 0.08);
+  --color-bg-5: rgba(147, 51, 234, 0.08);
+  --color-bg-6: rgba(249, 115, 22, 0.08);
+  --color-bg-7: rgba(236, 72, 153, 0.08);
+  --color-bg-8: rgba(6, 182, 212, 0.08);
+
+  /* Semantic Color Tokens (Light Mode) */
+  --color-background: var(--color-cream-50);
+  --color-surface: var(--color-cream-100);
+  --color-text: var(--color-slate-900);
+  --color-text-secondary: var(--color-slate-500);
+  --color-primary: var(--color-teal-500);
+  --color-primary-hover: var(--color-teal-600);
+  --color-primary-active: var(--color-teal-700);
+  --color-secondary: rgba(var(--color-brown-600-rgb), 0.12);
+  --color-secondary-hover: rgba(var(--color-brown-600-rgb), 0.2);
+  --color-secondary-active: rgba(var(--color-brown-600-rgb), 0.25);
+  --color-border: rgba(var(--color-brown-600-rgb), 0.2);
+  --color-btn-primary-text: var(--color-cream-50);
+  --color-card-border: rgba(var(--color-brown-600-rgb), 0.12);
+  --color-card-border-inner: rgba(var(--color-brown-600-rgb), 0.12);
+  --color-error: var(--color-red-500);
+  --color-success: var(--color-teal-500);
+  --color-warning: var(--color-orange-500);
+  --color-info: var(--color-slate-500);
+  --color-focus-ring: rgba(var(--color-teal-500-rgb), 0.4);
+  --color-select-caret: rgba(var(--color-slate-900-rgb), 0.8);
+
+  --focus-ring: 0 0 0 3px var(--color-focus-ring);
+  --focus-outline: 2px solid var(--color-primary);
+  --status-bg-opacity: 0.15;
+  --status-border-opacity: 0.25;
+
+  --color-success-rgb: 33, 128, 141;
+  --color-error-rgb: 192, 21, 47;
+  --color-warning-rgb: 168, 75, 47;
+  --color-info-rgb: 98, 108, 113;
+
+  --font-family-base: "FKGroteskNeue", "Geist", "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-family-mono: "Berkeley Mono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  --font-size-xs: 11px;
+  --font-size-sm: 12px;
+  --font-size-base: 14px;
+  --font-size-md: 14px;
+  --font-size-lg: 16px;
+  --font-size-xl: 18px;
+  --font-size-2xl: 20px;
+  --font-size-3xl: 24px;
+  --font-size-4xl: 30px;
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 550;
+  --font-weight-bold: 600;
+  --line-height-tight: 1.2;
+  --line-height-normal: 1.5;
+  --letter-spacing-tight: -0.01em;
+
+  --space-0: 0;
+  --space-1: 1px;
+  --space-2: 2px;
+  --space-4: 4px;
+  --space-6: 6px;
+  --space-8: 8px;
+  --space-10: 10px;
+  --space-12: 12px;
+  --space-16: 16px;
+  --space-20: 20px;
+  --space-24: 24px;
+  --space-32: 32px;
+
+  --radius-sm: 6px;
+  --radius-base: 8px;
+  --radius-md: 10px;
+  --radius-lg: 12px;
+  --radius-full: 9999px;
+
+  --shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.02);
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.04), 0 1px 2px rgba(0, 0, 0, 0.02);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.04), 0 2px 4px -1px rgba(0, 0, 0, 0.02);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.04), 0 4px 6px -2px rgba(0, 0, 0, 0.02);
+  --shadow-inset-sm: inset 0 1px 0 rgba(255, 255, 255, 0.15), inset 0 -1px 0 rgba(0, 0, 0, 0.03);
+
+  --duration-fast: 150ms;
+  --duration-normal: 250ms;
+  --ease-standard: cubic-bezier(0.16, 1, 0.3, 1);
+
+  --container-sm: 640px;
+  --container-md: 768px;
+  --container-lg: 1024px;
+  --container-xl: 1280px;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-gray-400-rgb: 119, 124, 124;
+    --color-teal-300-rgb: 50, 184, 198;
+    --color-gray-300-rgb: 167, 169, 169;
+    --color-gray-200-rgb: 245, 245, 245;
+
+    --color-bg-1: rgba(29, 78, 216, 0.15);
+    --color-bg-2: rgba(180, 83, 9, 0.15);
+    --color-bg-3: rgba(21, 128, 61, 0.15);
+    --color-bg-4: rgba(185, 28, 28, 0.15);
+    --color-bg-5: rgba(107, 33, 168, 0.15);
+    --color-bg-6: rgba(194, 65, 12, 0.15);
+    --color-bg-7: rgba(190, 24, 93, 0.15);
+    --color-bg-8: rgba(8, 145, 178, 0.15);
+
+    --color-background: var(--color-charcoal-700);
+    --color-surface: var(--color-charcoal-800);
+    --color-text: var(--color-gray-200);
+    --color-text-secondary: rgba(var(--color-gray-300-rgb), 0.7);
+    --color-primary: var(--color-teal-300);
+    --color-primary-hover: var(--color-teal-400);
+    --color-primary-active: var(--color-teal-800);
+    --color-secondary: rgba(var(--color-gray-400-rgb), 0.15);
+    --color-secondary-hover: rgba(var(--color-gray-400-rgb), 0.25);
+    --color-secondary-active: rgba(var(--color-gray-400-rgb), 0.3);
+    --color-border: rgba(var(--color-gray-400-rgb), 0.3);
+    --color-error: var(--color-red-400);
+    --color-success: var(--color-teal-300);
+    --color-warning: var(--color-orange-400);
+    --color-info: var(--color-gray-300);
+    --color-focus-ring: rgba(var(--color-teal-300-rgb), 0.4);
+    --color-btn-primary-text: var(--color-slate-900);
+    --color-card-border: rgba(var(--color-gray-400-rgb), 0.2);
+    --color-card-border-inner: rgba(var(--color-gray-400-rgb), 0.15);
+    --shadow-inset-sm: inset 0 1px 0 rgba(255, 255, 255, 0.1), inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+    --color-border-secondary: rgba(var(--color-gray-400-rgb), 0.2);
+    --color-select-caret: rgba(var(--color-gray-200-rgb), 0.8);
+
+    --color-success-rgb: var(--color-teal-300-rgb);
+    --color-error-rgb: var(--color-red-400-rgb);
+    --color-warning-rgb: var(--color-orange-400-rgb);
+    --color-info-rgb: var(--color-gray-300-rgb);
+  }
+}
+
+@font-face {
+  font-family: 'FKGroteskNeue';
+  src: url('https://r2cdn.perplexity.ai/fonts/FKGroteskNeue.woff2') format('woff2');
+}
+
+html {
+  font-size: var(--font-size-base);
+  font-family: var(--font-family-base);
+  line-height: var(--line-height-normal);
+  color: var(--color-text);
+  background-color: var(--color-background);
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-weight: var(--font-weight-semibold);
+  line-height: var(--line-height-tight);
+  color: var(--color-text);
+  letter-spacing: var(--letter-spacing-tight);
+}
+
+h1 { font-size: var(--font-size-4xl); }
+h2 { font-size: var(--font-size-3xl); }
+h3 { font-size: var(--font-size-2xl); }
+h4 { font-size: var(--font-size-xl); }
+h5 { font-size: var(--font-size-lg); }
+h6 { font-size: var(--font-size-md); }
+
+p { margin: 0 0 var(--space-16) 0; }
+
+/* App specific styles */
+.app-header {
+    position: sticky;
+    top: 0;
+    background: var(--color-surface);
+    border-bottom: 1px solid var(--color-border);
+    padding: var(--space-16) var(--space-24);
+    z-index: 100;
+    box-shadow: var(--shadow-sm);
+}
+
+.app-header-content {
+    max-width: var(--container-xl);
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--space-16);
+}
+
+.app-logo {
+    font-size: var(--font-size-xl);
+    font-weight: var(--font-weight-bold);
+    color: var(--color-primary);
+}
+
+.app-nav {
+    display: flex;
+    gap: var(--space-8);
+    flex-wrap: wrap;
+}
+
+.nav-btn {
+    padding: var(--space-8) var(--space-12);
+    background: transparent;
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-base);
+    color: var(--color-text);
+    cursor: pointer;
+    font-size: var(--font-size-sm);
+    transition: all var(--duration-fast) var(--ease-standard);
+}
+
+.nav-btn:hover {
+    background: var(--color-secondary);
+}
+
+.nav-btn.active {
+    background: var(--color-primary);
+    color: var(--color-btn-primary-text);
+    border-color: var(--color-primary);
+}
+
+.app-main {
+    max-width: var(--container-xl);
+    margin: 0 auto;
+    padding: var(--space-32) var(--space-24);
+}
+
+.section {
+    display: none;
+}
+
+.section.active {
+    display: block;
+}
+
+.card {
+    background: var(--color-surface);
+    border: 1px solid var(--color-card-border);
+    border-radius: var(--radius-lg);
+    padding: var(--space-24);
+    margin-bottom: var(--space-24);
+    box-shadow: var(--shadow-sm);
+}
+
+.card h3 {
+    margin-bottom: var(--space-16);
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: var(--space-16);
+    margin-bottom: var(--space-24);
+}
+
+.stat-card {
+    background: var(--color-bg-1);
+    border: 1px solid var(--color-card-border);
+    border-radius: var(--radius-base);
+    padding: var(--space-16);
+    text-align: center;
+}
+
+.stat-value {
+    font-size: var(--font-size-3xl);
+    font-weight: var(--font-weight-bold);
+    color: var(--color-primary);
+    display: block;
+    margin-bottom: var(--space-4);
+}
+
+.stat-label {
+    font-size: var(--font-size-sm);
+    color: var(--color-text-secondary);
+}
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: var(--space-10) var(--space-16);
+    border-radius: var(--radius-base);
+    font-size: var(--font-size-base);
+    font-weight: var(--font-weight-medium);
+    cursor: pointer;
+    transition: all var(--duration-normal) var(--ease-standard);
+    border: none;
+    text-decoration: none;
+}
+
+.btn-primary {
+    background: var(--color-primary);
+    color: var(--color-btn-primary-text);
+}
+
+.btn-primary:hover {
+    background: var(--color-primary-hover);
+}
+
+.btn-secondary {
+    background: var(--color-secondary);
+    color: var(--color-text);
+    border: 1px solid var(--color-border);
+}
+
+.btn-secondary:hover {
+    background: var(--color-secondary-hover);
+}
+
+.btn-group {
+    display: flex;
+    gap: var(--space-8);
+    flex-wrap: wrap;
+    margin-top: var(--space-16);
+}
+
+.progress-bar {
+    width: 100%;
+    height: 12px;
+    background: var(--color-secondary);
+    border-radius: var(--radius-full);
+    overflow: hidden;
+    margin: var(--space-8) 0;
+}
+
+.progress-fill {
+    height: 100%;
+    background: var(--color-primary);
+    transition: width var(--duration-normal) var(--ease-standard);
+}
+
+.grammar-topic {
+    border: 1px solid var(--color-card-border);
+    border-radius: var(--radius-base);
+    margin-bottom: var(--space-16);
+    overflow: hidden;
+}
+
+.grammar-topic-header {
+    padding: var(--space-16);
+    background: var(--color-bg-2);
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.grammar-topic-header:hover {
+    background: var(--color-bg-3);
+}
+
+.grammar-topic-content {
+    padding: var(--space-16);
+    display: none;
+}
+
+.grammar-topic.expanded .grammar-topic-content {
+    display: block;
+}
+
+.grammar-section {
+    margin-bottom: var(--space-24);
+    padding-bottom: var(--space-24);
+    border-bottom: 1px solid var(--color-card-border-inner);
+}
+
+.grammar-section:last-child {
+    border-bottom: none;
+}
+
+.example {
+    background: var(--color-bg-1);
+    padding: var(--space-12);
+    border-radius: var(--radius-sm);
+    margin-top: var(--space-8);
+}
+
+.verb-card {
+    background: var(--color-surface);
+    border: 1px solid var(--color-card-border);
+    border-radius: var(--radius-base);
+    padding: var(--space-16);
+    margin-bottom: var(--space-16);
+}
+
+.verb-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: var(--space-12);
+}
+
+.verb-title {
+    font-size: var(--font-size-xl);
+    font-weight: var(--font-weight-bold);
+}
+
+.verb-english {
+    color: var(--color-text-secondary);
+    font-size: var(--font-size-base);
+}
+
+.conjugation-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: var(--space-16) 0;
+}
+
+.conjugation-table th,
+.conjugation-table td {
+    padding: var(--space-8);
+    text-align: left;
+    border-bottom: 1px solid var(--color-card-border-inner);
+}
+
+.conjugation-table th {
+    background: var(--color-bg-2);
+    font-weight: var(--font-weight-semibold);
+}
+
+.category-tag {
+    display: inline-block;
+    padding: var(--space-4) var(--space-8);
+    background: var(--color-bg-4);
+    border-radius: var(--radius-sm);
+    font-size: var(--font-size-xs);
+    margin-right: var(--space-4);
+}
+
+.search-filter {
+    margin-bottom: var(--space-24);
+}
+
+.search-input {
+    width: 100%;
+    padding: var(--space-12);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-base);
+    font-size: var(--font-size-base);
+    background: var(--color-surface);
+    color: var(--color-text);
+    margin-bottom: var(--space-12);
+}
+
+.filter-chips {
+    display: flex;
+    gap: var(--space-8);
+    flex-wrap: wrap;
+}
+
+.filter-chip {
+    padding: var(--space-6) var(--space-12);
+    background: var(--color-secondary);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-full);
+    font-size: var(--font-size-sm);
+    cursor: pointer;
+    transition: all var(--duration-fast) var(--ease-standard);
+}
+
+.filter-chip:hover {
+    background: var(--color-secondary-hover);
+}
+
+.filter-chip.active {
+    background: var(--color-primary);
+    color: var(--color-btn-primary-text);
+    border-color: var(--color-primary);
+}
+
+.quiz-question {
+    background: var(--color-bg-3);
+    padding: var(--space-24);
+    border-radius: var(--radius-base);
+    margin-bottom: var(--space-24);
+}
+
+.quiz-options {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-12);
+    margin-top: var(--space-16);
+}
+
+.quiz-option {
+    padding: var(--space-12);
+    background: var(--color-surface);
+    border: 2px solid var(--color-border);
+    border-radius: var(--radius-base);
+    cursor: pointer;
+    transition: all var(--duration-fast) var(--ease-standard);
+}
+
+.quiz-option:hover {
+    border-color: var(--color-primary);
+    background: var(--color-bg-1);
+}
+
+.quiz-option.correct {
+    border-color: var(--color-success);
+    background: rgba(var(--color-success-rgb), 0.1);
+}
+
+.quiz-option.incorrect {
+    border-color: var(--color-error);
+    background: rgba(var(--color-error-rgb), 0.1);
+}
+
+.quiz-feedback {
+    margin-top: var(--space-16);
+    padding: var(--space-12);
+    border-radius: var(--radius-base);
+}
+
+.flashcard {
+    width: 100%;
+    max-width: 600px;
+    height: 300px;
+    margin: 0 auto var(--space-24);
+    perspective: 1000px;
+    cursor: pointer;
+}
+
+.flashcard-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+}
+
+.flashcard.flipped .flashcard-inner {
+    transform: rotateY(180deg);
+}
+
+.flashcard-front,
+.flashcard-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: var(--space-32);
+    background: var(--color-surface);
+    border: 2px solid var(--color-card-border);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-md);
+}
+
+.flashcard-back {
+    transform: rotateY(180deg);
+}
+
+.study-day {
+    background: var(--color-surface);
+    border: 1px solid var(--color-card-border);
+    border-radius: var(--radius-base);
+    padding: var(--space-20);
+    margin-bottom: var(--space-16);
+}
+
+.study-day h4 {
+    color: var(--color-primary);
+    margin-bottom: var(--space-8);
+}
+
+.task-list {
+    list-style: none;
+    padding: 0;
+    margin: var(--space-12) 0;
+}
+
+.task-item {
+    display: flex;
+    align-items: center;
+    gap: var(--space-8);
+    padding: var(--space-8) 0;
+}
+
+.task-item input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
+.countdown {
+    text-align: center;
+    padding: var(--space-32);
+    background: linear-gradient(135deg, var(--color-bg-1), var(--color-bg-3));
+    border-radius: var(--radius-lg);
+    margin-bottom: var(--space-24);
+}
+
+.countdown-number {
+    font-size: 72px;
+    font-weight: var(--font-weight-bold);
+    color: var(--color-primary);
+    line-height: 1;
+}
+
+.tip-box {
+    background: var(--color-bg-2);
+    border-left: 4px solid var(--color-warning);
+    padding: var(--space-16);
+    margin-bottom: var(--space-12);
+    border-radius: var(--radius-sm);
+}
+
+.mastered-check {
+    display: flex;
+    align-items: center;
+    gap: var(--space-8);
+    margin-top: var(--space-12);
+}
+
+.mastered-check input {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .app-nav {
+        display: none;
+    }
+    
+    .mobile-menu {
+        display: block;
+    }
+    
+    .stats-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .countdown-number {
+        font-size: 48px;
+    }
+}
+    </style>
+</head>
+<body>
+    <header class="app-header">
+        <div class="app-header-content">
+            <div class="app-logo">🇩🇪 B1 German Prep</div>
+            <nav class="app-nav">
+                <button class="nav-btn active" data-section="dashboard">Dashboard</button>
+                <button class="nav-btn" data-section="grammar">Grammar</button>
+                <button class="nav-btn" data-section="verbs">Verbs</button>
+                <button class="nav-btn" data-section="quiz">Quiz</button>
+                <button class="nav-btn" data-section="flashcards">Flashcards</button>
+                <button class="nav-btn" data-section="study-plan">Study Plan</button>
+                <button class="nav-btn" data-section="progress">Progress</button>
+            </nav>
+        </div>
+    </header>
+
+    <main class="app-main">
+        <!-- Dashboard Section -->
+        <section id="dashboard" class="section active">
+            <div class="countdown">
+                <h2>telc B1 Exam</h2>
+                <div class="countdown-number">6</div>
+                <p style="font-size: var(--font-size-xl); margin-top: var(--space-8);">days remaining</p>
+                <p style="color: var(--color-text-secondary); margin-top: var(--space-8);">Exam Date: November 15, 2025</p>
+            </div>
+
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <span class="stat-value" id="verbs-learned">0/110</span>
+                    <span class="stat-label">Verbs Mastered</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-value" id="grammar-reviewed">0</span>
+                    <span class="stat-label">Grammar Topics Reviewed</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-value" id="quiz-accuracy">0%</span>
+                    <span class="stat-label">Quiz Accuracy</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-value" id="overall-progress">0%</span>
+                    <span class="stat-label">Overall Progress</span>
+                </div>
+            </div>
+
+            <div class="card">
+                <h3>Today's Focus: Day 1 - Foundation</h3>
+                <p><strong>Master Auxiliary &amp; Modal Verbs</strong></p>
+                <p>Start with the fundamentals: Learn <em>sein</em>, <em>haben</em>, and <em>werden</em>, then move on to all 6 modal verbs.</p>
+                <div class="progress-bar">
+                    <div class="progress-fill" id="today-progress" style="width: 0%"></div>
+                </div>
+                <div class="btn-group">
+                    <button class="btn btn-primary" onclick="navigateToSection('verbs')">Start Learning Verbs</button>
+                    <button class="btn btn-secondary" onclick="navigateToSection('study-plan')">View Full Study Plan</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <h3>💡 Motivational Tip</h3>
+                <p id="motivational-message">You're on track! Consistency is key. Even 30 minutes of focused study daily will make a huge difference.</p>
+            </div>
+
+            <div class="card">
+                <h3>Quick Navigation</h3>
+                <div class="btn-group">
+                    <button class="btn btn-secondary" onclick="navigateToSection('grammar')">📚 Grammar Guide</button>
+                    <button class="btn btn-secondary" onclick="navigateToSection('verbs')">📖 Verb Library</button>
+                    <button class="btn btn-secondary" onclick="navigateToSection('quiz')">✅ Practice Quiz</button>
+                    <button class="btn btn-secondary" onclick="navigateToSection('flashcards')">🎴 Flashcards</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Grammar Guide Section -->
+        <section id="grammar" class="section">
+            <h2 style="margin-bottom: var(--space-24);">Grammar Guide</h2>
+            <div id="grammar-topics-container"></div>
+        </section>
+
+        <!-- Verb Library Section -->
+        <section id="verbs" class="section">
+            <h2 style="margin-bottom: var(--space-24);">Verb Library - All 110 Verbs</h2>
+            
+            <div class="card" style="background: var(--color-bg-3); margin-bottom: var(--space-24);">
+                <h3 style="margin-bottom: var(--space-12);">📊 Your Progress</h3>
+                <p style="font-size: var(--font-size-xl); color: var(--color-primary); margin-bottom: var(--space-8);" id="verb-mastery-count">0 / 110 Verbs Mastered</p>
+                <div class="progress-bar" style="height: 16px;">
+                    <div class="progress-fill" id="verb-mastery-progress" style="width: 0%"></div>
+                </div>
+                <p style="font-size: var(--font-size-sm); color: var(--color-text-secondary); margin-top: var(--space-8); margin-bottom: 0;">Master all 110 verbs to achieve 100% completion!</p>
+            </div>
+            
+            <div class="card">
+                <div class="search-filter">
+                    <input type="text" id="verb-search" class="search-input" placeholder="Search verbs by German or English...">
+                    <div class="filter-chips">
+                        <button class="filter-chip active" data-category="all">All Verbs</button>
+                        <button class="filter-chip" data-category="auxiliary">Auxiliary</button>
+                        <button class="filter-chip" data-category="modal">Modal</button>
+                        <button class="filter-chip" data-category="action">Action</button>
+                        <button class="filter-chip" data-category="communication">Communication</button>
+                        <button class="filter-chip" data-category="reflexive">Reflexive</button>
+                        <button class="filter-chip" data-category="dative">Dative</button>
+                        <button class="filter-chip" data-category="separable">Separable</button>
+                        <button class="filter-chip" data-category="advanced">Advanced</button>
+                    </div>
+                </div>
+                <div class="btn-group">
+                    <button class="btn btn-primary" onclick="showRandomVerb()">🎲 Random Verb</button>
+                    <button class="btn btn-secondary" onclick="showAllVerbs()">Show All</button>
+                </div>
+            </div>
+
+            <div id="verb-list-container"></div>
+        </section>
+
+        <!-- Quiz Section -->
+        <section id="quiz" class="section">
+            <h2 style="margin-bottom: var(--space-24);">Practice Quiz</h2>
+            
+            <div class="card" id="quiz-setup">
+                <h3>Quiz Settings</h3>
+                <div style="margin: var(--space-16) 0;">
+                    <label style="display: block; margin-bottom: var(--space-8); font-weight: var(--font-weight-medium);">Quiz Type:</label>
+                    <select id="quiz-type" style="width: 100%; padding: var(--space-10); border: 1px solid var(--color-border); border-radius: var(--radius-base); background: var(--color-surface); color: var(--color-text);">
+                        <option value="conjugation">Verb Conjugation</option>
+                        <option value="translation">Translation</option>
+                        <option value="case">Case Selection</option>
+                    </select>
+                </div>
+                <div style="margin: var(--space-16) 0;">
+                    <label style="display: block; margin-bottom: var(--space-8); font-weight: var(--font-weight-medium);">Number of Questions:</label>
+                    <select id="quiz-length" style="width: 100%; padding: var(--space-10); border: 1px solid var(--color-border); border-radius: var(--radius-base); background: var(--color-surface); color: var(--color-text);">
+                        <option value="5">5 Questions</option>
+                        <option value="10" selected>10 Questions</option>
+                        <option value="20">20 Questions</option>
+                    </select>
+                </div>
+                <button class="btn btn-primary" onclick="startQuiz()">Start Quiz</button>
+            </div>
+
+            <div id="quiz-container" style="display: none;"></div>
+        </section>
+
+        <!-- Flashcards Section -->
+        <section id="flashcards" class="section">
+            <h2 style="margin-bottom: var(--space-24);">Flashcard Practice</h2>
+            
+            <div class="card">
+                <p style="text-align: center; color: var(--color-text-secondary); margin-bottom: var(--space-16);">Click card to flip • Use arrow keys to navigate</p>
+                <div class="flashcard" id="flashcard" onclick="flipCard()">
+                    <div class="flashcard-inner">
+                        <div class="flashcard-front">
+                            <h3 id="flashcard-front-text">Loading...</h3>
+                        </div>
+                        <div class="flashcard-back">
+                            <h3 id="flashcard-back-text"></h3>
+                            <p id="flashcard-category" style="color: var(--color-text-secondary); margin-top: var(--space-16);"></p>
+                        </div>
+                    </div>
+                </div>
+                <div style="display: flex; justify-content: center; gap: var(--space-12); margin-top: var(--space-16);">
+                    <button class="btn btn-secondary" onclick="previousCard()">← Previous</button>
+                    <button class="btn btn-secondary" onclick="markKnown()">Mark as Known</button>
+                    <button class="btn btn-secondary" onclick="nextCard()">Next →</button>
+                </div>
+                <p style="text-align: center; margin-top: var(--space-16); color: var(--color-text-secondary);" id="flashcard-counter">Card 1 of 20</p>
+            </div>
+        </section>
+
+        <!-- Study Plan Section -->
+        <section id="study-plan" class="section">
+            <h2 style="margin-bottom: var(--space-24);">6-Day Study Plan</h2>
+            <p style="margin-bottom: var(--space-24); color: var(--color-text-secondary);">Follow this structured plan to maximize your exam readiness. Check off tasks as you complete them!</p>
+            <div id="study-plan-container"></div>
+        </section>
+
+        <!-- Progress Section -->
+        <section id="progress" class="section">
+            <h2 style="margin-bottom: var(--space-24);">My Progress</h2>
+            
+            <div class="card">
+                <h3>Overall Progress</h3>
+                <div class="progress-bar" style="height: 24px; margin: var(--space-16) 0;">
+                    <div class="progress-fill" id="overall-progress-bar" style="width: 0%"></div>
+                </div>
+                <p style="text-align: center; font-size: var(--font-size-xl); color: var(--color-primary);" id="overall-progress-text">0% Complete</p>
+            </div>
+
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <span class="stat-value" id="progress-verbs">0/110</span>
+                    <span class="stat-label">Verbs Mastered</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-value" id="progress-grammar">0/12</span>
+                    <span class="stat-label">Grammar Topics</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-value" id="progress-quizzes">0</span>
+                    <span class="stat-label">Quizzes Taken</span>
+                </div>
+                <div class="stat-card">
+                    <span class="stat-value" id="progress-accuracy">0%</span>
+                    <span class="stat-label">Average Accuracy</span>
+                </div>
+            </div>
+
+            <div class="card">
+                <h3>Exam Day Tips</h3>
+                <div id="exam-tips-container"></div>
+            </div>
+
+            <div class="card">
+                <h3>🎉 Keep Going!</h3>
+                <p id="encouragement-message">You're making excellent progress! Stay focused and trust your preparation.</p>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        // Expanded Verb Database Function (Returns verbs 10-110+)
+        function getExpandedVerbDatabase() {
+            return [
+                // ACTION VERBS (10-40)
+                { id: 10, german: 'machen', english: 'to do/make', category: 'action', praesens: ['mache', 'machst', 'macht', 'machen', 'macht', 'machen'], praeteritum: ['machte', 'machtest', 'machte', 'machten', 'machtet', 'machten'], perfekt: ['habe gemacht', 'hast gemacht', 'hat gemacht', 'haben gemacht', 'habt gemacht', 'haben gemacht'], example: 'Was machst du am Wochenende?', example_en: 'What are you doing on the weekend?' },
+                { id: 11, german: 'gehen', english: 'to go', category: 'action', praesens: ['gehe', 'gehst', 'geht', 'gehen', 'geht', 'gehen'], praeteritum: ['ging', 'gingst', 'ging', 'gingen', 'gingt', 'gingen'], perfekt: ['bin gegangen', 'bist gegangen', 'ist gegangen', 'sind gegangen', 'seid gegangen', 'sind gegangen'], example: 'Ich gehe zur Schule.', example_en: 'I go to school' },
+                { id: 12, german: 'kommen', english: 'to come', category: 'action', praesens: ['komme', 'kommst', 'kommt', 'kommen', 'kommt', 'kommen'], praeteritum: ['kam', 'kamst', 'kam', 'kamen', 'kamt', 'kamen'], perfekt: ['bin gekommen', 'bist gekommen', 'ist gekommen', 'sind gekommen', 'seid gekommen', 'sind gekommen'], example: 'Wann kommst du?', example_en: 'When are you coming?' },
+                { id: 13, german: 'sehen', english: 'to see', category: 'action', praesens: ['sehe', 'siehst', 'sieht', 'sehen', 'seht', 'sehen'], praeteritum: ['sah', 'sahst', 'sah', 'sahen', 'saht', 'sahen'], perfekt: ['habe gesehen', 'hast gesehen', 'hat gesehen', 'haben gesehen', 'habt gesehen', 'haben gesehen'], example: 'Ich sehe dich morgen.', example_en: "I'll see you tomorrow" },
+                { id: 14, german: 'geben', english: 'to give', category: 'action', praesens: ['gebe', 'gibst', 'gibt', 'geben', 'gebt', 'geben'], praeteritum: ['gab', 'gabst', 'gab', 'gaben', 'gabt', 'gaben'], perfekt: ['habe gegeben', 'hast gegeben', 'hat gegeben', 'haben gegeben', 'habt gegeben', 'haben gegeben'], example: 'Ich gebe dir das Buch.', example_en: 'I give you the book' },
+                { id: 15, german: 'nehmen', english: 'to take', category: 'action', praesens: ['nehme', 'nimmst', 'nimmt', 'nehmen', 'nehmt', 'nehmen'], praeteritum: ['nahm', 'nahmst', 'nahm', 'nahmen', 'nahmt', 'nahmen'], perfekt: ['habe genommen', 'hast genommen', 'hat genommen', 'haben genommen', 'habt genommen', 'haben genommen'], example: 'Ich nehme einen Kaffee.', example_en: 'I take a coffee' },
+                { id: 16, german: 'finden', english: 'to find', category: 'action', praesens: ['finde', 'findest', 'findet', 'finden', 'findet', 'finden'], praeteritum: ['fand', 'fandst', 'fand', 'fanden', 'fandet', 'fanden'], perfekt: ['habe gefunden', 'hast gefunden', 'hat gefunden', 'haben gefunden', 'habt gefunden', 'haben gefunden'], example: 'Ich finde das interessant.', example_en: 'I find that interesting' },
+                { id: 17, german: 'bleiben', english: 'to stay/remain', category: 'action', praesens: ['bleibe', 'bleibst', 'bleibt', 'bleiben', 'bleibt', 'bleiben'], praeteritum: ['blieb', 'bliebst', 'blieb', 'blieben', 'bliebt', 'blieben'], perfekt: ['bin geblieben', 'bist geblieben', 'ist geblieben', 'sind geblieben', 'seid geblieben', 'sind geblieben'], example: 'Ich bleibe zu Hause.', example_en: "I'm staying at home" },
+                { id: 18, german: 'bringen', english: 'to bring', category: 'action', praesens: ['bringe', 'bringst', 'bringt', 'bringen', 'bringt', 'bringen'], praeteritum: ['brachte', 'brachtest', 'brachte', 'brachten', 'brachtet', 'brachten'], perfekt: ['habe gebracht', 'hast gebracht', 'hat gebracht', 'haben gebracht', 'habt gebracht', 'haben gebracht'], example: 'Kannst du mir Wasser bringen?', example_en: 'Can you bring me water?' },
+                { id: 19, german: 'halten', english: 'to hold/stop', category: 'action', praesens: ['halte', 'hältst', 'hält', 'halten', 'haltet', 'halten'], praeteritum: ['hielt', 'hieltest', 'hielt', 'hielten', 'hieltet', 'hielten'], perfekt: ['habe gehalten', 'hast gehalten', 'hat gehalten', 'haben gehalten', 'habt gehalten', 'haben gehalten'], example: 'Halt bitte!', example_en: 'Please stop!' },
+                { id: 20, german: 'arbeiten', english: 'to work', category: 'action', praesens: ['arbeite', 'arbeitest', 'arbeitet', 'arbeiten', 'arbeitet', 'arbeiten'], praeteritum: ['arbeitete', 'arbeitetest', 'arbeitete', 'arbeiteten', 'arbeitetet', 'arbeiteten'], perfekt: ['habe gearbeitet', 'hast gearbeitet', 'hat gearbeitet', 'haben gearbeitet', 'habt gearbeitet', 'haben gearbeitet'], example: 'Ich arbeite in Berlin.', example_en: 'I work in Berlin' },
+                { id: 21, german: 'spielen', english: 'to play', category: 'action', praesens: ['spiele', 'spielst', 'spielt', 'spielen', 'spielt', 'spielen'], praeteritum: ['spielte', 'spieltest', 'spielte', 'spielten', 'spieltet', 'spielten'], perfekt: ['habe gespielt', 'hast gespielt', 'hat gespielt', 'haben gespielt', 'habt gespielt', 'haben gespielt'], example: 'Ich spiele Fußball.', example_en: 'I play football' },
+                { id: 22, german: 'fahren', english: 'to drive/travel', category: 'action', praesens: ['fahre', 'fährst', 'fährt', 'fahren', 'fahrt', 'fahren'], praeteritum: ['fuhr', 'fuhrst', 'fuhr', 'fuhren', 'fuhrt', 'fuhren'], perfekt: ['bin gefahren', 'bist gefahren', 'ist gefahren', 'sind gefahren', 'seid gefahren', 'sind gefahren'], example: 'Ich fahre nach München.', example_en: 'I drive to Munich' },
+                { id: 23, german: 'laufen', english: 'to run/walk', category: 'action', praesens: ['laufe', 'läufst', 'läuft', 'laufen', 'lauft', 'laufen'], praeteritum: ['lief', 'liefst', 'lief', 'liefen', 'lieft', 'liefen'], perfekt: ['bin gelaufen', 'bist gelaufen', 'ist gelaufen', 'sind gelaufen', 'seid gelaufen', 'sind gelaufen'], example: 'Ich laufe jeden Tag.', example_en: 'I run every day' },
+                { id: 24, german: 'schreiben', english: 'to write', category: 'action', praesens: ['schreibe', 'schreibst', 'schreibt', 'schreiben', 'schreibt', 'schreiben'], praeteritum: ['schrieb', 'schriebst', 'schrieb', 'schrieben', 'schriebt', 'schrieben'], perfekt: ['habe geschrieben', 'hast geschrieben', 'hat geschrieben', 'haben geschrieben', 'habt geschrieben', 'haben geschrieben'], example: 'Ich schreibe einen Brief.', example_en: 'I write a letter' },
+                { id: 25, german: 'lesen', english: 'to read', category: 'action', praesens: ['lese', 'liest', 'liest', 'lesen', 'lest', 'lesen'], praeteritum: ['las', 'lasest', 'las', 'lasen', 'last', 'lasen'], perfekt: ['habe gelesen', 'hast gelesen', 'hat gelesen', 'haben gelesen', 'habt gelesen', 'haben gelesen'], example: 'Ich lese ein Buch.', example_en: 'I read a book' },
+                { id: 26, german: 'essen', english: 'to eat', category: 'action', praesens: ['esse', 'isst', 'isst', 'essen', 'esst', 'essen'], praeteritum: ['aß', 'aßest', 'aß', 'aßen', 'aßt', 'aßen'], perfekt: ['habe gegessen', 'hast gegessen', 'hat gegessen', 'haben gegessen', 'habt gegessen', 'haben gegessen'], example: 'Ich esse Pizza.', example_en: 'I eat pizza' },
+                { id: 27, german: 'trinken', english: 'to drink', category: 'action', praesens: ['trinke', 'trinkst', 'trinkt', 'trinken', 'trinkt', 'trinken'], praeteritum: ['trank', 'trankst', 'trank', 'tranken', 'trankt', 'tranken'], perfekt: ['habe getrunken', 'hast getrunken', 'hat getrunken', 'haben getrunken', 'habt getrunken', 'haben getrunken'], example: 'Ich trinke Kaffee.', example_en: 'I drink coffee' },
+                { id: 28, german: 'helfen', english: 'to help', category: 'action', praesens: ['helfe', 'hilfst', 'hilft', 'helfen', 'helft', 'helfen'], praeteritum: ['half', 'halfst', 'half', 'halfen', 'halft', 'halfen'], perfekt: ['habe geholfen', 'hast geholfen', 'hat geholfen', 'haben geholfen', 'habt geholfen', 'haben geholfen'], example: 'Kannst du mir helfen?', example_en: 'Can you help me?' },
+                { id: 29, german: 'treffen', english: 'to meet', category: 'action', praesens: ['treffe', 'triffst', 'trifft', 'treffen', 'trefft', 'treffen'], praeteritum: ['traf', 'trafst', 'traf', 'trafen', 'traft', 'trafen'], perfekt: ['habe getroffen', 'hast getroffen', 'hat getroffen', 'haben getroffen', 'habt getroffen', 'haben getroffen'], example: 'Ich treffe meine Freunde.', example_en: 'I meet my friends' },
+                { id: 30, german: 'zahlen', english: 'to pay', category: 'action', praesens: ['zahle', 'zahlst', 'zahlt', 'zahlen', 'zahlt', 'zahlen'], praeteritum: ['zahlte', 'zahltest', 'zahlte', 'zahlten', 'zahltet', 'zahlten'], perfekt: ['habe gezahlt', 'hast gezahlt', 'hat gezahlt', 'haben gezahlt', 'habt gezahlt', 'haben gezahlt'], example: 'Ich zahle die Rechnung.', example_en: 'I pay the bill' },
+                { id: 31, german: 'brauchen', english: 'to need', category: 'action', praesens: ['brauche', 'brauchst', 'braucht', 'brauchen', 'braucht', 'brauchen'], praeteritum: ['brauchte', 'brauchtest', 'brauchte', 'brauchten', 'brauchtet', 'brauchten'], perfekt: ['habe gebraucht', 'hast gebraucht', 'hat gebraucht', 'haben gebraucht', 'habt gebraucht', 'haben gebraucht'], example: 'Ich brauche Hilfe.', example_en: 'I need help' },
+                { id: 32, german: 'bekommen', english: 'to get/receive', category: 'action', praesens: ['bekomme', 'bekommst', 'bekommt', 'bekommen', 'bekommt', 'bekommen'], praeteritum: ['bekam', 'bekamst', 'bekam', 'bekamen', 'bekamt', 'bekamen'], perfekt: ['habe bekommen', 'hast bekommen', 'hat bekommen', 'haben bekommen', 'habt bekommen', 'haben bekommen'], example: 'Ich bekomme ein Geschenk.', example_en: 'I receive a gift' },
+                { id: 33, german: 'erklären', english: 'to explain', category: 'action', praesens: ['erkläre', 'erklärst', 'erklärt', 'erklären', 'erklärt', 'erklären'], praeteritum: ['erklärte', 'erklärtest', 'erklärte', 'erklärten', 'erklärtet', 'erklärten'], perfekt: ['habe erklärt', 'hast erklärt', 'hat erklärt', 'haben erklärt', 'habt erklärt', 'haben erklärt'], example: 'Kannst du das erklären?', example_en: 'Can you explain that?' },
+                { id: 34, german: 'gehören', english: 'to belong', category: 'action', praesens: ['gehöre', 'gehörst', 'gehört', 'gehören', 'gehört', 'gehören'], praeteritum: ['gehörte', 'gehörtest', 'gehörte', 'gehörten', 'gehörtet', 'gehörten'], perfekt: ['habe gehört', 'hast gehört', 'hat gehört', 'haben gehört', 'habt gehört', 'haben gehört'], example: 'Das Buch gehört mir.', example_en: 'The book belongs to me' },
+                { id: 35, german: 'warten', english: 'to wait', category: 'action', praesens: ['warte', 'wartest', 'wartet', 'warten', 'wartet', 'warten'], praeteritum: ['wartete', 'wartetest', 'wartete', 'warteten', 'wartetet', 'warteten'], perfekt: ['habe gewartet', 'hast gewartet', 'hat gewartet', 'haben gewartet', 'habt gewartet', 'haben gewartet'], example: 'Ich warte auf dich.', example_en: 'I wait for you' },
+                { id: 36, german: 'hoffen', english: 'to hope', category: 'action', praesens: ['hoffe', 'hoffst', 'hofft', 'hoffen', 'hofft', 'hoffen'], praeteritum: ['hoffte', 'hofftest', 'hoffte', 'hofften', 'hofftet', 'hofften'], perfekt: ['habe gehofft', 'hast gehofft', 'hat gehofft', 'haben gehofft', 'habt gehofft', 'haben gehofft'], example: 'Ich hoffe, es klappt.', example_en: 'I hope it works' },
+                { id: 37, german: 'leben', english: 'to live', category: 'action', praesens: ['lebe', 'lebst', 'lebt', 'leben', 'lebt', 'leben'], praeteritum: ['lebte', 'lebtest', 'lebte', 'lebten', 'lebtet', 'lebten'], perfekt: ['habe gelebt', 'hast gelebt', 'hat gelebt', 'haben gelebt', 'habt gelebt', 'haben gelebt'], example: 'Ich lebe in Deutschland.', example_en: 'I live in Germany' },
+                { id: 38, german: 'versuchen', english: 'to try', category: 'action', praesens: ['versuche', 'versuchst', 'versucht', 'versuchen', 'versucht', 'versuchen'], praeteritum: ['versuchte', 'versuchtest', 'versuchte', 'versuchten', 'versuchtet', 'versuchten'], perfekt: ['habe versucht', 'hast versucht', 'hat versucht', 'haben versucht', 'habt versucht', 'haben versucht'], example: 'Ich versuche es noch einmal.', example_en: 'I try again' },
+                { id: 39, german: 'anfangen', english: 'to begin/start', category: 'separable', praesens: ['fange an', 'fängst an', 'fängt an', 'fangen an', 'fangt an', 'fangen an'], praeteritum: ['fing an', 'fingst an', 'fing an', 'fingen an', 'fingt an', 'fingen an'], perfekt: ['habe angefangen', 'hast angefangen', 'hat angefangen', 'haben angefangen', 'habt angefangen', 'haben angefangen'], example: 'Wir fangen jetzt an.', example_en: 'We start now' },
+                { id: 40, german: 'aufhören', english: 'to stop', category: 'separable', praesens: ['höre auf', 'hörst auf', 'hört auf', 'hören auf', 'hört auf', 'hören auf'], praeteritum: ['hörte auf', 'hörtest auf', 'hörte auf', 'hörten auf', 'hörtet auf', 'hörten auf'], perfekt: ['habe aufgehört', 'hast aufgehört', 'hat aufgehört', 'haben aufgehört', 'habt aufgehört', 'haben aufgehört'], example: 'Hör auf!', example_en: 'Stop it!' },
+                // COMMUNICATION VERBS (41-50)
+                { id: 41, german: 'sagen', english: 'to say', category: 'communication', praesens: ['sage', 'sagst', 'sagt', 'sagen', 'sagt', 'sagen'], praeteritum: ['sagte', 'sagtest', 'sagte', 'sagten', 'sagtet', 'sagten'], perfekt: ['habe gesagt', 'hast gesagt', 'hat gesagt', 'haben gesagt', 'habt gesagt', 'haben gesagt'], example: 'Was sagst du?', example_en: 'What are you saying?' },
+                { id: 42, german: 'fragen', english: 'to ask', category: 'communication', praesens: ['frage', 'fragst', 'fragt', 'fragen', 'fragt', 'fragen'], praeteritum: ['fragte', 'fragtest', 'fragte', 'fragten', 'fragtet', 'fragten'], perfekt: ['habe gefragt', 'hast gefragt', 'hat gefragt', 'haben gefragt', 'habt gefragt', 'haben gefragt'], example: 'Ich frage dich etwas.', example_en: 'I ask you something' },
+                { id: 43, german: 'sprechen', english: 'to speak', category: 'communication', praesens: ['spreche', 'sprichst', 'spricht', 'sprechen', 'sprecht', 'sprechen'], praeteritum: ['sprach', 'sprachst', 'sprach', 'sprachen', 'spracht', 'sprachen'], perfekt: ['habe gesprochen', 'hast gesprochen', 'hat gesprochen', 'haben gesprochen', 'habt gesprochen', 'haben gesprochen'], example: 'Ich spreche Deutsch.', example_en: 'I speak German' },
+                { id: 44, german: 'denken', english: 'to think', category: 'communication', praesens: ['denke', 'denkst', 'denkt', 'denken', 'denkt', 'denken'], praeteritum: ['dachte', 'dachtest', 'dachte', 'dachten', 'dachtet', 'dachten'], perfekt: ['habe gedacht', 'hast gedacht', 'hat gedacht', 'haben gedacht', 'habt gedacht', 'haben gedacht'], example: 'Ich denke über das Problem nach.', example_en: 'I think about the problem' },
+                { id: 45, german: 'glauben', english: 'to believe', category: 'communication', praesens: ['glaube', 'glaubst', 'glaubt', 'glauben', 'glaubt', 'glauben'], praeteritum: ['glaubte', 'glaubtest', 'glaubte', 'glaubten', 'glaubtet', 'glaubten'], perfekt: ['habe geglaubt', 'hast geglaubt', 'hat geglaubt', 'haben geglaubt', 'habt geglaubt', 'haben geglaubt'], example: 'Ich glaube dir.', example_en: 'I believe you' },
+                { id: 46, german: 'wissen', english: 'to know (facts)', category: 'communication', praesens: ['weiß', 'weißt', 'weiß', 'wissen', 'wisst', 'wissen'], praeteritum: ['wusste', 'wusstest', 'wusste', 'wussten', 'wusstet', 'wussten'], perfekt: ['habe gewusst', 'hast gewusst', 'hat gewusst', 'haben gewusst', 'habt gewusst', 'haben gewusst'], example: 'Ich weiß es nicht.', example_en: "I don't know" },
+                { id: 47, german: 'kennen', english: 'to know (people/places)', category: 'communication', praesens: ['kenne', 'kennst', 'kennt', 'kennen', 'kennt', 'kennen'], praeteritum: ['kannte', 'kanntest', 'kannte', 'kannten', 'kanntet', 'kannten'], perfekt: ['habe gekannt', 'hast gekannt', 'hat gekannt', 'haben gekannt', 'habt gekannt', 'haben gekannt'], example: 'Ich kenne ihn gut.', example_en: 'I know him well' },
+                { id: 48, german: 'verstehen', english: 'to understand', category: 'communication', praesens: ['verstehe', 'verstehst', 'versteht', 'verstehen', 'versteht', 'verstehen'], praeteritum: ['verstand', 'verstandst', 'verstand', 'verstanden', 'verstandet', 'verstanden'], perfekt: ['habe verstanden', 'hast verstanden', 'hat verstanden', 'haben verstanden', 'habt verstanden', 'haben verstanden'], example: 'Ich verstehe dich.', example_en: 'I understand you' },
+                { id: 49, german: 'erzählen', english: 'to tell/narrate', category: 'communication', praesens: ['erzähle', 'erzählst', 'erzählt', 'erzählen', 'erzählt', 'erzählen'], praeteritum: ['erzählte', 'erzähltest', 'erzählte', 'erzählten', 'erzähltet', 'erzählten'], perfekt: ['habe erzählt', 'hast erzählt', 'hat erzählt', 'haben erzählt', 'habt erzählt', 'haben erzählt'], example: 'Erzähl mir die Geschichte!', example_en: 'Tell me the story!' },
+                { id: 50, german: 'bitten', english: 'to ask/request', category: 'communication', praesens: ['bitte', 'bittest', 'bittet', 'bitten', 'bittet', 'bitten'], praeteritum: ['bat', 'batest', 'bat', 'baten', 'batet', 'baten'], perfekt: ['habe gebeten', 'hast gebeten', 'hat gebeten', 'haben gebeten', 'habt gebeten', 'haben gebeten'], example: 'Ich bitte dich um Hilfe.', example_en: 'I ask you for help' },
+                // REFLEXIVE VERBS (51-65)
+                { id: 51, german: 'sich freuen', english: 'to be happy/look forward to', category: 'reflexive', praesens: ['freue mich', 'freust dich', 'freut sich', 'freuen uns', 'freut euch', 'freuen sich'], praeteritum: ['freute mich', 'freutest dich', 'freute sich', 'freuten uns', 'freutet euch', 'freuten sich'], perfekt: ['habe mich gefreut', 'hast dich gefreut', 'hat sich gefreut', 'haben uns gefreut', 'habt euch gefreut', 'haben sich gefreut'], example: 'Ich freue mich auf die Ferien.', example_en: 'I look forward to the holidays' },
+                { id: 52, german: 'sich ärgern', english: 'to be annoyed', category: 'reflexive', praesens: ['ärgere mich', 'ärgerst dich', 'ärgert sich', 'ärgern uns', 'ärgert euch', 'ärgern sich'], praeteritum: ['ärgerte mich', 'ärgertest dich', 'ärgerte sich', 'ärgerten uns', 'ärgertet euch', 'ärgerten sich'], perfekt: ['habe mich geärgert', 'hast dich geärgert', 'hat sich geärgert', 'haben uns geärgert', 'habt euch geärgert', 'haben sich geärgert'], example: 'Ich ärgere mich über den Verkehr.', example_en: 'I am annoyed about the traffic' },
+                { id: 53, german: 'sich waschen', english: 'to wash oneself', category: 'reflexive', praesens: ['wasche mich', 'wäschst dich', 'wäscht sich', 'waschen uns', 'wascht euch', 'waschen sich'], praeteritum: ['wusch mich', 'wuschst dich', 'wusch sich', 'wuschen uns', 'wuscht euch', 'wuschen sich'], perfekt: ['habe mich gewaschen', 'hast dich gewaschen', 'hat sich gewaschen', 'haben uns gewaschen', 'habt euch gewaschen', 'haben sich gewaschen'], example: 'Ich wasche mich jeden Morgen.', example_en: 'I wash myself every morning' },
+                { id: 54, german: 'sich duschen', english: 'to shower', category: 'reflexive', praesens: ['dusche mich', 'duschst dich', 'duscht sich', 'duschen uns', 'duscht euch', 'duschen sich'], praeteritum: ['duschte mich', 'duschtest dich', 'duschte sich', 'duschten uns', 'duschtet euch', 'duschten sich'], perfekt: ['habe mich geduscht', 'hast dich geduscht', 'hat sich geduscht', 'haben uns geduscht', 'habt euch geduscht', 'haben sich geduscht'], example: 'Ich dusche mich am Abend.', example_en: 'I shower in the evening' },
+                { id: 55, german: 'sich kämmen', english: 'to comb hair', category: 'reflexive', praesens: ['kämme mich', 'kämmst dich', 'kämmt sich', 'kämmen uns', 'kämmt euch', 'kämmen sich'], praeteritum: ['kämmte mich', 'kämmtest dich', 'kämmte sich', 'kämmten uns', 'kämmtet euch', 'kämmten sich'], perfekt: ['habe mich gekämmt', 'hast dich gekämmt', 'hat sich gekämmt', 'haben uns gekämmt', 'habt euch gekämmt', 'haben sich gekämmt'], example: 'Ich kämme mich vor dem Spiegel.', example_en: 'I comb my hair in front of the mirror' },
+                { id: 56, german: 'sich anziehen', english: 'to get dressed', category: 'reflexive', praesens: ['ziehe mich an', 'ziehst dich an', 'zieht sich an', 'ziehen uns an', 'zieht euch an', 'ziehen sich an'], praeteritum: ['zog mich an', 'zogst dich an', 'zog sich an', 'zogen uns an', 'zogt euch an', 'zogen sich an'], perfekt: ['habe mich angezogen', 'hast dich angezogen', 'hat sich angezogen', 'haben uns angezogen', 'habt euch angezogen', 'haben sich angezogen'], example: 'Ich ziehe mich schnell an.', example_en: 'I get dressed quickly' },
+                { id: 57, german: 'sich ausziehen', english: 'to undress', category: 'reflexive', praesens: ['ziehe mich aus', 'ziehst dich aus', 'zieht sich aus', 'ziehen uns aus', 'zieht euch aus', 'ziehen sich aus'], praeteritum: ['zog mich aus', 'zogst dich aus', 'zog sich aus', 'zogen uns aus', 'zogt euch aus', 'zogen sich aus'], perfekt: ['habe mich ausgezogen', 'hast dich ausgezogen', 'hat sich ausgezogen', 'haben uns ausgezogen', 'habt euch ausgezogen', 'haben sich ausgezogen'], example: 'Ich ziehe mich aus, bevor ich schlafe.', example_en: 'I undress before I sleep' },
+                { id: 58, german: 'sich ausruhen', english: 'to rest', category: 'reflexive', praesens: ['ruhe mich aus', 'ruhst dich aus', 'ruht sich aus', 'ruhen uns aus', 'ruht euch aus', 'ruhen sich aus'], praeteritum: ['ruhte mich aus', 'ruhtest dich aus', 'ruhte sich aus', 'ruhten uns aus', 'ruhtet euch aus', 'ruhten sich aus'], perfekt: ['habe mich ausgeruht', 'hast dich ausgeruht', 'hat sich ausgeruht', 'haben uns ausgeruht', 'habt euch ausgeruht', 'haben sich ausgeruht'], example: 'Ich ruhe mich nach der Arbeit aus.', example_en: 'I rest after work' },
+                { id: 59, german: 'sich treffen', english: 'to meet (each other)', category: 'reflexive', praesens: ['treffe mich', 'triffst dich', 'trifft sich', 'treffen uns', 'trefft euch', 'treffen sich'], praeteritum: ['traf mich', 'trafst dich', 'traf sich', 'trafen uns', 'traft euch', 'trafen sich'], perfekt: ['habe mich getroffen', 'hast dich getroffen', 'hat sich getroffen', 'haben uns getroffen', 'habt euch getroffen', 'haben sich getroffen'], example: 'Wir treffen uns um 8 Uhr.', example_en: 'We meet at 8 o\'clock' },
+                { id: 60, german: 'sich interessieren', english: 'to be interested in', category: 'reflexive', praesens: ['interessiere mich', 'interessierst dich', 'interessiert sich', 'interessieren uns', 'interessiert euch', 'interessieren sich'], praeteritum: ['interessierte mich', 'interessiertest dich', 'interessierte sich', 'interessierten uns', 'interessiertet euch', 'interessierten sich'], perfekt: ['habe mich interessiert', 'hast dich interessiert', 'hat sich interessiert', 'haben uns interessiert', 'habt euch interessiert', 'haben sich interessiert'], example: 'Ich interessiere mich für Musik.', example_en: 'I am interested in music' },
+                { id: 61, german: 'sich kümmern', english: 'to take care of', category: 'reflexive', praesens: ['kümmere mich', 'kümmerst dich', 'kümmert sich', 'kümmern uns', 'kümmert euch', 'kümmern sich'], praeteritum: ['kümmerte mich', 'kümmertest dich', 'kümmerte sich', 'kümmerten uns', 'kümmertet euch', 'kümmerten sich'], perfekt: ['habe mich gekümmert', 'hast dich gekümmert', 'hat sich gekümmert', 'haben uns gekümmert', 'habt euch gekümmert', 'haben sich gekümmert'], example: 'Ich kümmere mich um die Kinder.', example_en: 'I take care of the children' },
+                { id: 62, german: 'sich erinnern', english: 'to remember', category: 'reflexive', praesens: ['erinnere mich', 'erinnerst dich', 'erinnert sich', 'erinnern uns', 'erinnert euch', 'erinnern sich'], praeteritum: ['erinnerte mich', 'erinnertest dich', 'erinnerte sich', 'erinnerten uns', 'erinnertet euch', 'erinnerten sich'], perfekt: ['habe mich erinnert', 'hast dich erinnert', 'hat sich erinnert', 'haben uns erinnert', 'habt euch erinnert', 'haben sich erinnert'], example: 'Ich erinnere mich an den Tag.', example_en: 'I remember the day' },
+                { id: 63, german: 'sich verlieben', english: 'to fall in love', category: 'reflexive', praesens: ['verliebe mich', 'verliebst dich', 'verliebt sich', 'verlieben uns', 'verliebt euch', 'verlieben sich'], praeteritum: ['verliebte mich', 'verliebtest dich', 'verliebte sich', 'verliebten uns', 'verliebtet euch', 'verliebten sich'], perfekt: ['habe mich verliebt', 'hast dich verliebt', 'hat sich verliebt', 'haben uns verliebt', 'habt euch verliebt', 'haben sich verliebt'], example: 'Er hat sich in sie verliebt.', example_en: 'He fell in love with her' },
+                { id: 64, german: 'sich vorbereiten', english: 'to prepare oneself', category: 'reflexive', praesens: ['bereite mich vor', 'bereitest dich vor', 'bereitet sich vor', 'bereiten uns vor', 'bereitet euch vor', 'bereiten sich vor'], praeteritum: ['bereitete mich vor', 'bereitetest dich vor', 'bereitete sich vor', 'bereiteten uns vor', 'bereitetet euch vor', 'bereiteten sich vor'], perfekt: ['habe mich vorbereitet', 'hast dich vorbereitet', 'hat sich vorbereitet', 'haben uns vorbereitet', 'habt euch vorbereitet', 'haben sich vorbereitet'], example: 'Ich bereite mich auf die Prüfung vor.', example_en: 'I prepare for the exam' },
+                { id: 65, german: 'sich schminken', english: 'to put on makeup', category: 'reflexive', praesens: ['schminke mich', 'schminkst dich', 'schminkt sich', 'schminken uns', 'schminkt euch', 'schminken sich'], praeteritum: ['schminkte mich', 'schminktest dich', 'schminkte sich', 'schminkten uns', 'schminktet euch', 'schminkten sich'], perfekt: ['habe mich geschminkt', 'hast dich geschminkt', 'hat sich geschminkt', 'haben uns geschminkt', 'habt euch geschminkt', 'haben sich geschminkt'], example: 'Sie schminkt sich vor dem Spiegel.', example_en: 'She puts on makeup in front of the mirror' },
+                // DATIVE VERBS (66-75)
+                { id: 66, german: 'antworten', english: 'to answer', category: 'dative', praesens: ['antworte', 'antwortest', 'antwortet', 'antworten', 'antwortet', 'antworten'], praeteritum: ['antwortete', 'antwortetest', 'antwortete', 'antworteten', 'antwortetet', 'antworteten'], perfekt: ['habe geantwortet', 'hast geantwortet', 'hat geantwortet', 'haben geantwortet', 'habt geantwortet', 'haben geantwortet'], example: 'Ich antworte dem Lehrer.', example_en: 'I answer the teacher (dative)' },
+                { id: 67, german: 'folgen', english: 'to follow', category: 'dative', praesens: ['folge', 'folgst', 'folgt', 'folgen', 'folgt', 'folgen'], praeteritum: ['folgte', 'folgtest', 'folgte', 'folgten', 'folgtet', 'folgten'], perfekt: ['bin gefolgt', 'bist gefolgt', 'ist gefolgt', 'sind gefolgt', 'seid gefolgt', 'sind gefolgt'], example: 'Ich folge dir.', example_en: 'I follow you (dative)' },
+                { id: 68, german: 'gefallen', english: 'to please/like', category: 'dative', praesens: ['gefalle', 'gefällst', 'gefällt', 'gefallen', 'gefallt', 'gefallen'], praeteritum: ['gefiel', 'gefielst', 'gefiel', 'gefielen', 'gefielt', 'gefielen'], perfekt: ['habe gefallen', 'hast gefallen', 'hat gefallen', 'haben gefallen', 'habt gefallen', 'haben gefallen'], example: 'Das Buch gefällt mir.', example_en: 'I like the book (the book pleases me)' },
+                { id: 69, german: 'danken', english: 'to thank', category: 'dative', praesens: ['danke', 'dankst', 'dankt', 'danken', 'dankt', 'danken'], praeteritum: ['dankte', 'danktest', 'dankte', 'dankten', 'danktet', 'dankten'], perfekt: ['habe gedankt', 'hast gedankt', 'hat gedankt', 'haben gedankt', 'habt gedankt', 'haben gedankt'], example: 'Ich danke dir.', example_en: 'I thank you (dative)' },
+                { id: 70, german: 'fehlen', english: 'to be missing/lacking', category: 'dative', praesens: ['fehle', 'fehlst', 'fehlt', 'fehlen', 'fehlt', 'fehlen'], praeteritum: ['fehlte', 'fehltest', 'fehlte', 'fehlten', 'fehltet', 'fehlten'], perfekt: ['habe gefehlt', 'hast gefehlt', 'hat gefehlt', 'haben gefehlt', 'habt gefehlt', 'haben gefehlt'], example: 'Du fehlst mir.', example_en: 'I miss you (you are missing to me)' },
+                { id: 71, german: 'begegnen', english: 'to meet/encounter', category: 'dative', praesens: ['begegne', 'begegnest', 'begegnet', 'begegnen', 'begegnet', 'begegnen'], praeteritum: ['begegnete', 'begegnetest', 'begegnete', 'begegneten', 'begegnetet', 'begegneten'], perfekt: ['bin begegnet', 'bist begegnet', 'ist begegnet', 'sind begegnet', 'seid begegnet', 'sind begegnet'], example: 'Ich bin ihm auf der Straße begegnet.', example_en: 'I met him on the street (dative)' },
+                { id: 72, german: 'ähneln', english: 'to resemble', category: 'dative', praesens: ['ähnle', 'ähnelst', 'ähnelt', 'ähneln', 'ähnelt', 'ähneln'], praeteritum: ['ähnelte', 'ähneltest', 'ähnelte', 'ähnelten', 'ähneltet', 'ähnelten'], perfekt: ['habe geähnelt', 'hast geähnelt', 'hat geähnelt', 'haben geähnelt', 'habt geähnelt', 'haben geähnelt'], example: 'Er ähnelt seinem Vater.', example_en: 'He resembles his father (dative)' },
+                { id: 73, german: 'widersprechen', english: 'to contradict', category: 'dative', praesens: ['widerspreche', 'widersprichst', 'widerspricht', 'widersprechen', 'widersprecht', 'widersprechen'], praeteritum: ['widersprach', 'widersprachst', 'widersprach', 'widersprachen', 'widerspracht', 'widersprachen'], perfekt: ['habe widersprochen', 'hast widersprochen', 'hat widersprochen', 'haben widersprochen', 'habt widersprochen', 'haben widersprochen'], example: 'Ich widerspreche dir.', example_en: 'I contradict you (dative)' },
+                { id: 74, german: 'verzeihen', english: 'to forgive', category: 'dative', praesens: ['verzeihe', 'verzeihst', 'verzeiht', 'verzeihen', 'verzeiht', 'verzeihen'], praeteritum: ['verzieh', 'verziehst', 'verzieh', 'verziehen', 'verzieht', 'verziehen'], perfekt: ['habe verziehen', 'hast verziehen', 'hat verziehen', 'haben verziehen', 'habt verziehen', 'haben verziehen'], example: 'Ich verzeihe dir.', example_en: 'I forgive you (dative)' },
+                { id: 75, german: 'vertrauen', english: 'to trust', category: 'dative', praesens: ['vertraue', 'vertraust', 'vertraut', 'vertrauen', 'vertraut', 'vertrauen'], praeteritum: ['vertraute', 'vertrautest', 'vertraute', 'vertrauten', 'vertrautet', 'vertrauten'], perfekt: ['habe vertraut', 'hast vertraut', 'hat vertraut', 'haben vertraut', 'habt vertraut', 'haben vertraut'], example: 'Ich vertraue dir.', example_en: 'I trust you (dative)' },
+                // SEPARABLE PREFIX VERBS (76-85)
+                { id: 76, german: 'aufstehen', english: 'to get up/stand up', category: 'separable', praesens: ['stehe auf', 'stehst auf', 'steht auf', 'stehen auf', 'steht auf', 'stehen auf'], praeteritum: ['stand auf', 'standest auf', 'stand auf', 'standen auf', 'standet auf', 'standen auf'], perfekt: ['bin aufgestanden', 'bist aufgestanden', 'ist aufgestanden', 'sind aufgestanden', 'seid aufgestanden', 'sind aufgestanden'], example: 'Ich stehe um 7 Uhr auf.', example_en: 'I get up at 7 o\'clock' },
+                { id: 77, german: 'anrufen', english: 'to call (phone)', category: 'separable', praesens: ['rufe an', 'rufst an', 'ruft an', 'rufen an', 'ruft an', 'rufen an'], praeteritum: ['rief an', 'riefst an', 'rief an', 'riefen an', 'rieft an', 'riefen an'], perfekt: ['habe angerufen', 'hast angerufen', 'hat angerufen', 'haben angerufen', 'habt angerufen', 'haben angerufen'], example: 'Ich rufe dich später an.', example_en: 'I call you later' },
+                { id: 78, german: 'anschauen', english: 'to look at/watch', category: 'separable', praesens: ['schaue an', 'schaust an', 'schaut an', 'schauen an', 'schaut an', 'schauen an'], praeteritum: ['schaute an', 'schautest an', 'schaute an', 'schauten an', 'schautet an', 'schauten an'], perfekt: ['habe angeschaut', 'hast angeschaut', 'hat angeschaut', 'haben angeschaut', 'habt angeschaut', 'haben angeschaut'], example: 'Ich schaue mir den Film an.', example_en: 'I watch the film' },
+                { id: 79, german: 'anpassen', english: 'to adapt', category: 'separable', praesens: ['passe an', 'passt an', 'passt an', 'passen an', 'passt an', 'passen an'], praeteritum: ['passte an', 'passtest an', 'passte an', 'passten an', 'passtet an', 'passten an'], perfekt: ['habe angepasst', 'hast angepasst', 'hat angepasst', 'haben angepasst', 'habt angepasst', 'haben angepasst'], example: 'Ich passe mich der Situation an.', example_en: 'I adapt to the situation' },
+                { id: 80, german: 'ansprechen', english: 'to address/speak to', category: 'separable', praesens: ['spreche an', 'sprichst an', 'spricht an', 'sprechen an', 'sprecht an', 'sprechen an'], praeteritum: ['sprach an', 'sprachst an', 'sprach an', 'sprachen an', 'spracht an', 'sprachen an'], perfekt: ['habe angesprochen', 'hast angesprochen', 'hat angesprochen', 'haben angesprochen', 'habt angesprochen', 'haben angesprochen'], example: 'Ich spreche ihn direkt an.', example_en: 'I address him directly' },
+                { id: 81, german: 'anwenden', english: 'to apply/use', category: 'separable', praesens: ['wende an', 'wendest an', 'wendet an', 'wenden an', 'wendet an', 'wenden an'], praeteritum: ['wendete an', 'wendetest an', 'wendete an', 'wendeten an', 'wendetet an', 'wendeten an'], perfekt: ['habe angewendet', 'hast angewendet', 'hat angewendet', 'haben angewendet', 'habt angewendet', 'haben angewendet'], example: 'Ich wende die Regel an.', example_en: 'I apply the rule' },
+                { id: 82, german: 'einladen', english: 'to invite', category: 'separable', praesens: ['lade ein', 'lädst ein', 'lädt ein', 'laden ein', 'ladet ein', 'laden ein'], praeteritum: ['lud ein', 'ludst ein', 'lud ein', 'luden ein', 'ludet ein', 'luden ein'], perfekt: ['habe eingeladen', 'hast eingeladen', 'hat eingeladen', 'haben eingeladen', 'habt eingeladen', 'haben eingeladen'], example: 'Ich lade dich zur Party ein.', example_en: 'I invite you to the party' },
+                { id: 83, german: 'mitnehmen', english: 'to take along', category: 'separable', praesens: ['nehme mit', 'nimmst mit', 'nimmt mit', 'nehmen mit', 'nehmt mit', 'nehmen mit'], praeteritum: ['nahm mit', 'nahmst mit', 'nahm mit', 'nahmen mit', 'nahmt mit', 'nahmen mit'], perfekt: ['habe mitgenommen', 'hast mitgenommen', 'hat mitgenommen', 'haben mitgenommen', 'habt mitgenommen', 'haben mitgenommen'], example: 'Ich nehme meinen Koffer mit.', example_en: 'I take my suitcase along' },
+                { id: 84, german: 'zurückkommen', english: 'to come back', category: 'separable', praesens: ['komme zurück', 'kommst zurück', 'kommt zurück', 'kommen zurück', 'kommt zurück', 'kommen zurück'], praeteritum: ['kam zurück', 'kamst zurück', 'kam zurück', 'kamen zurück', 'kamt zurück', 'kamen zurück'], perfekt: ['bin zurückgekommen', 'bist zurückgekommen', 'ist zurückgekommen', 'sind zurückgekommen', 'seid zurückgekommen', 'sind zurückgekommen'], example: 'Ich komme um 8 Uhr zurück.', example_en: 'I come back at 8 o\'clock' },
+                { id: 85, german: 'ausgehen', english: 'to go out', category: 'separable', praesens: ['gehe aus', 'gehst aus', 'geht aus', 'gehen aus', 'geht aus', 'gehen aus'], praeteritum: ['ging aus', 'gingst aus', 'ging aus', 'gingen aus', 'gingt aus', 'gingen aus'], perfekt: ['bin ausgegangen', 'bist ausgegangen', 'ist ausgegangen', 'sind ausgegangen', 'seid ausgegangen', 'sind ausgegangen'], example: 'Wir gehen heute Abend aus.', example_en: 'We go out tonight' },
+                // ADVANCED VERBS (86-110)
+                { id: 86, german: 'erreichen', english: 'to reach/achieve', category: 'advanced', praesens: ['erreiche', 'erreichst', 'erreicht', 'erreichen', 'erreicht', 'erreichen'], praeteritum: ['erreichte', 'erreichtest', 'erreichte', 'erreichten', 'erreichtet', 'erreichten'], perfekt: ['habe erreicht', 'hast erreicht', 'hat erreicht', 'haben erreicht', 'habt erreicht', 'haben erreicht'], example: 'Ich erreiche mein Ziel.', example_en: 'I reach my goal' },
+                { id: 87, german: 'vermeiden', english: 'to avoid', category: 'advanced', praesens: ['vermeide', 'vermeidest', 'vermeidet', 'vermeiden', 'vermeidet', 'vermeiden'], praeteritum: ['vermied', 'vermiedst', 'vermied', 'vermieden', 'vermiedt', 'vermieden'], perfekt: ['habe vermieden', 'hast vermieden', 'hat vermieden', 'haben vermieden', 'habt vermieden', 'haben vermieden'], example: 'Ich vermeide Fehler.', example_en: 'I avoid mistakes' },
+                { id: 88, german: 'verbessern', english: 'to improve', category: 'advanced', praesens: ['verbessere', 'verbesserst', 'verbessert', 'verbessern', 'verbessert', 'verbessern'], praeteritum: ['verbesserte', 'verbessertest', 'verbesserte', 'verbesserten', 'verbessertet', 'verbesserten'], perfekt: ['habe verbessert', 'hast verbessert', 'hat verbessert', 'haben verbessert', 'habt verbessert', 'haben verbessert'], example: 'Ich verbessere mein Deutsch.', example_en: 'I improve my German' },
+                { id: 89, german: 'beenden', english: 'to finish/end', category: 'advanced', praesens: ['beende', 'beendest', 'beendet', 'beenden', 'beendet', 'beenden'], praeteritum: ['beendete', 'beendetest', 'beendete', 'beendeten', 'beendetet', 'beendeten'], perfekt: ['habe beendet', 'hast beendet', 'hat beendet', 'haben beendet', 'habt beendet', 'haben beendet'], example: 'Ich beende die Arbeit.', example_en: 'I finish the work' },
+                { id: 90, german: 'entscheiden', english: 'to decide', category: 'advanced', praesens: ['entscheide', 'entscheidest', 'entscheidet', 'entscheiden', 'entscheidet', 'entscheiden'], praeteritum: ['entschied', 'entschiedst', 'entschied', 'entschieden', 'entschiedt', 'entschieden'], perfekt: ['habe entschieden', 'hast entschieden', 'hat entschieden', 'haben entschieden', 'habt entschieden', 'haben entschieden'], example: 'Ich entscheide mich für die Option.', example_en: 'I decide on the option' },
+                { id: 91, german: 'unterstützen', english: 'to support', category: 'advanced', praesens: ['unterstütze', 'unterstützt', 'unterstützt', 'unterstützen', 'unterstützt', 'unterstützen'], praeteritum: ['unterstützte', 'unterstütztest', 'unterstützte', 'unterstützten', 'unterstütztet', 'unterstützten'], perfekt: ['habe unterstützt', 'hast unterstützt', 'hat unterstützt', 'haben unterstützt', 'habt unterstützt', 'haben unterstützt'], example: 'Ich unterstütze meine Freunde.', example_en: 'I support my friends' },
+                { id: 92, german: 'verändern', english: 'to change', category: 'advanced', praesens: ['verändere', 'veränderst', 'verändert', 'verändern', 'verändert', 'verändern'], praeteritum: ['veränderte', 'verändertest', 'veränderte', 'veränderten', 'verändertet', 'veränderten'], perfekt: ['habe verändert', 'hast verändert', 'hat verändert', 'haben verändert', 'habt verändert', 'haben verändert'], example: 'Die Welt verändert sich.', example_en: 'The world is changing' },
+                { id: 93, german: 'entwickeln', english: 'to develop', category: 'advanced', praesens: ['entwickle', 'entwickelst', 'entwickelt', 'entwickeln', 'entwickelt', 'entwickeln'], praeteritum: ['entwickelte', 'entwickeltest', 'entwickelte', 'entwickelten', 'entwickeltet', 'entwickelten'], perfekt: ['habe entwickelt', 'hast entwickelt', 'hat entwickelt', 'haben entwickelt', 'habt entwickelt', 'haben entwickelt'], example: 'Ich entwickle eine Idee.', example_en: 'I develop an idea' },
+                { id: 94, german: 'lösen', english: 'to solve', category: 'advanced', praesens: ['löse', 'löst', 'löst', 'lösen', 'löst', 'lösen'], praeteritum: ['löste', 'löstest', 'löste', 'lösten', 'löstet', 'lösten'], perfekt: ['habe gelöst', 'hast gelöst', 'hat gelöst', 'haben gelöst', 'habt gelöst', 'haben gelöst'], example: 'Ich löse das Problem.', example_en: 'I solve the problem' },
+                { id: 95, german: 'beginnen', english: 'to begin', category: 'advanced', praesens: ['beginne', 'beginnst', 'beginnt', 'beginnen', 'beginnt', 'beginnen'], praeteritum: ['begann', 'begannst', 'begann', 'begannen', 'begannt', 'begannen'], perfekt: ['habe begonnen', 'hast begonnen', 'hat begonnen', 'haben begonnen', 'habt begonnen', 'haben begonnen'], example: 'Wir beginnen jetzt.', example_en: 'We begin now' },
+                { id: 96, german: 'benutzen', english: 'to use', category: 'advanced', praesens: ['benutze', 'benutzt', 'benutzt', 'benutzen', 'benutzt', 'benutzen'], praeteritum: ['benutzte', 'benutztest', 'benutzte', 'benutzten', 'benutztet', 'benutzten'], perfekt: ['habe benutzt', 'hast benutzt', 'hat benutzt', 'haben benutzt', 'habt benutzt', 'haben benutzt'], example: 'Ich benutze den Computer.', example_en: 'I use the computer' },
+                { id: 97, german: 'besitzen', english: 'to own/possess', category: 'advanced', praesens: ['besitze', 'besitzt', 'besitzt', 'besitzen', 'besitzt', 'besitzen'], praeteritum: ['besaß', 'besaßest', 'besaß', 'besaßen', 'besaßt', 'besaßen'], perfekt: ['habe besessen', 'hast besessen', 'hat besessen', 'haben besessen', 'habt besessen', 'haben besessen'], example: 'Ich besitze ein Auto.', example_en: 'I own a car' },
+                { id: 98, german: 'bestehen', english: 'to pass/exist', category: 'advanced', praesens: ['bestehe', 'bestehst', 'besteht', 'bestehen', 'besteht', 'bestehen'], praeteritum: ['bestand', 'bestandst', 'bestand', 'bestanden', 'bestandet', 'bestanden'], perfekt: ['habe bestanden', 'hast bestanden', 'hat bestanden', 'haben bestanden', 'habt bestanden', 'haben bestanden'], example: 'Ich bestehe die Prüfung.', example_en: 'I pass the exam' },
+                { id: 99, german: 'besuchen', english: 'to visit', category: 'advanced', praesens: ['besuche', 'besuchst', 'besucht', 'besuchen', 'besucht', 'besuchen'], praeteritum: ['besuchte', 'besuchtest', 'besuchte', 'besuchten', 'besuchtet', 'besuchten'], perfekt: ['habe besucht', 'hast besucht', 'hat besucht', 'haben besucht', 'habt besucht', 'haben besucht'], example: 'Ich besuche meine Großeltern.', example_en: 'I visit my grandparents' },
+                { id: 100, german: 'bewegen', english: 'to move', category: 'advanced', praesens: ['bewege', 'bewegst', 'bewegt', 'bewegen', 'bewegt', 'bewegen'], praeteritum: ['bewegte', 'bewegtest', 'bewegte', 'bewegten', 'bewegtet', 'bewegten'], perfekt: ['habe bewegt', 'hast bewegt', 'hat bewegt', 'haben bewegt', 'habt bewegt', 'haben bewegt'], example: 'Ich bewege mich gerne.', example_en: 'I like to move' },
+                { id: 101, german: 'bewerben', english: 'to apply (for job)', category: 'advanced', praesens: ['bewerbe', 'bewirbst', 'bewirbt', 'bewerben', 'bewerbt', 'bewerben'], praeteritum: ['bewarb', 'bewarbst', 'bewarb', 'bewarben', 'bewarbt', 'bewarben'], perfekt: ['habe beworben', 'hast beworben', 'hat beworben', 'haben beworben', 'habt beworben', 'haben beworben'], example: 'Ich bewerbe mich um die Stelle.', example_en: 'I apply for the position' },
+                { id: 102, german: 'brennen', english: 'to burn', category: 'advanced', praesens: ['brenne', 'brennst', 'brennt', 'brennen', 'brennt', 'brennen'], praeteritum: ['brannte', 'branntest', 'brannte', 'brannten', 'branntet', 'brannten'], perfekt: ['habe gebrannt', 'hast gebrannt', 'hat gebrannt', 'haben gebrannt', 'habt gebrannt', 'haben gebrannt'], example: 'Das Feuer brennt.', example_en: 'The fire burns' },
+                { id: 103, german: 'brechen', english: 'to break', category: 'advanced', praesens: ['breche', 'brichst', 'bricht', 'brechen', 'brecht', 'brechen'], praeteritum: ['brach', 'brachst', 'brach', 'brachen', 'bracht', 'brachen'], perfekt: ['habe gebrochen', 'hast gebrochen', 'hat gebrochen', 'haben gebrochen', 'habt gebrochen', 'haben gebrochen'], example: 'Ich habe mir den Arm gebrochen.', example_en: 'I broke my arm' },
+                { id: 104, german: 'biegen', english: 'to bend/turn', category: 'advanced', praesens: ['biege', 'biegst', 'biegt', 'biegen', 'biegt', 'biegen'], praeteritum: ['bog', 'bogst', 'bog', 'bogen', 'bogt', 'bogen'], perfekt: ['habe gebogen', 'hast gebogen', 'hat gebogen', 'haben gebogen', 'habt gebogen', 'haben gebogen'], example: 'Ich biege um die Ecke.', example_en: 'I turn around the corner' },
+                { id: 105, german: 'erfahren', english: 'to experience/learn', category: 'communication', praesens: ['erfahre', 'erfährst', 'erfährt', 'erfahren', 'erfahrt', 'erfahren'], praeteritum: ['erfuhr', 'erfuhrst', 'erfuhr', 'erfuhren', 'erfuhrt', 'erfuhren'], perfekt: ['habe erfahren', 'hast erfahren', 'hat erfahren', 'haben erfahren', 'habt erfahren', 'haben erfahren'], example: 'Ich habe davon erfahren.', example_en: 'I learned about it' },
+                { id: 106, german: 'tragen', english: 'to carry/wear', category: 'action', praesens: ['trage', 'trägst', 'trägt', 'tragen', 'tragt', 'tragen'], praeteritum: ['trug', 'trugst', 'trug', 'trugen', 'trugt', 'trugen'], perfekt: ['habe getragen', 'hast getragen', 'hat getragen', 'haben getragen', 'habt getragen', 'haben getragen'], example: 'Ich trage eine Jacke.', example_en: 'I wear a jacket' },
+                { id: 107, german: 'steigen', english: 'to climb/rise', category: 'action', praesens: ['steige', 'steigst', 'steigt', 'steigen', 'steigt', 'steigen'], praeteritum: ['stieg', 'stiegst', 'stieg', 'stiegen', 'stiegt', 'stiegen'], perfekt: ['bin gestiegen', 'bist gestiegen', 'ist gestiegen', 'sind gestiegen', 'seid gestiegen', 'sind gestiegen'], example: 'Ich steige die Treppe hinauf.', example_en: 'I climb up the stairs' },
+                { id: 108, german: 'schließen', english: 'to close', category: 'action', praesens: ['schließe', 'schließt', 'schließt', 'schließen', 'schließt', 'schließen'], praeteritum: ['schloss', 'schlossest', 'schloss', 'schlossen', 'schlosst', 'schlossen'], perfekt: ['habe geschlossen', 'hast geschlossen', 'hat geschlossen', 'haben geschlossen', 'habt geschlossen', 'haben geschlossen'], example: 'Ich schließe die Tür.', example_en: 'I close the door' },
+                { id: 109, german: 'schneiden', english: 'to cut', category: 'action', praesens: ['schneide', 'schneidest', 'schneidet', 'schneiden', 'schneidet', 'schneiden'], praeteritum: ['schnitt', 'schnittest', 'schnitt', 'schnitten', 'schnittet', 'schnitten'], perfekt: ['habe geschnitten', 'hast geschnitten', 'hat geschnitten', 'haben geschnitten', 'habt geschnitten', 'haben geschnitten'], example: 'Ich schneide das Brot.', example_en: 'I cut the bread' },
+                { id: 110, german: 'ziehen', english: 'to pull/move', category: 'action', praesens: ['ziehe', 'ziehst', 'zieht', 'ziehen', 'zieht', 'ziehen'], praeteritum: ['zog', 'zogst', 'zog', 'zogen', 'zogt', 'zogen'], perfekt: ['habe gezogen', 'hast gezogen', 'hat gezogen', 'haben gezogen', 'habt gezogen', 'haben gezogen'], example: 'Ich ziehe nach Berlin.', example_en: 'I move to Berlin' },
+            ];
+        }
+
+        // Data Storage
+        const appState = {
+            masteredVerbs: new Set(),
+            reviewedGrammar: new Set(),
+            completedTasks: new Set(),
+            quizHistory: [],
+            flashcardIndex: 0,
+            knownFlashcards: new Set()
+        };
+
+        // Grammar Topics Data
+        const grammarTopics = [
+            {
+                id: 'cases',
+                title: 'The Four Cases (Nominative, Accusative, Dative, Genitive)',
+                sections: [
+                    { title: 'Nominative Case', description: 'Subject of the sentence', example: 'Der Mann isst einen Apfel.', example_en: 'The man eats an apple' },
+                    { title: 'Accusative Case', description: 'Direct object - masculine article changes to den', example: 'Ich sehe den Hund.', example_en: 'I see the dog' },
+                    { title: 'Dative Case', description: 'Indirect object - person who benefits from the action', example: 'Ich gebe dem Kind einen Ball.', example_en: 'I give the child a ball' },
+                    { title: 'Genitive Case', description: 'Possession or relationship between nouns', example: 'Das Auto des Mannes ist neu.', example_en: "The man's car is new" }
+                ]
+            },
+            {
+                id: 'tenses',
+                title: 'Verb Tenses',
+                sections: [
+                    { title: 'Präsens (Present)', description: 'Current actions or general truths', example: 'Ich lerne Deutsch.', example_en: 'I am learning German' },
+                    { title: 'Präteritum (Simple Past)', description: 'Past actions, common in written German', example: 'Ich war gestern im Kino.', example_en: 'I was at the cinema yesterday' },
+                    { title: 'Perfekt (Present Perfect)', description: 'Past actions in spoken German, formed with haben/sein + past participle', example: 'Ich habe Pizza gegessen.', example_en: 'I ate pizza' },
+                    { title: 'Futur I (Future)', description: 'Future actions, formed with werden + infinitive', example: 'Ich werde nach Berlin fahren.', example_en: 'I will go to Berlin' },
+                    { title: 'Plusquamperfekt (Past Perfect)', description: 'Actions completed before another past action', example: 'Nachdem ich gegessen hatte, ging ich spazieren.', example_en: 'After I had eaten, I went for a walk' }
+                ]
+            },
+            {
+                id: 'modal_verbs',
+                title: 'Modal Verbs',
+                sections: [
+                    { title: 'können (can, to be able to)', example: 'Ich kann Deutsch sprechen.', example_en: 'I can speak German' },
+                    { title: 'müssen (must, to have to)', example: 'Du musst heute arbeiten.', example_en: 'You must work today' },
+                    { title: 'dürfen (may, to be allowed to)', example: 'Ich darf hier rauchen.', example_en: "I'm allowed to smoke here" },
+                    { title: 'sollen (should, to be supposed to)', example: 'Du solltest mehr Wasser trinken.', example_en: 'You should drink more water' },
+                    { title: 'wollen (to want)', example: 'Ich will nach Berlin fahren.', example_en: 'I want to go to Berlin' },
+                    { title: 'mögen (to like)', example: 'Ich mag Pizza.', example_en: 'I like pizza' }
+                ]
+            },
+            {
+                id: 'subordinate_clauses',
+                title: 'Subordinate Clauses (Verb at End)',
+                sections: [
+                    { title: 'Causal - weil/da (because)', example: 'Ich bleibe zu Hause, weil es regnet.', example_en: "I stay at home because it's raining" },
+                    { title: 'Temporal - wenn/als/bevor/nachdem', example: 'Wenn es regnet, bleiben wir zu Hause.', example_en: 'If/When it rains, we stay at home' },
+                    { title: 'Concessive - obwohl (although)', example: 'Obwohl er müde war, ging er zur Arbeit.', example_en: 'Although he was tired, he went to work' },
+                    { title: 'Final - damit (so that)', example: 'Ich spare Geld, damit ich mir ein Auto kaufen kann.', example_en: "I'm saving money so that I can buy a car" }
+                ]
+            },
+            {
+                id: 'konjunktiv_ii',
+                title: 'Konjunktiv II (Subjunctive Mood)',
+                sections: [
+                    { title: 'Polite Requests', example: 'Könntest du das Fenster schließen?', example_en: 'Could you close the window?' },
+                    { title: 'Hypothetical Situations', example: 'Wenn ich reich wäre, würde ich um die Welt reisen.', example_en: 'If I were rich, I would travel around the world' },
+                    { title: 'Wishes and Dreams', example: 'Ich wünschte, ich hätte mehr Zeit.', example_en: 'I wish I had more time' }
+                ]
+            },
+            {
+                id: 'reflexive_verbs',
+                title: 'Reflexive Verbs',
+                sections: [
+                    { title: 'Common Reflexive Verbs', description: 'Use reflexive pronouns to express actions the subject performs on itself', example: 'Ich wasche mich jeden Morgen.', example_en: 'I wash myself every morning' }
+                ]
+            },
+            {
+                id: 'passive_voice',
+                title: 'Passive Voice',
+                sections: [
+                    { title: 'Vorgangspassiv (Process Passive)', description: 'Emphasizes the action rather than the doer', example: 'Das Auto wird repariert.', example_en: 'The car is being repaired' }
+                ]
+            },
+            {
+                id: 'prepositions',
+                title: 'Prepositions',
+                sections: [
+                    { title: 'Two-Way Prepositions (Wechselpräpositionen)', description: 'Take accusative for movement (Wohin?) or dative for location (Wo?)', example: 'Ich gehe in den Park. (acc) / Ich bin im Park. (dat)', example_en: "I'm going into the park / I am in the park" },
+                    { title: 'Accusative Prepositions', description: 'Always take accusative case', example: 'Ich lerne Deutsch für meine Arbeit.', example_en: 'I learn German for my work' },
+                    { title: 'Dative Prepositions', description: 'Always take dative case', example: 'Ich komme aus Deutschland.', example_en: 'I come from Germany' }
+                ]
+            }
+        ];
+
+        // Verb Data
+        const verbs = [
+// --- AUXILIARY VERBS ---
+{ id: 1, german: 'sein', english: 'to be', category: 'auxiliary', praesens: ['bin', 'bist', 'ist', 'sind', 'seid', 'sind'], praeteritum: ['war', 'warst', 'war', 'waren', 'wart', 'waren'], perfekt: ['bin gewesen', 'bist gewesen', 'ist gewesen', 'sind gewesen', 'seid gewesen', 'sind gewesen'], example: 'Ich bin Student.', example_en: 'I am a student' },
+{ id: 2, german: 'haben', english: 'to have', category: 'auxiliary', praesens: ['habe', 'hast', 'hat', 'haben', 'habt', 'haben'], praeteritum: ['hatte', 'hattest', 'hatte', 'hatten', 'hattet', 'hatten'], perfekt: ['habe gehabt', 'hast gehabt', 'hat gehabt', 'haben gehabt', 'habt gehabt', 'haben gehabt'], example: 'Ich habe einen Bruder.', example_en: 'I have a brother' },
+{ id: 3, german: 'werden', english: 'to become', category: 'auxiliary', praesens: ['werde', 'wirst', 'wird', 'werden', 'werdet', 'werden'], praeteritum: ['wurde', 'wurdest', 'wurde', 'wurden', 'wurdet', 'wurden'], perfekt: ['bin geworden', 'bist geworden', 'ist geworden', 'sind geworden', 'seid geworden', 'sind geworden'], example: 'Es wird kalt.', example_en: "It's getting cold" },
+// --- MODAL VERBS ---
+{ id: 4, german: 'können', english: 'can, to be able to', category: 'modal', praesens: ['kann', 'kannst', 'kann', 'können', 'könnt', 'können'], praeteritum: ['konnte', 'konntest', 'konnte', 'konnten', 'konntet', 'konnten'], perfekt: ['habe gekonnt', 'hast gekonnt', 'hat gekonnt', 'haben gekonnt', 'habt gekonnt', 'haben gekonnt'], example: 'Ich kann Deutsch sprechen.', example_en: 'I can speak German' },
+{ id: 5, german: 'müssen', english: 'must, to have to', category: 'modal', praesens: ['muss', 'musst', 'muss', 'müssen', 'müsst', 'müssen'], praeteritum: ['musste', 'musstest', 'musste', 'mussten', 'musstet', 'mussten'], perfekt: ['habe gemusst', 'hast gemusst', 'hat gemusst', 'haben gemusst', 'habt gemusst', 'haben gemusst'], example: 'Du musst heute arbeiten.', example_en: 'You must work today' },
+{ id: 6, german: 'dürfen', english: 'may, to be allowed to', category: 'modal', praesens: ['darf', 'darfst', 'darf', 'dürfen', 'dürft', 'dürfen'], praeteritum: ['durfte', 'durftest', 'durfte', 'durften', 'durftet', 'durften'], perfekt: ['habe gedurft', 'hast gedurft', 'hat gedurft', 'haben gedurft', 'habt gedurft', 'haben gedurft'], example: 'Ich darf hier rauchen.', example_en: "I'm allowed to smoke here" },
+{ id: 7, german: 'sollen', english: 'should, to be supposed to', category: 'modal', praesens: ['soll', 'sollst', 'soll', 'sollen', 'sollt', 'sollen'], praeteritum: ['sollte', 'solltest', 'sollte', 'sollten', 'solltet', 'sollten'], perfekt: ['habe gesollt', 'hast gesollt', 'hat gesollt', 'haben gesollt', 'habt gesollt', 'haben gesollt'], example: 'Du solltest mehr Wasser trinken.', example_en: 'You should drink more water' },
+{ id: 8, german: 'wollen', english: 'to want', category: 'modal', praesens: ['will', 'willst', 'will', 'wollen', 'wollt', 'wollen'], praeteritum: ['wollte', 'wolltest', 'wollte', 'wollten', 'wolltet', 'wollten'], perfekt: ['habe gewollt', 'hast gewollt', 'hat gewollt', 'haben gewollt', 'habt gewollt', 'haben gewollt'], example: 'Ich will nach Berlin fahren.', example_en: 'I want to go to Berlin' },
+{ id: 9, german: 'mögen', english: 'to like', category: 'modal', praesens: ['mag', 'magst', 'mag', 'mögen', 'mögt', 'mögen'], praeteritum: ['mochte', 'mochtest', 'mochte', 'mochten', 'mochtet', 'mochten'], perfekt: ['habe gemocht', 'hast gemocht', 'hat gemocht', 'haben gemocht', 'habt gemocht', 'haben gemocht'], example: 'Ich mag Pizza.', example_en: 'I like pizza' },
+// --- ACTION VERBS, COMMUNICATION, REFLEXIVE, DATIVE, SEPARABLE, ADVANCED --
+// The rest (10-110) are inserted below:
+...getExpandedVerbDatabase(),
+];
+
+        // Study Plan Data
+        const studyPlan = [
+            { day: 1, date: 'Nov 9-10', title: 'Foundation - Auxiliary & Modal Verbs', tasks: ['Master 3 auxiliary verbs: sein, haben, werden', 'Learn all 6 modal verbs: können, müssen, dürfen, sollen, wollen, mögen', 'Practice conjugations in all 3 tenses', 'Complete 10-question quiz on modal verbs'], time: '2-3 hours' },
+            { day: 2, date: 'Nov 10-11', title: 'High-Frequency Action Verbs', tasks: ['Review and practice verbs 10-30 (machen, gehen, kommen, sehen, etc.)', 'Create flashcards for these verbs', 'Practice using in example sentences', 'Take verb conjugation quiz (20 questions)'], time: '2-3 hours' },
+            { day: 3, date: 'Nov 11-12', title: 'Grammar - Clauses & Konjunktiv II', tasks: ['Review subordinate clauses (weil, dass, wenn, obwohl, damit)', 'Master Konjunktiv II formation and usage', 'Study word order rules', 'Complete grammar practice quiz'], time: '2.5 hours' },
+            { day: 4, date: 'Nov 12-13', title: 'Prepositions & Reflexive Verbs', tasks: ['Study two-way prepositions (accusative vs. dative)', 'Learn 15 reflexive verbs for daily routines', 'Practice preposition case selection', 'Take quiz on prepositions and reflexive verbs'], time: '2.5 hours' },
+            { day: 5, date: 'Nov 13-14', title: 'Dative Verbs & Verb Combinations', tasks: ['Master 15 important dative verbs', 'Study verbs with fixed prepositions', 'Review verb-preposition combinations', 'Take comprehensive verb quiz (30 questions)'], time: '2 hours' },
+            { day: 6, date: 'Nov 14-15', title: 'Final Review & Exam Preparation', tasks: ['Review weak areas identified in practice', 'Take full practice exam simulation', 'Review Konjunktiv II and common phrases', 'Practice speaking with key verbs', 'Rest before exam!'], time: '2-3 hours' }
+        ];
+
+        // Exam Tips
+        const examTips = [
+            'Master modal verbs first - they\'re essential and appear everywhere',
+            'Practice Konjunktiv II for polite requests - use it confidently in speaking',
+            'Remember: weil, dass, wenn, obwohl push verbs to the END of the clause',
+            'For two-way prepositions: MOVEMENT = Accusative, LOCATION = Dative',
+            'Use haben with most verbs in Perfekt, but sein with motion/state change verbs',
+            'In the speaking exam, start responses with Konjunktiv II phrases like "Ich würde..."',
+            'Reflexive verbs are essential for describing daily routines',
+            'Pay attention to dative verbs - many learners struggle with these',
+            'Practice word order with subordinate clauses daily',
+            'On exam day, read questions carefully - look for context clues about tense needed'
+        ];
+
+        // Quiz state
+        let currentQuiz = null;
+        let currentQuestionIndex = 0;
+        let quizScore = 0;
+
+        // Initialize App
+        function initApp() {
+            renderGrammarTopics();
+            renderVerbList();
+            renderStudyPlan();
+            renderExamTips();
+            setupEventListeners();
+            updateStats();
+            loadFlashcard();
+        }
+
+        // Navigation
+        function navigateToSection(sectionId) {
+            document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
+            document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
+            
+            document.getElementById(sectionId).classList.add('active');
+            const btn = document.querySelector(`[data-section="${sectionId}"]`);
+            if (btn) btn.classList.add('active');
+        }
+
+        function setupEventListeners() {
+            document.querySelectorAll('.nav-btn').forEach(btn => {
+                btn.addEventListener('click', () => {
+                    navigateToSection(btn.dataset.section);
+                });
+            });
+
+            document.getElementById('verb-search').addEventListener('input', filterVerbs);
+            
+            document.querySelectorAll('.filter-chip').forEach(chip => {
+                chip.addEventListener('click', () => {
+                    document.querySelectorAll('.filter-chip').forEach(c => c.classList.remove('active'));
+                    chip.classList.add('active');
+                    filterVerbs();
+                });
+            });
+
+            document.addEventListener('keydown', handleKeyPress);
+        }
+
+        function handleKeyPress(e) {
+            const activeSection = document.querySelector('.section.active');
+            if (activeSection.id === 'flashcards') {
+                if (e.key === 'ArrowRight') nextCard();
+                if (e.key === 'ArrowLeft') previousCard();
+                if (e.key === ' ') { e.preventDefault(); flipCard(); }
+            }
+        }
+
+        // Grammar Section
+        function renderGrammarTopics() {
+            const container = document.getElementById('grammar-topics-container');
+            container.innerHTML = grammarTopics.map(topic => `
+                <div class="grammar-topic" data-topic-id="${topic.id}">
+                    <div class="grammar-topic-header" onclick="toggleGrammarTopic('${topic.id}')">
+                        <h3>${topic.title}</h3>
+                        <span>▼</span>
+                    </div>
+                    <div class="grammar-topic-content">
+                        ${topic.sections.map(section => `
+                            <div class="grammar-section">
+                                <h4>${section.title}</h4>
+                                ${section.description ? `<p>${section.description}</p>` : ''}
+                                <div class="example">
+                                    <strong>🇩🇪</strong> ${section.example}<br>
+                                    <strong>🇬🇧</strong> ${section.example_en}
+                                </div>
+                            </div>
+                        `).join('')}
+                        <button class="btn btn-primary" onclick="markGrammarReviewed('${topic.id}')">✓ Mark as Reviewed</button>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        function toggleGrammarTopic(topicId) {
+            const topic = document.querySelector(`[data-topic-id="${topicId}"]`);
+            topic.classList.toggle('expanded');
+        }
+
+        function markGrammarReviewed(topicId) {
+            appState.reviewedGrammar.add(topicId);
+            updateStats();
+            alert('✓ Topic marked as reviewed!');
+        }
+
+        // Verb Library
+        function renderVerbList(filteredVerbs = verbs) {
+            const container = document.getElementById('verb-list-container');
+            if (filteredVerbs.length === 0) {
+                container.innerHTML = '<div class="card"><p style="text-align: center; color: var(--color-text-secondary);">No verbs found. Try a different search or filter.</p></div>';
+                return;
+            }
+            container.innerHTML = filteredVerbs.map(verb => `
+                <div class="verb-card">
+                    <div class="verb-header">
+                        <div>
+                            <div class="verb-title">${verb.german}</div>
+                            <div class="verb-english">${verb.english}</div>
+                        </div>
+                        <div style="display: flex; gap: var(--space-4); align-items: center;">
+                            <span class="category-tag">${verb.category}</span>
+                            ${verb.category === 'dative' ? '<span class="category-tag" style="background: var(--color-bg-4); color: var(--color-error);">DATIVE</span>' : ''}
+                            ${verb.category === 'reflexive' ? '<span class="category-tag" style="background: var(--color-bg-5);">REFLEXIVE</span>' : ''}
+                        </div>
+                    </div>
+                    <table class="conjugation-table">
+                        <tr>
+                            <th>Person</th>
+                            <th>Präsens</th>
+                            <th>Präteritum</th>
+                            <th>Perfekt</th>
+                        </tr>
+                        <tr><td>ich</td><td>${verb.praesens[0]}</td><td>${verb.praeteritum[0]}</td><td>${verb.perfekt[0]}</td></tr>
+                        <tr><td>du</td><td>${verb.praesens[1]}</td><td>${verb.praeteritum[1]}</td><td>${verb.perfekt[1]}</td></tr>
+                        <tr><td>er/sie/es</td><td>${verb.praesens[2]}</td><td>${verb.praeteritum[2]}</td><td>${verb.perfekt[2]}</td></tr>
+                        <tr><td>wir</td><td>${verb.praesens[3]}</td><td>${verb.praeteritum[3]}</td><td>${verb.perfekt[3]}</td></tr>
+                        <tr><td>ihr</td><td>${verb.praesens[4]}</td><td>${verb.praeteritum[4]}</td><td>${verb.perfekt[4]}</td></tr>
+                        <tr><td>sie/Sie</td><td>${verb.praesens[5]}</td><td>${verb.praeteritum[5]}</td><td>${verb.perfekt[5]}</td></tr>
+                    </table>
+                    <div class="example">
+                        <strong>Example:</strong> ${verb.example}<br>
+                        <em>${verb.example_en}</em>
+                    </div>
+                    <div class="mastered-check">
+                        <input type="checkbox" id="verb-${verb.id}" ${appState.masteredVerbs.has(verb.id) ? 'checked' : ''} 
+                            onchange="toggleVerbMastered(${verb.id})">
+                        <label for="verb-${verb.id}">Mark as Mastered</label>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        function filterVerbs() {
+            const searchTerm = document.getElementById('verb-search').value.toLowerCase();
+            const activeCategory = document.querySelector('.filter-chip.active').dataset.category;
+            
+            let filtered = verbs;
+            
+            if (activeCategory !== 'all') {
+                filtered = filtered.filter(v => v.category === activeCategory);
+            }
+            
+            if (searchTerm) {
+                filtered = filtered.filter(v => 
+                    v.german.toLowerCase().includes(searchTerm) ||
+                    v.english.toLowerCase().includes(searchTerm)
+                );
+            }
+            
+            renderVerbList(filtered);
+        }
+
+        function showRandomVerb() {
+            const randomVerb = verbs[Math.floor(Math.random() * verbs.length)];
+            renderVerbList([randomVerb]);
+        }
+
+        function showAllVerbs() {
+            document.getElementById('verb-search').value = '';
+            renderVerbList();
+        }
+
+        function toggleVerbMastered(verbId) {
+            if (appState.masteredVerbs.has(verbId)) {
+                appState.masteredVerbs.delete(verbId);
+            } else {
+                appState.masteredVerbs.add(verbId);
+            }
+            updateStats();
+        }
+
+        // Quiz Section
+        function startQuiz() {
+            const type = document.getElementById('quiz-type').value;
+            const length = parseInt(document.getElementById('quiz-length').value);
+            
+            currentQuiz = generateQuiz(type, length);
+            currentQuestionIndex = 0;
+            quizScore = 0;
+            
+            document.getElementById('quiz-setup').style.display = 'none';
+            document.getElementById('quiz-container').style.display = 'block';
+            
+            showQuestion();
+        }
+
+        function generateQuiz(type, length) {
+            const questions = [];
+            const selectedVerbs = [...verbs].sort(() => Math.random() - 0.5).slice(0, length);
+            
+            for (let i = 0; i < length; i++) {
+                const verb = selectedVerbs[i];
+                const tenses = ['praesens', 'praeteritum', 'perfekt'];
+                const tense = tenses[Math.floor(Math.random() * tenses.length)];
+                const person = Math.floor(Math.random() * 6);
+                const persons = ['ich', 'du', 'er/sie/es', 'wir', 'ihr', 'sie/Sie'];
+                
+                const correctAnswer = verb[tense][person];
+                const wrongAnswers = verbs
+                    .filter(v => v.id !== verb.id)
+                    .map(v => v[tense][person])
+                    .sort(() => Math.random() - 0.5)
+                    .slice(0, 3);
+                
+                const options = [correctAnswer, ...wrongAnswers].sort(() => Math.random() - 0.5);
+                
+                questions.push({
+                    question: `Conjugate "${verb.german}" (${verb.english}) in ${tense.charAt(0).toUpperCase() + tense.slice(1)} for ${persons[person]}:`,
+                    options: options,
+                    correct: correctAnswer,
+                    explanation: `The correct answer is "${correctAnswer}". Example: ${verb.example}`
+                });
+            }
+            
+            return questions;
+        }
+
+        function showQuestion() {
+            const question = currentQuiz[currentQuestionIndex];
+            const container = document.getElementById('quiz-container');
+            
+            container.innerHTML = `
+                <div class="card">
+                    <div class="quiz-question">
+                        <h3>Question ${currentQuestionIndex + 1} of ${currentQuiz.length}</h3>
+                        <p style="font-size: var(--font-size-lg); margin-top: var(--space-16);">${question.question}</p>
+                    </div>
+                    <div class="quiz-options">
+                        ${question.options.map((opt, idx) => `
+                            <div class="quiz-option" onclick="selectAnswer('${opt}', '${question.correct}', ${idx})">
+                                ${opt}
+                            </div>
+                        `).join('')}
+                    </div>
+                    <div id="quiz-feedback" style="display: none;"></div>
+                    <div class="btn-group" style="margin-top: var(--space-24);">
+                        <button class="btn btn-secondary" onclick="endQuiz()">End Quiz</button>
+                    </div>
+                </div>
+            `;
+        }
+
+        function selectAnswer(selected, correct, optionIdx) {
+            const options = document.querySelectorAll('.quiz-option');
+            options.forEach(opt => opt.style.pointerEvents = 'none');
+            
+            if (selected === correct) {
+                options[optionIdx].classList.add('correct');
+                quizScore++;
+                showFeedback('✓ Correct!', 'success');
+            } else {
+                options[optionIdx].classList.add('incorrect');
+                options.forEach((opt, idx) => {
+                    if (opt.textContent.trim() === correct) {
+                        opt.classList.add('correct');
+                    }
+                });
+                showFeedback('✗ Incorrect. ' + currentQuiz[currentQuestionIndex].explanation, 'error');
+            }
+            
+            setTimeout(() => {
+                currentQuestionIndex++;
+                if (currentQuestionIndex < currentQuiz.length) {
+                    showQuestion();
+                } else {
+                    showQuizResults();
+                }
+            }, 2500);
+        }
+
+        function showFeedback(message, type) {
+            const feedback = document.getElementById('quiz-feedback');
+            feedback.style.display = 'block';
+            feedback.innerHTML = `<div class="quiz-feedback" style="background: var(--color-bg-${type === 'success' ? '3' : '4'}); color: var(--color-${type});">${message}</div>`;
+        }
+
+        function showQuizResults() {
+            const percentage = Math.round((quizScore / currentQuiz.length) * 100);
+            const container = document.getElementById('quiz-container');
+            
+            appState.quizHistory.push({ score: quizScore, total: currentQuiz.length, percentage });
+            updateStats();
+            
+            container.innerHTML = `
+                <div class="card" style="text-align: center;">
+                    <h2>Quiz Complete!</h2>
+                    <div style="font-size: 64px; margin: var(--space-32) 0;">${percentage >= 70 ? '🎉' : '📚'}</div>
+                    <p style="font-size: var(--font-size-3xl); color: var(--color-primary); margin-bottom: var(--space-16);">
+                        ${quizScore} / ${currentQuiz.length}
+                    </p>
+                    <p style="font-size: var(--font-size-xl); margin-bottom: var(--space-24);">
+                        ${percentage}% Correct
+                    </p>
+                    <p style="color: var(--color-text-secondary); margin-bottom: var(--space-24);">
+                        ${percentage >= 80 ? 'Excellent work! You\'re well prepared!' : 
+                          percentage >= 70 ? 'Good job! Keep practicing!' : 
+                          'Keep studying! You\'ll improve with practice.'}
+                    </p>
+                    <div class="btn-group" style="justify-content: center;">
+                        <button class="btn btn-primary" onclick="resetQuiz()">Take Another Quiz</button>
+                        <button class="btn btn-secondary" onclick="navigateToSection('dashboard')">Back to Dashboard</button>
+                    </div>
+                </div>
+            `;
+        }
+
+        function resetQuiz() {
+            document.getElementById('quiz-setup').style.display = 'block';
+            document.getElementById('quiz-container').style.display = 'none';
+            currentQuiz = null;
+        }
+
+        function endQuiz() {
+            resetQuiz();
+        }
+
+        // Flashcards
+        function loadFlashcard() {
+            if (verbs.length === 0) return;
+            
+            const verb = verbs[appState.flashcardIndex % verbs.length];
+            document.getElementById('flashcard-front-text').textContent = verb.german;
+            document.getElementById('flashcard-back-text').textContent = verb.english;
+            document.getElementById('flashcard-category').textContent = `Category: ${verb.category} • Example: ${verb.example}`;
+            document.getElementById('flashcard-counter').textContent = `Card ${appState.flashcardIndex + 1} of ${verbs.length}`;
+            
+            const card = document.getElementById('flashcard');
+            card.classList.remove('flipped');
+        }
+
+        function flipCard() {
+            document.getElementById('flashcard').classList.toggle('flipped');
+        }
+
+        function nextCard() {
+            appState.flashcardIndex = (appState.flashcardIndex + 1) % verbs.length;
+            loadFlashcard();
+        }
+
+        function previousCard() {
+            appState.flashcardIndex = (appState.flashcardIndex - 1 + verbs.length) % verbs.length;
+            loadFlashcard();
+        }
+
+        function markKnown() {
+            const verb = verbs[appState.flashcardIndex % verbs.length];
+            appState.knownFlashcards.add(verb.id);
+            nextCard();
+        }
+
+        // Study Plan
+        function renderStudyPlan() {
+            const container = document.getElementById('study-plan-container');
+            container.innerHTML = studyPlan.map(day => `
+                <div class="study-day">
+                    <h4>Day ${day.day}: ${day.title}</h4>
+                    <p style="color: var(--color-text-secondary); margin-bottom: var(--space-12);">${day.date} • Estimated time: ${day.time}</p>
+                    <ul class="task-list">
+                        ${day.tasks.map((task, idx) => `
+                            <li class="task-item">
+                                <input type="checkbox" id="task-${day.day}-${idx}" 
+                                    ${appState.completedTasks.has(`${day.day}-${idx}`) ? 'checked' : ''}
+                                    onchange="toggleTask('${day.day}-${idx}')">
+                                <label for="task-${day.day}-${idx}">${task}</label>
+                            </li>
+                        `).join('')}
+                    </ul>
+                </div>
+            `).join('');
+        }
+
+        function toggleTask(taskId) {
+            if (appState.completedTasks.has(taskId)) {
+                appState.completedTasks.delete(taskId);
+            } else {
+                appState.completedTasks.add(taskId);
+            }
+            updateStats();
+        }
+
+        // Exam Tips
+        function renderExamTips() {
+            const container = document.getElementById('exam-tips-container');
+            container.innerHTML = examTips.map(tip => `
+                <div class="tip-box">
+                    💡 ${tip}
+                </div>
+            `).join('');
+        }
+
+        // Stats
+        function updateStats() {
+            const verbsMastered = appState.masteredVerbs.size;
+            const grammarReviewed = appState.reviewedGrammar.size;
+            const totalTasks = studyPlan.reduce((sum, day) => sum + day.tasks.length, 0);
+            const completedTasksCount = appState.completedTasks.size;
+            
+            const totalQuestions = appState.quizHistory.reduce((sum, q) => sum + q.total, 0);
+            const correctAnswers = appState.quizHistory.reduce((sum, q) => sum + q.score, 0);
+            const accuracy = totalQuestions > 0 ? Math.round((correctAnswers / totalQuestions) * 100) : 0;
+            
+            const overallProgress = Math.round(
+                ((verbsMastered / 110) * 40 + 
+                 (grammarReviewed / grammarTopics.length) * 30 + 
+                 (completedTasksCount / totalTasks) * 30)
+            );
+            
+            // Update dashboard
+            document.getElementById('verbs-learned').textContent = verbsMastered + '/110';
+            document.getElementById('grammar-reviewed').textContent = grammarReviewed;
+            document.getElementById('quiz-accuracy').textContent = accuracy + '%';
+            document.getElementById('overall-progress').textContent = overallProgress + '%';
+            
+            // Update progress page
+            document.getElementById('progress-verbs').textContent = `${verbsMastered}/110`;
+            document.getElementById('progress-grammar').textContent = `${grammarReviewed}/${grammarTopics.length}`;
+            document.getElementById('progress-quizzes').textContent = appState.quizHistory.length;
+            document.getElementById('progress-accuracy').textContent = accuracy + '%';
+            document.getElementById('overall-progress-bar').style.width = overallProgress + '%';
+            document.getElementById('overall-progress-text').textContent = overallProgress + '% Complete';
+            
+            // Update today's progress
+            const todayProgress = Math.min(100, (verbsMastered / 9) * 100); // Day 1: 9 verbs (auxiliary + modal)
+            document.getElementById('today-progress').style.width = todayProgress + '%';
+            
+            // Update verb library progress
+            const verbMasteryPercent = Math.round((verbsMastered / 110) * 100);
+            if (document.getElementById('verb-mastery-count')) {
+                document.getElementById('verb-mastery-count').textContent = `${verbsMastered} / 110 Verbs Mastered (${verbMasteryPercent}%)`;
+            }
+            if (document.getElementById('verb-mastery-progress')) {
+                document.getElementById('verb-mastery-progress').style.width = verbMasteryPercent + '%';
+            }
+        }
+
+        // Initialize on load
+        document.addEventListener('DOMContentLoaded', initApp);
+    </script>
+</body>
+</html>

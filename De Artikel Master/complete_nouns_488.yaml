@@ -1,0 +1,2440 @@
+- article: die
+  noun: Wandertour
+  plural: Wandertouren
+  translation: hiking tour
+  category: 1. Reisen und Tourismus
+- article: der
+  noun: Strandurlaub
+  plural: Strandurlaube
+  translation: beach vacation
+  category: 1. Reisen und Tourismus
+- article: die
+  noun: Städtereise
+  plural: Städtereisen
+  translation: city trip
+  category: 1. Reisen und Tourismus
+- article: die
+  noun: Dienstreise
+  plural: Dienstreisen
+  translation: business trip
+  category: 1. Reisen und Tourismus
+- article: der
+  noun: Skiurlaub
+  plural: Skiurlaube
+  translation: ski vacation
+  category: 1. Reisen und Tourismus
+- article: der
+  noun: Wellnessurlaub
+  plural: Wellnessurlaube
+  translation: wellness vacation
+  category: 1. Reisen und Tourismus
+- article: die
+  noun: Hauptsaison
+  plural: Hauptsaisons
+  translation: high season
+  category: 1. Reisen und Tourismus
+- article: die
+  noun: Nebensaison
+  plural: Nebensaisons
+  translation: off-season
+  category: 1. Reisen und Tourismus
+- article: das
+  noun: Einzelzimmer
+  plural: Einzelzimmer
+  translation: single room
+  category: 1. Reisen und Tourismus
+- article: das
+  noun: Doppelzimmer
+  plural: Doppelzimmer
+  translation: double room
+  category: 1. Reisen und Tourismus
+- article: die
+  noun: Übernachtung
+  plural: Übernachtungen
+  translation: overnight stay
+  category: 1. Reisen und Tourismus
+- article: die
+  noun: Jugendherberge
+  plural: Jugendherbergen
+  translation: youth hostel
+  category: 1. Reisen und Tourismus
+- article: das
+  noun: Hostel
+  plural: Hostels
+  translation: hostel
+  category: 1. Reisen und Tourismus
+- article: der
+  noun: Campingplatz
+  plural: Campingplätze
+  translation: campsite
+  category: 1. Reisen und Tourismus
+- article: die
+  noun: Unterkunft
+  plural: Unterkünfte
+  translation: accommodation
+  category: 1. Reisen und Tourismus
+- article: die
+  noun: Pension
+  plural: Pensionen
+  translation: guesthouse
+  category: 1. Reisen und Tourismus
+- article: die
+  noun: Halbpension
+  plural: Halbpensionen
+  translation: half-board
+  category: 1. Reisen und Tourismus
+- article: die
+  noun: Vollpension
+  plural: Vollpensionen
+  translation: full-board
+  category: 1. Reisen und Tourismus
+- article: die
+  noun: Anreise
+  plural: Anreisen
+  translation: arrival
+  category: 1. Reisen und Tourismus
+- article: die
+  noun: Abreise
+  plural: Abreisen
+  translation: departure
+  category: 1. Reisen und Tourismus
+- article: die
+  noun: Lage
+  plural: Lagen
+  translation: location
+  category: 1. Reisen und Tourismus
+- article: die
+  noun: Bewertung
+  plural: Bewertungen
+  translation: review/rating
+  category: 1. Reisen und Tourismus
+- article: die
+  noun: Umgebung
+  plural: Umgebungen
+  translation: surroundings
+  category: 1. Reisen und Tourismus
+- article: das
+  noun: Personal
+  plural: Personale
+  translation: staff
+  category: 1. Reisen und Tourismus
+- article: der
+  noun: Service
+  plural: Services
+  translation: service
+  category: 1. Reisen und Tourismus
+- article: die
+  noun: Klimaanlage
+  plural: Klimaanlagen
+  translation: air conditioning
+  category: 1. Reisen und Tourismus
+- article: das
+  noun: Reisebüro
+  plural: Reisebüros
+  translation: travel agency
+  category: 1. Reisen und Tourismus
+- article: der
+  noun: Flug
+  plural: Flüge
+  translation: flight
+  category: 1. Reisen und Tourismus
+- article: die
+  noun: Pauschalreise
+  plural: Pauschalreisen
+  translation: package tour
+  category: 1. Reisen und Tourismus
+- article: die
+  noun: Ferienwohnung
+  plural: Ferienwohnungen
+  translation: vacation apartment
+  category: 1. Reisen und Tourismus
+- article: das
+  noun: Zelt
+  plural: Zelte
+  translation: tent
+  category: 1. Reisen und Tourismus
+- article: der
+  noun: Reiseführer
+  plural: Reiseführer
+  translation: travel guide
+  category: 1. Reisen und Tourismus
+- article: das
+  noun: Gate
+  plural: Gates
+  translation: gate
+  category: 1. Reisen und Tourismus
+- article: das
+  noun: Gepäck
+  plural: Gepäcke
+  translation: luggage
+  category: 1. Reisen und Tourismus
+- article: die
+  noun: Bordkarte
+  plural: Bordkarten
+  translation: boarding pass
+  category: 1. Reisen und Tourismus
+- article: der
+  noun: Pilot
+  plural: Piloten
+  translation: pilot
+  category: 1. Reisen und Tourismus
+- article: die
+  noun: Pilotin
+  plural: Pilotinnen
+  translation: pilot (f)
+  category: 1. Reisen und Tourismus
+- article: die
+  noun: Sicherheitskontrolle
+  plural: Sicherheitskontrollen
+  translation: security check
+  category: 1. Reisen und Tourismus
+- article: der
+  noun: Flugbegleiter
+  plural: Flugbegleiter
+  translation: flight attendant
+  category: 1. Reisen und Tourismus
+- article: die
+  noun: Flugbegleiterin
+  plural: Flugbegleiterinnen
+  translation: flight attendant (f)
+  category: 1. Reisen und Tourismus
+- article: der
+  noun: Streik
+  plural: Streiks
+  translation: strike
+  category: 1. Reisen und Tourismus
+- article: das
+  noun: Handgepäck
+  plural: Handgepäcke
+  translation: hand luggage
+  category: 1. Reisen und Tourismus
+- article: die
+  noun: Gepäckausgabe
+  plural: Gepäckausgaben
+  translation: baggage claim
+  category: 1. Reisen und Tourismus
+- article: der
+  noun: Start
+  plural: Starts
+  translation: takeoff
+  category: 1. Reisen und Tourismus
+- article: die
+  noun: Landung
+  plural: Landungen
+  translation: landing
+  category: 1. Reisen und Tourismus
+- article: das
+  noun: Haus
+  plural: Häuser
+  translation: house
+  category: 2. Wohnen und Leben
+- article: die
+  noun: Wohnung
+  plural: Wohnungen
+  translation: apartment
+  category: 2. Wohnen und Leben
+- article: das
+  noun: Zimmer
+  plural: Zimmer
+  translation: room
+  category: 2. Wohnen und Leben
+- article: die
+  noun: Küche
+  plural: Küchen
+  translation: kitchen
+  category: 2. Wohnen und Leben
+- article: das
+  noun: Bad
+  plural: Bäder
+  translation: bathroom
+  category: 2. Wohnen und Leben
+- article: die
+  noun: Tür
+  plural: Türen
+  translation: door
+  category: 2. Wohnen und Leben
+- article: das
+  noun: Fenster
+  plural: Fenster
+  translation: window
+  category: 2. Wohnen und Leben
+- article: der
+  noun: Balkon
+  plural: Balkone
+  translation: balcony
+  category: 2. Wohnen und Leben
+- article: der
+  noun: Winterdienst
+  plural: Winterdienste
+  translation: winter service
+  category: 2. Wohnen und Leben
+- article: der
+  noun: Gehweg
+  plural: Gehwege
+  translation: sidewalk
+  category: 2. Wohnen und Leben
+- article: der
+  noun: Besen
+  plural: Besen
+  translation: broom
+  category: 2. Wohnen und Leben
+- article: die
+  noun: Schneeschaufel
+  plural: Schneeschaufeln
+  translation: snow shovel
+  category: 2. Wohnen und Leben
+- article: der
+  noun: Ärger
+  plural: Ärger
+  translation: trouble/annoyance
+  category: 2. Wohnen und Leben
+- article: die
+  noun: Kündigung
+  plural: Kündigungen
+  translation: termination/notice
+  category: 2. Wohnen und Leben
+- article: die
+  noun: Frist
+  plural: Fristen
+  translation: deadline
+  category: 2. Wohnen und Leben
+- article: der
+  noun: Eigenbedarf
+  plural: Eigenbedarfe
+  translation: owner's need
+  category: 2. Wohnen und Leben
+- article: der
+  noun: Rechtsanwalt
+  plural: Rechtsanwälte
+  translation: lawyer
+  category: 2. Wohnen und Leben
+- article: die
+  noun: Rechtsanwältin
+  plural: Rechtsanwältinnen
+  translation: lawyer (f)
+  category: 2. Wohnen und Leben
+- article: das
+  noun: Gericht
+  plural: Gerichte
+  translation: court
+  category: 2. Wohnen und Leben
+- article: der
+  noun: Richter
+  plural: Richter
+  translation: judge
+  category: 2. Wohnen und Leben
+- article: die
+  noun: Richterin
+  plural: Richterinnen
+  translation: judge (f)
+  category: 2. Wohnen und Leben
+- article: das
+  noun: Urteil
+  plural: Urteile
+  translation: verdict/judgment
+  category: 2. Wohnen und Leben
+- article: die
+  noun: Projektwoche
+  plural: Projektwochen
+  translation: project week
+  category: 3. Umwelt und Klima
+- article: die
+  noun: Umwelt
+  plural: Umwelten
+  translation: environment
+  category: 3. Umwelt und Klima
+- article: der
+  noun: Umweltschutz
+  plural: Umweltschutze
+  translation: environmental protection
+  category: 3. Umwelt und Klima
+- article: das
+  noun: Klima
+  plural: Klimas
+  translation: climate
+  category: 3. Umwelt und Klima
+- article: der
+  noun: Klimawandel
+  plural: Klimawandel
+  translation: climate change
+  category: 3. Umwelt und Klima
+- article: das
+  noun: Thema
+  plural: Themen
+  translation: topic/theme
+  category: 3. Umwelt und Klima
+- article: das
+  noun: Lernziel
+  plural: Lernziele
+  translation: learning objective
+  category: 3. Umwelt und Klima
+- article: das
+  noun: Hochhaus
+  plural: Hochhäuser
+  translation: high-rise building
+  category: 3. Umwelt und Klima
+- article: das
+  noun: Wasserwerk
+  plural: Wasserwerke
+  translation: waterworks
+  category: 3. Umwelt und Klima
+- article: das
+  noun: Hochwasser
+  plural: Hochwasser
+  translation: flood
+  category: 3. Umwelt und Klima
+- article: der
+  noun: Tsunami
+  plural: Tsunami
+  translation: tsunami
+  category: 3. Umwelt und Klima
+- article: das
+  noun: Erdbeben
+  plural: Erdbeben
+  translation: earthquake
+  category: 3. Umwelt und Klima
+- article: der
+  noun: Sturm
+  plural: Stürme
+  translation: storm
+  category: 3. Umwelt und Klima
+- article: der
+  noun: Hagel
+  plural: Hagel
+  translation: hail
+  category: 3. Umwelt und Klima
+- article: das
+  noun: Material
+  plural: Materialien
+  translation: material
+  category: 3. Umwelt und Klima
+- article: das
+  noun: Papier
+  plural: Papiere
+  translation: paper
+  category: 3. Umwelt und Klima
+- article: die
+  noun: Pappe
+  plural: Pappen
+  translation: cardboard
+  category: 3. Umwelt und Klima
+- article: das
+  noun: Metall
+  plural: Metalle
+  translation: metal
+  category: 3. Umwelt und Klima
+- article: der
+  noun: Stoff
+  plural: Stoffe
+  translation: fabric/material
+  category: 3. Umwelt und Klima
+- article: das
+  noun: Holz
+  plural: Hölzer
+  translation: wood
+  category: 3. Umwelt und Klima
+- article: die
+  noun: Wolle
+  plural: Wollen
+  translation: wool
+  category: 3. Umwelt und Klima
+- article: das
+  noun: Leder
+  plural: Leder
+  translation: leather
+  category: 3. Umwelt und Klima
+- article: der
+  noun: Kunststoff
+  plural: Kunststoffe
+  translation: plastic
+  category: 3. Umwelt und Klima
+- article: der
+  noun: Sondermüll
+  plural: Sondermüll
+  translation: hazardous waste
+  category: 3. Umwelt und Klima
+- article: der
+  noun: Sperrmüll
+  plural: Sperrmüll
+  translation: bulky waste
+  category: 3. Umwelt und Klima
+- article: der
+  noun: Recyclinghof
+  plural: Recyclinghöfe
+  translation: recycling center
+  category: 3. Umwelt und Klima
+- article: die
+  noun: Müllabfuhr
+  plural: Müllabfuhren
+  translation: garbage collection
+  category: 3. Umwelt und Klima
+- article: der
+  noun: Behälter
+  plural: Behälter
+  translation: container
+  category: 3. Umwelt und Klima
+- article: das
+  noun: Tempolimit
+  plural: Tempolimits
+  translation: speed limit
+  category: 3. Umwelt und Klima
+- article: der
+  noun: Onlineshop
+  plural: Onlineshops
+  translation: online shop
+  category: 4. Einkaufen und Konsum
+- article: das
+  noun: Onlineshopping
+  plural: Onlineshoppings
+  translation: online shopping
+  category: 4. Einkaufen und Konsum
+- article: das
+  noun: Kundenkonto
+  plural: Kundenkonten
+  translation: customer account
+  category: 4. Einkaufen und Konsum
+- article: die
+  noun: Auswahl
+  plural: Auswahlen
+  translation: selection
+  category: 4. Einkaufen und Konsum
+- article: der
+  noun: Benutzername
+  plural: Benutzernamen
+  translation: username
+  category: 4. Einkaufen und Konsum
+- article: der
+  noun: Warenkorb
+  plural: Warenkörbe
+  translation: shopping cart
+  category: 4. Einkaufen und Konsum
+- article: die
+  noun: Zahlungsoption
+  plural: Zahlungsoptionen
+  translation: payment option
+  category: 4. Einkaufen und Konsum
+- article: die
+  noun: Lieferoption
+  plural: Lieferoptionen
+  translation: delivery option
+  category: 4. Einkaufen und Konsum
+- article: die
+  noun: Bestellung
+  plural: Bestellungen
+  translation: order
+  category: 4. Einkaufen und Konsum
+- article: der
+  noun: Artikel
+  plural: Artikel
+  translation: article/item
+  category: 4. Einkaufen und Konsum
+- article: das
+  noun: Produkt
+  plural: Produkte
+  translation: product
+  category: 4. Einkaufen und Konsum
+- article: die
+  noun: Garantie
+  plural: Garantien
+  translation: guarantee/warranty
+  category: 4. Einkaufen und Konsum
+- article: die
+  noun: Ratenzahlung
+  plural: Ratenzahlungen
+  translation: installment payment
+  category: 4. Einkaufen und Konsum
+- article: der
+  noun: Werbeprospekt
+  plural: Werbeprospekte
+  translation: advertising brochure
+  category: 4. Einkaufen und Konsum
+- article: die
+  noun: Mahnung
+  plural: Mahnungen
+  translation: reminder/warning
+  category: 4. Einkaufen und Konsum
+- article: die
+  noun: Zahlung
+  plural: Zahlungen
+  translation: payment
+  category: 4. Einkaufen und Konsum
+- article: der
+  noun: Rechnungsbetrag
+  plural: Rechnungsbeträge
+  translation: invoice amount
+  category: 4. Einkaufen und Konsum
+- article: die
+  noun: Lieferung
+  plural: Lieferungen
+  translation: delivery
+  category: 4. Einkaufen und Konsum
+- article: der
+  noun: Werktag
+  plural: Werktage
+  translation: working day
+  category: 4. Einkaufen und Konsum
+- article: der
+  noun: Versand
+  plural: Versände
+  translation: shipping
+  category: 4. Einkaufen und Konsum
+- article: die
+  noun: Versandkosten
+  plural: Versandkosten
+  translation: shipping costs
+  category: 4. Einkaufen und Konsum
+- article: das
+  noun: Päckchen
+  plural: Päckchen
+  translation: small package
+  category: 4. Einkaufen und Konsum
+- article: die
+  noun: Rücksendung
+  plural: Rücksendungen
+  translation: return
+  category: 4. Einkaufen und Konsum
+- article: die
+  noun: Retoure
+  plural: Retouren
+  translation: return
+  category: 4. Einkaufen und Konsum
+- article: die
+  noun: Medien
+  plural: Medien
+  translation: media
+  category: 5. Medien und Unterhaltung
+- article: die
+  noun: Umfrage
+  plural: Umfragen
+  translation: survey
+  category: 5. Medien und Unterhaltung
+- article: die
+  noun: Dokumentation
+  plural: Dokumentationen
+  translation: documentary
+  category: 5. Medien und Unterhaltung
+- article: der
+  noun: Spielfilm
+  plural: Spielfilme
+  translation: feature film
+  category: 5. Medien und Unterhaltung
+- article: die
+  noun: Komödie
+  plural: Komödien
+  translation: comedy
+  category: 5. Medien und Unterhaltung
+- article: die
+  noun: Serie
+  plural: Serien
+  translation: series
+  category: 5. Medien und Unterhaltung
+- article: die
+  noun: Sportsendung
+  plural: Sportsendungen
+  translation: sports program
+  category: 5. Medien und Unterhaltung
+- article: die
+  noun: Quizshow
+  plural: Quizshows
+  translation: quiz show
+  category: 5. Medien und Unterhaltung
+- article: die
+  noun: Talkshow
+  plural: Talkshows
+  translation: talk show
+  category: 5. Medien und Unterhaltung
+- article: der
+  noun: Zeichentrickfilm
+  plural: Zeichentrickfilme
+  translation: cartoon
+  category: 5. Medien und Unterhaltung
+- article: der
+  noun: Liebesfilm
+  plural: Liebesfilme
+  translation: romantic film
+  category: 5. Medien und Unterhaltung
+- article: der
+  noun: Krimi
+  plural: Krimis
+  translation: crime story/detective story
+  category: 5. Medien und Unterhaltung
+- article: die
+  noun: Nachrichten
+  plural: Nachrichten
+  translation: news
+  category: 5. Medien und Unterhaltung
+- article: die
+  noun: Sendung
+  plural: Sendungen
+  translation: broadcast/program
+  category: 5. Medien und Unterhaltung
+- article: der
+  noun: Fernsehsender
+  plural: Fernsehsender
+  translation: TV channel
+  category: 5. Medien und Unterhaltung
+- article: der
+  noun: Sender
+  plural: Sender
+  translation: broadcaster
+  category: 5. Medien und Unterhaltung
+- article: die
+  noun: Mediathek
+  plural: Mediatheken
+  translation: media library
+  category: 5. Medien und Unterhaltung
+- article: die
+  noun: Soap
+  plural: Soaps
+  translation: soap opera
+  category: 5. Medien und Unterhaltung
+- article: der
+  noun: Podcast
+  plural: Podcasts
+  translation: podcast
+  category: 5. Medien und Unterhaltung
+- article: das
+  noun: Webinar
+  plural: Webinare
+  translation: webinar
+  category: 5. Medien und Unterhaltung
+- article: der
+  noun: Untertitel
+  plural: Untertitel
+  translation: subtitle
+  category: 5. Medien und Unterhaltung
+- article: die
+  noun: Mehrheit
+  plural: Mehrheiten
+  translation: majority
+  category: 5. Medien und Unterhaltung
+- article: die
+  noun: Minderheit
+  plural: Minderheiten
+  translation: minority
+  category: 5. Medien und Unterhaltung
+- article: die
+  noun: Hälfte
+  plural: Hälften
+  translation: half
+  category: 5. Medien und Unterhaltung
+- article: das
+  noun: Drittel
+  plural: Drittel
+  translation: third
+  category: 5. Medien und Unterhaltung
+- article: das
+  noun: Viertel
+  plural: Viertel
+  translation: quarter
+  category: 5. Medien und Unterhaltung
+- article: das
+  noun: Eiskunstlauf
+  plural: Eiskunstläufe
+  translation: figure skating
+  category: 6. Sport und Freizeit
+- article: das
+  noun: Eishockey
+  plural: Eishockeys
+  translation: ice hockey
+  category: 6. Sport und Freizeit
+- article: das
+  noun: Skispringen
+  plural: Skisprünge
+  translation: ski jumping
+  category: 6. Sport und Freizeit
+- article: das
+  noun: Reiten
+  plural: Reitens
+  translation: horse riding
+  category: 6. Sport und Freizeit
+- article: die
+  noun: Leichtathletik
+  plural: Leichtathletiken
+  translation: athletics
+  category: 6. Sport und Freizeit
+- article: das
+  noun: Boxen
+  plural: Boxens
+  translation: boxing
+  category: 6. Sport und Freizeit
+- article: das
+  noun: Tennis
+  plural: Tennisse
+  translation: tennis
+  category: 6. Sport und Freizeit
+- article: der
+  noun: Handball
+  plural: Handbälle
+  translation: handball
+  category: 6. Sport und Freizeit
+- article: der
+  noun: Volleyball
+  plural: Volleybälle
+  translation: volleyball
+  category: 6. Sport und Freizeit
+- article: das
+  noun: Turnier
+  plural: Turniere
+  translation: tournament
+  category: 6. Sport und Freizeit
+- article: die
+  noun: Mannschaft
+  plural: Mannschaften
+  translation: team
+  category: 6. Sport und Freizeit
+- article: das
+  noun: Qualifikationsspiel
+  plural: Qualifikationsspiele
+  translation: qualifying match
+  category: 6. Sport und Freizeit
+- article: die
+  noun: Weltmeisterschaft
+  plural: Weltmeisterschaften
+  translation: world championship
+  category: 6. Sport und Freizeit
+- article: die
+  noun: WM
+  plural: WMs
+  translation: World Cup
+  category: 6. Sport und Freizeit
+- article: die
+  noun: Europameisterschaft
+  plural: Europameisterschaften
+  translation: European championship
+  category: 6. Sport und Freizeit
+- article: die
+  noun: EM
+  plural: EMs
+  translation: European Championship
+  category: 6. Sport und Freizeit
+- article: das
+  noun: Tor
+  plural: Tore
+  translation: goal
+  category: 6. Sport und Freizeit
+- article: der
+  noun: Torwart
+  plural: Torwarte
+  translation: goalkeeper
+  category: 6. Sport und Freizeit
+- article: die
+  noun: Torwartin
+  plural: Torwartinnen
+  translation: goalkeeper (f)
+  category: 6. Sport und Freizeit
+- article: der
+  noun: Schiedsrichter
+  plural: Schiedsrichter
+  translation: referee
+  category: 6. Sport und Freizeit
+- article: die
+  noun: Schiedsrichterin
+  plural: Schiedsrichterinnen
+  translation: referee (f)
+  category: 6. Sport und Freizeit
+- article: die
+  noun: gelbe Karte
+  plural: gelben Karten
+  translation: yellow card
+  category: 6. Sport und Freizeit
+- article: die
+  noun: rote Karte
+  plural: roten Karten
+  translation: red card
+  category: 6. Sport und Freizeit
+- article: die
+  noun: Verletzung
+  plural: Verletzungen
+  translation: injury
+  category: 6. Sport und Freizeit
+- article: der
+  noun: Spieler
+  plural: Spieler
+  translation: player
+  category: 6. Sport und Freizeit
+- article: die
+  noun: Spielerin
+  plural: Spielerinnen
+  translation: player (f)
+  category: 6. Sport und Freizeit
+- article: der
+  noun: Fan
+  plural: Fans
+  translation: fan
+  category: 6. Sport und Freizeit
+- article: der
+  noun: Prinz
+  plural: Prinzen
+  translation: prince
+  category: 7. Geschichte und Erinnerung
+- article: die
+  noun: Prinzessin
+  plural: Prinzessinnen
+  translation: princess
+  category: 7. Geschichte und Erinnerung
+- article: die
+  noun: Eule
+  plural: Eulen
+  translation: owl
+  category: 7. Geschichte und Erinnerung
+- article: das
+  noun: Märchen
+  plural: Märchen
+  translation: fairy tale
+  category: 7. Geschichte und Erinnerung
+- article: die
+  noun: Kindheit
+  plural: Kindheiten
+  translation: childhood
+  category: 7. Geschichte und Erinnerung
+- article: der
+  noun: Jugendliche
+  plural: Jugendlichen
+  translation: young person (m)
+  category: 7. Geschichte und Erinnerung
+- article: die
+  noun: Jugendliche
+  plural: Jugendlichen
+  translation: young person (f)
+  category: 7. Geschichte und Erinnerung
+- article: die
+  noun: Jugend
+  plural: Jugenden
+  translation: youth
+  category: 7. Geschichte und Erinnerung
+- article: die
+  noun: Erinnerung
+  plural: Erinnerungen
+  translation: memory/remembrance
+  category: 7. Geschichte und Erinnerung
+- article: der
+  noun: Weltmeister
+  plural: Weltmeister
+  translation: world champion (m)
+  category: 7. Geschichte und Erinnerung
+- article: die
+  noun: Weltmeisterin
+  plural: Weltmeisterinnen
+  translation: world champion (f)
+  category: 7. Geschichte und Erinnerung
+- article: der
+  noun: Olympiasieger
+  plural: Olympiasieger
+  translation: Olympic champion (m)
+  category: 7. Geschichte und Erinnerung
+- article: die
+  noun: Olympiasiegerin
+  plural: Olympiasiegerinnen
+  translation: Olympic champion (f)
+  category: 7. Geschichte und Erinnerung
+- article: die
+  noun: Medaille
+  plural: Medaillen
+  translation: medal
+  category: 7. Geschichte und Erinnerung
+- article: der
+  noun: Pokal
+  plural: Pokale
+  translation: trophy/cup
+  category: 7. Geschichte und Erinnerung
+- article: die
+  noun: Berliner Mauer
+  plural: Berliner Mauern
+  translation: Berlin Wall
+  category: 7. Geschichte und Erinnerung
+- article: der
+  noun: Mauerfall
+  plural: Mauerfälle
+  translation: fall of the Wall
+  category: 7. Geschichte und Erinnerung
+- article: die
+  noun: Olympischen Spiele
+  plural: Olympischen Spiele
+  translation: Olympic Games
+  category: 7. Geschichte und Erinnerung
+- article: das
+  noun: Autorennen
+  plural: Autorennen
+  translation: car race
+  category: 7. Geschichte und Erinnerung
+- article: das
+  noun: Gastgeberland
+  plural: Gastgeberländer
+  translation: host country
+  category: 7. Geschichte und Erinnerung
+- article: das
+  noun: Ereignis
+  plural: Ereignisse
+  translation: event
+  category: 7. Geschichte und Erinnerung
+- article: die
+  noun: Erfindung
+  plural: Erfindungen
+  translation: invention
+  category: 7. Geschichte und Erinnerung
+- article: der
+  noun: Hut
+  plural: Hüte
+  translation: hat
+  category: 7. Geschichte und Erinnerung
+- article: die
+  noun: Perlenkette
+  plural: Perlenketten
+  translation: pearl necklace
+  category: 7. Geschichte und Erinnerung
+- article: der
+  noun: Minirock
+  plural: Miniröcke
+  translation: miniskirt
+  category: 7. Geschichte und Erinnerung
+- article: das
+  noun: Blumenmuster
+  plural: Blumenmuster
+  translation: floral pattern
+  category: 7. Geschichte und Erinnerung
+- article: die
+  noun: Strumpfhose
+  plural: Strumpfhosen
+  translation: tights/pantyhose
+  category: 7. Geschichte und Erinnerung
+- article: der
+  noun: Pumps
+  plural: Pumps
+  translation: pumps (shoes)
+  category: 7. Geschichte und Erinnerung
+- article: die
+  noun: Heimat
+  plural: Heimaten
+  translation: homeland
+  category: 8. Migration und Heimat
+- article: das
+  noun: Herkunftsland
+  plural: Herkunftsländer
+  translation: country of origin
+  category: 8. Migration und Heimat
+- article: der
+  noun: Gastarbeiter
+  plural: Gastarbeiter
+  translation: guest worker (m)
+  category: 8. Migration und Heimat
+- article: die
+  noun: Gastarbeiterin
+  plural: Gastarbeiterinnen
+  translation: guest worker (f)
+  category: 8. Migration und Heimat
+- article: die
+  noun: Zukunftsperspektive
+  plural: Zukunftsperspektiven
+  translation: future perspective
+  category: 8. Migration und Heimat
+- article: das
+  noun: Gefühl
+  plural: Gefühle
+  translation: feeling
+  category: 8. Migration und Heimat
+- article: die
+  noun: Geduld
+  plural: Gedulden
+  translation: patience
+  category: 8. Migration und Heimat
+- article: die
+  noun: Unterlagen
+  plural: Unterlagen
+  translation: documents
+  category: 8. Migration und Heimat
+- article: die
+  noun: Anerkennung
+  plural: Anerkennungen
+  translation: recognition
+  category: 8. Migration und Heimat
+- article: das
+  noun: Abschlusszeugnis
+  plural: Abschlusszeugnisse
+  translation: graduation certificate
+  category: 8. Migration und Heimat
+- article: das
+  noun: Führungszeugnis
+  plural: Führungszeugnisse
+  translation: certificate of good conduct
+  category: 8. Migration und Heimat
+- article: das
+  noun: Gesundheitszeugnis
+  plural: Gesundheitszeugnisse
+  translation: health certificate
+  category: 8. Migration und Heimat
+- article: der
+  noun: Nachweis
+  plural: Nachweise
+  translation: proof/certificate
+  category: 8. Migration und Heimat
+- article: das
+  noun: Deutschzertifikat
+  plural: Deutschzertifikate
+  translation: German certificate
+  category: 8. Migration und Heimat
+- article: die
+  noun: Studienbescheinigung
+  plural: Studienbescheinigungen
+  translation: enrollment certificate
+  category: 8. Migration und Heimat
+- article: die
+  noun: Bescheinigung
+  plural: Bescheinigungen
+  translation: certificate
+  category: 8. Migration und Heimat
+- article: die
+  noun: Spezialisierung
+  plural: Spezialisierungen
+  translation: specialization
+  category: 8. Migration und Heimat
+- article: die
+  noun: Übersetzung
+  plural: Übersetzungen
+  translation: translation
+  category: 8. Migration und Heimat
+- article: die
+  noun: Beglaubigung
+  plural: Beglaubigungen
+  translation: certification/authentication
+  category: 8. Migration und Heimat
+- article: das
+  noun: Schreiben
+  plural: Schreiben
+  translation: letter/writing
+  category: 8. Migration und Heimat
+- article: die
+  noun: Rückfrage
+  plural: Rückfragen
+  translation: query/inquiry
+  category: 8. Migration und Heimat
+- article: die
+  noun: Teilzeitstelle
+  plural: Teilzeitstellen
+  translation: part-time position
+  category: 9. Arbeit und Beruf
+- article: die
+  noun: Vollzeitstelle
+  plural: Vollzeitstellen
+  translation: full-time position
+  category: 9. Arbeit und Beruf
+- article: das
+  noun: Vorstellungsgespräch
+  plural: Vorstellungsgespräche
+  translation: job interview
+  category: 9. Arbeit und Beruf
+- article: die
+  noun: Bewerbung
+  plural: Bewerbungen
+  translation: application
+  category: 9. Arbeit und Beruf
+- article: der
+  noun: Lebenslauf
+  plural: Lebensläufe
+  translation: CV/resume
+  category: 9. Arbeit und Beruf
+- article: das
+  noun: Anschreiben
+  plural: Anschreiben
+  translation: cover letter
+  category: 9. Arbeit und Beruf
+- article: die
+  noun: Zusage
+  plural: Zusagen
+  translation: acceptance/confirmation
+  category: 9. Arbeit und Beruf
+- article: die
+  noun: Absage
+  plural: Absagen
+  translation: rejection
+  category: 9. Arbeit und Beruf
+- article: der
+  noun: Gabelstapler
+  plural: Gabelstapler
+  translation: forklift
+  category: 9. Arbeit und Beruf
+- article: die
+  noun: Säge
+  plural: Sägen
+  translation: saw
+  category: 9. Arbeit und Beruf
+- article: der
+  noun: Hammer
+  plural: Hämmer
+  translation: hammer
+  category: 9. Arbeit und Beruf
+- article: die
+  noun: Bohrmaschine
+  plural: Bohrmaschinen
+  translation: drill
+  category: 9. Arbeit und Beruf
+- article: die
+  noun: Nähmaschine
+  plural: Nähmaschinen
+  translation: sewing machine
+  category: 9. Arbeit und Beruf
+- article: die
+  noun: Schweißermaske
+  plural: Schweißermasken
+  translation: welding mask
+  category: 9. Arbeit und Beruf
+- article: das
+  noun: Schweißgerät
+  plural: Schweißgeräte
+  translation: welding equipment
+  category: 9. Arbeit und Beruf
+- article: der
+  noun: Metallbauer
+  plural: Metallbauer
+  translation: metalworker (m)
+  category: 9. Arbeit und Beruf
+- article: die
+  noun: Metallbauerin
+  plural: Metallbauerinnen
+  translation: metalworker (f)
+  category: 9. Arbeit und Beruf
+- article: der
+  noun: Modeschneider
+  plural: Modeschneider
+  translation: fashion tailor (m)
+  category: 9. Arbeit und Beruf
+- article: die
+  noun: Modeschneiderin
+  plural: Modeschneiderinnen
+  translation: fashion tailor (f)
+  category: 9. Arbeit und Beruf
+- article: der
+  noun: Beton
+  plural: Betone
+  translation: concrete
+  category: 9. Arbeit und Beruf
+- article: der
+  noun: Umgang
+  plural: Umgänge
+  translation: interaction/handling
+  category: 9. Arbeit und Beruf
+- article: die
+  noun: Herstellung
+  plural: Herstellungen
+  translation: production/manufacturing
+  category: 9. Arbeit und Beruf
+- article: der
+  noun: Ansprechpartner
+  plural: Ansprechpartner
+  translation: contact person (m)
+  category: 9. Arbeit und Beruf
+- article: die
+  noun: Ansprechpartnerin
+  plural: Ansprechpartnerinnen
+  translation: contact person (f)
+  category: 9. Arbeit und Beruf
+- article: der
+  noun: Schichtdienst
+  plural: Schichtdienste
+  translation: shift work
+  category: 9. Arbeit und Beruf
+- article: die
+  noun: Zuverlässigkeit
+  plural: Zuverlässigkeiten
+  translation: reliability
+  category: 9. Arbeit und Beruf
+- article: die
+  noun: Belastbarkeit
+  plural: Belastbarkeiten
+  translation: resilience
+  category: 9. Arbeit und Beruf
+- article: die
+  noun: Teamfähigkeit
+  plural: Teamfähigkeiten
+  translation: team skills
+  category: 9. Arbeit und Beruf
+- article: die
+  noun: Herausforderung
+  plural: Herausforderungen
+  translation: challenge
+  category: 9. Arbeit und Beruf
+- article: der
+  noun: Seiteneinsteiger
+  plural: Seiteneinsteiger
+  translation: career changer (m)
+  category: 9. Arbeit und Beruf
+- article: die
+  noun: Seiteneinsteigerin
+  plural: Seiteneinsteigerinnen
+  translation: career changer (f)
+  category: 9. Arbeit und Beruf
+- article: der
+  noun: Quereinsteiger
+  plural: Quereinsteiger
+  translation: lateral entrant (m)
+  category: 9. Arbeit und Beruf
+- article: die
+  noun: Quereinsteigerin
+  plural: Quereinsteigerinnen
+  translation: lateral entrant (f)
+  category: 9. Arbeit und Beruf
+- article: die
+  noun: Einarbeitung
+  plural: Einarbeitungen
+  translation: training/induction
+  category: 9. Arbeit und Beruf
+- article: die
+  noun: Kenntnisse
+  plural: Kenntnisse
+  translation: knowledge/skills
+  category: 9. Arbeit und Beruf
+- article: die
+  noun: Position
+  plural: Positionen
+  translation: position
+  category: 9. Arbeit und Beruf
+- article: die
+  noun: Tätigkeit
+  plural: Tätigkeiten
+  translation: activity/job
+  category: 9. Arbeit und Beruf
+- article: die
+  noun: Erfahrung
+  plural: Erfahrungen
+  translation: experience
+  category: 9. Arbeit und Beruf
+- article: die
+  noun: Stärke
+  plural: Stärken
+  translation: strength
+  category: 9. Arbeit und Beruf
+- article: die
+  noun: Schwäche
+  plural: Schwächen
+  translation: weakness
+  category: 9. Arbeit und Beruf
+- article: die
+  noun: Probezeit
+  plural: Probezeiten
+  translation: probation period
+  category: 9. Arbeit und Beruf
+- article: das
+  noun: Mitarbeitergespräch
+  plural: Mitarbeitergespräche
+  translation: employee meeting
+  category: 9. Arbeit und Beruf
+- article: die
+  noun: Befristung
+  plural: Befristungen
+  translation: limitation/fixed term
+  category: 9. Arbeit und Beruf
+- article: der
+  noun: Lohn
+  plural: Löhne
+  translation: wage
+  category: 9. Arbeit und Beruf
+- article: die
+  noun: Vereinbarung
+  plural: Vereinbarungen
+  translation: agreement
+  category: 9. Arbeit und Beruf
+- article: die
+  noun: Liste
+  plural: Listen
+  translation: list
+  category: 10. Büro und Energie
+- article: das
+  noun: Fenster
+  plural: Fenster
+  translation: window
+  category: 10. Büro und Energie
+- article: das
+  noun: Gerät
+  plural: Geräte
+  translation: device/appliance
+  category: 10. Büro und Energie
+- article: das
+  noun: Licht
+  plural: Lichter
+  translation: light
+  category: 10. Büro und Energie
+- article: der
+  noun: Wasserhahn
+  plural: Wasserhähne
+  translation: water tap
+  category: 10. Büro und Energie
+- article: der
+  noun: Einwand
+  plural: Einwände
+  translation: objection
+  category: 10. Büro und Energie
+- article: die
+  noun: Luft
+  plural: Lüfte
+  translation: air
+  category: 10. Büro und Energie
+- article: die
+  noun: Maßnahme
+  plural: Maßnahmen
+  translation: measure
+  category: 10. Büro und Energie
+- article: der
+  noun: Geldbeutel
+  plural: Geldbeutel
+  translation: wallet/purse
+  category: 10. Büro und Energie
+- article: das
+  noun: Protokoll
+  plural: Protokolle
+  translation: protocol/minutes
+  category: 10. Büro und Energie
+- article: das
+  noun: Ergebnis
+  plural: Ergebnisse
+  translation: result
+  category: 10. Büro und Energie
+- article: der
+  noun: Stress
+  plural: Stresses
+  translation: stress
+  category: 10. Büro und Energie
+- article: der
+  noun: Arbeitnehmer
+  plural: Arbeitnehmer
+  translation: employee (m)
+  category: 10. Büro und Energie
+- article: die
+  noun: Arbeitnehmerin
+  plural: Arbeitnehmerinnen
+  translation: employee (f)
+  category: 10. Büro und Energie
+- article: das
+  noun: Recht
+  plural: Rechte
+  translation: right
+  category: 10. Büro und Energie
+- article: das
+  noun: Arbeitnehmerrecht
+  plural: Arbeitnehmerrechte
+  translation: employee right
+  category: 10. Büro und Energie
+- article: der
+  noun: Betriebsrat
+  plural: Betriebsräte
+  translation: works council
+  category: 10. Büro und Energie
+- article: der
+  noun: Mindestlohn
+  plural: Mindestlöhne
+  translation: minimum wage
+  category: 10. Büro und Energie
+- article: die
+  noun: Herkunft
+  plural: Herkünfte
+  translation: origin
+  category: 10. Büro und Energie
+- article: der
+  noun: Grund
+  plural: Gründe
+  translation: reason
+  category: 10. Büro und Energie
+- article: die
+  noun: Allergie
+  plural: Allergien
+  translation: allergy
+  category: 11. Gesundheit und Ernährung
+- article: die
+  noun: Magenschmerzen
+  plural: Magenschmerzen
+  translation: stomach ache
+  category: 11. Gesundheit und Ernährung
+- article: die
+  noun: Kondition
+  plural: Konditionen
+  translation: fitness/condition
+  category: 11. Gesundheit und Ernährung
+- article: das
+  noun: Krafttraining
+  plural: Krafttrainings
+  translation: strength training
+  category: 11. Gesundheit und Ernährung
+- article: die
+  noun: Kalorie
+  plural: Kalorien
+  translation: calorie
+  category: 11. Gesundheit und Ernährung
+- article: der
+  noun: Schritt
+  plural: Schritte
+  translation: step
+  category: 11. Gesundheit und Ernährung
+- article: die
+  noun: Verletzung
+  plural: Verletzungen
+  translation: injury
+  category: 11. Gesundheit und Ernährung
+- article: das
+  noun: Fieber
+  plural: Fieber
+  translation: fever
+  category: 11. Gesundheit und Ernährung
+- article: die
+  noun: Erkältung
+  plural: Erkältungen
+  translation: cold
+  category: 11. Gesundheit und Ernährung
+- article: der
+  noun: Schmerz
+  plural: Schmerzen
+  translation: pain
+  category: 11. Gesundheit und Ernährung
+- article: das
+  noun: Bioprodukt
+  plural: Bioprodukte
+  translation: organic product
+  category: 11. Gesundheit und Ernährung
+- article: die
+  noun: Landwirtschaft
+  plural: Landwirtschaften
+  translation: agriculture
+  category: 11. Gesundheit und Ernährung
+- article: die
+  noun: Torte
+  plural: Torten
+  translation: cake/tart
+  category: 11. Gesundheit und Ernährung
+- article: die
+  noun: Essgewohnheit
+  plural: Essgewohnheiten
+  translation: eating habit
+  category: 11. Gesundheit und Ernährung
+- article: die
+  noun: Zutat
+  plural: Zutaten
+  translation: ingredient
+  category: 11. Gesundheit und Ernährung
+- article: der
+  noun: Vegetarier
+  plural: Vegetarier
+  translation: vegetarian (m)
+  category: 11. Gesundheit und Ernährung
+- article: die
+  noun: Vegetarierin
+  plural: Vegetarierinnen
+  translation: vegetarian (f)
+  category: 11. Gesundheit und Ernährung
+- article: der
+  noun: Veganer
+  plural: Veganer
+  translation: vegan (m)
+  category: 11. Gesundheit und Ernährung
+- article: die
+  noun: Veganerin
+  plural: Veganerinnen
+  translation: vegan (f)
+  category: 11. Gesundheit und Ernährung
+- article: das
+  noun: Prozent
+  plural: Prozente
+  translation: percent
+  category: 11. Gesundheit und Ernährung
+- article: die
+  noun: Statistik
+  plural: Statistiken
+  translation: statistics
+  category: 11. Gesundheit und Ernährung
+- article: der
+  noun: Nährstoff
+  plural: Nährstoffe
+  translation: nutrient
+  category: 11. Gesundheit und Ernährung
+- article: die
+  noun: Einkaufsliste
+  plural: Einkaufslisten
+  translation: shopping list
+  category: 11. Gesundheit und Ernährung
+- article: der
+  noun: Arzt
+  plural: Ärzte
+  translation: doctor (m)
+  category: 11. Gesundheit und Ernährung
+- article: die
+  noun: Ärztin
+  plural: Ärztinnen
+  translation: doctor (f)
+  category: 11. Gesundheit und Ernährung
+- article: das
+  noun: Krankenhaus
+  plural: Krankenhäuser
+  translation: hospital
+  category: 11. Gesundheit und Ernährung
+- article: die
+  noun: Apotheke
+  plural: Apotheken
+  translation: pharmacy
+  category: 11. Gesundheit und Ernährung
+- article: das
+  noun: Medikament
+  plural: Medikamente
+  translation: medicine
+  category: 11. Gesundheit und Ernährung
+- article: die
+  noun: Krankheit
+  plural: Krankheiten
+  translation: illness
+  category: 11. Gesundheit und Ernährung
+- article: die
+  noun: Versicherung
+  plural: Versicherungen
+  translation: insurance
+  category: 12. Versicherung und Autos
+- article: die
+  noun: Haftpflichtversicherung
+  plural: Haftpflichtversicherungen
+  translation: liability insurance
+  category: 12. Versicherung und Autos
+- article: die
+  noun: Rentenversicherung
+  plural: Rentenversicherungen
+  translation: pension insurance
+  category: 12. Versicherung und Autos
+- article: die
+  noun: Unfallversicherung
+  plural: Unfallversicherungen
+  translation: accident insurance
+  category: 12. Versicherung und Autos
+- article: die
+  noun: Rechtsschutzversicherung
+  plural: Rechtsschutzversicherungen
+  translation: legal protection insurance
+  category: 12. Versicherung und Autos
+- article: die
+  noun: Wohngebäudeversicherung
+  plural: Wohngebäudeversicherungen
+  translation: building insurance
+  category: 12. Versicherung und Autos
+- article: die
+  noun: Berufsunfähigkeitsversicherung
+  plural: Berufsunfähigkeitsversicherungen
+  translation: disability insurance
+  category: 12. Versicherung und Autos
+- article: die
+  noun: Teilkasko
+  plural: Teilkaskos
+  translation: partial comprehensive insurance
+  category: 12. Versicherung und Autos
+- article: die
+  noun: Vollkasko
+  plural: Vollkaskos
+  translation: full comprehensive insurance
+  category: 12. Versicherung und Autos
+- article: der
+  noun: Schaden
+  plural: Schäden
+  translation: damage
+  category: 12. Versicherung und Autos
+- article: die
+  noun: Kosten
+  plural: Kosten
+  translation: costs
+  category: 12. Versicherung und Autos
+- article: der
+  noun: Versicherungsbeitrag
+  plural: Versicherungsbeiträge
+  translation: insurance premium
+  category: 12. Versicherung und Autos
+- article: der
+  noun: Geschädigte
+  plural: Geschädigten
+  translation: injured party (m)
+  category: 12. Versicherung und Autos
+- article: die
+  noun: Geschädigte
+  plural: Geschädigten
+  translation: injured party (f)
+  category: 12. Versicherung und Autos
+- article: der
+  noun: Schadenshergang
+  plural: Schadenshergänge
+  translation: course of damage
+  category: 12. Versicherung und Autos
+- article: der
+  noun: Personenschaden
+  plural: Personenschäden
+  translation: personal injury
+  category: 12. Versicherung und Autos
+- article: der
+  noun: Sachschaden
+  plural: Sachschäden
+  translation: property damage
+  category: 12. Versicherung und Autos
+- article: der
+  noun: Schadensfall
+  plural: Schadensfälle
+  translation: claim/damage case
+  category: 12. Versicherung und Autos
+- article: der
+  noun: Versicherungsschutz
+  plural: Versicherungsschutze
+  translation: insurance coverage
+  category: 12. Versicherung und Autos
+- article: die
+  noun: Selbstbeteiligung
+  plural: Selbstbeteiligungen
+  translation: deductible
+  category: 12. Versicherung und Autos
+- article: der
+  noun: Vandalismus
+  plural: Vandalismusse
+  translation: vandalism
+  category: 12. Versicherung und Autos
+- article: die
+  noun: Panne
+  plural: Pannen
+  translation: breakdown
+  category: 12. Versicherung und Autos
+- article: der
+  noun: Unfallgegner
+  plural: Unfallgegner
+  translation: opposing party in accident (m)
+  category: 12. Versicherung und Autos
+- article: die
+  noun: Unfallgegnerin
+  plural: Unfallgegnerinnen
+  translation: opposing party in accident (f)
+  category: 12. Versicherung und Autos
+- article: der
+  noun: Preisvergleich
+  plural: Preisvergleiche
+  translation: price comparison
+  category: 12. Versicherung und Autos
+- article: der
+  noun: Kleinwagen
+  plural: Kleinwagen
+  translation: small car
+  category: 12. Versicherung und Autos
+- article: die
+  noun: Zulassungsbescheinigung
+  plural: Zulassungsbescheinigungen
+  translation: vehicle registration
+  category: 12. Versicherung und Autos
+- article: die
+  noun: Beifahrertür
+  plural: Beifahrertüren
+  translation: passenger door
+  category: 12. Versicherung und Autos
+- article: die
+  noun: Fahrertür
+  plural: Fahrertüren
+  translation: driver's door
+  category: 12. Versicherung und Autos
+- article: der
+  noun: Seitenspiegel
+  plural: Seitenspiegel
+  translation: side mirror
+  category: 12. Versicherung und Autos
+- article: der
+  noun: Rückspiegel
+  plural: Rückspiegel
+  translation: rear-view mirror
+  category: 12. Versicherung und Autos
+- article: das
+  noun: Rücklicht
+  plural: Rücklichter
+  translation: rear light
+  category: 12. Versicherung und Autos
+- article: das
+  noun: Vorderlicht
+  plural: Vorderlichter
+  translation: front light
+  category: 12. Versicherung und Autos
+- article: die
+  noun: Delle
+  plural: Dellen
+  translation: dent
+  category: 12. Versicherung und Autos
+- article: der
+  noun: Kofferraum
+  plural: Kofferräume
+  translation: trunk/boot
+  category: 12. Versicherung und Autos
+- article: das
+  noun: Nummernschild
+  plural: Nummernschilder
+  translation: license plate
+  category: 12. Versicherung und Autos
+- article: der
+  noun: Reifen
+  plural: Reifen
+  translation: tire
+  category: 12. Versicherung und Autos
+- article: der
+  noun: Blinker
+  plural: Blinker
+  translation: turn signal
+  category: 12. Versicherung und Autos
+- article: die
+  noun: Stoßstange
+  plural: Stoßstangen
+  translation: bumper
+  category: 12. Versicherung und Autos
+- article: der
+  noun: Kostenvoranschlag
+  plural: Kostenvoranschläge
+  translation: cost estimate
+  category: 12. Versicherung und Autos
+- article: der
+  noun: Lautsprecher
+  plural: Lautsprecher
+  translation: loudspeaker
+  category: 12. Versicherung und Autos
+- article: der
+  noun: DTZ
+  plural: DTZs
+  translation: German Test for Immigrants
+  category: 13. Prüfung und Ehrenamt
+- article: das
+  noun: Zertifikat
+  plural: Zertifikate
+  translation: certificate
+  category: 13. Prüfung und Ehrenamt
+- article: der
+  noun: Versuch
+  plural: Versuche
+  translation: attempt/try
+  category: 13. Prüfung und Ehrenamt
+- article: der
+  noun: Spickzettel
+  plural: Spickzettel
+  translation: cheat sheet
+  category: 13. Prüfung und Ehrenamt
+- article: die
+  noun: Strafe
+  plural: Strafen
+  translation: punishment/penalty
+  category: 13. Prüfung und Ehrenamt
+- article: die
+  noun: Nervosität
+  plural: Nervositäten
+  translation: nervousness
+  category: 13. Prüfung und Ehrenamt
+- article: die
+  noun: Angst
+  plural: Ängste
+  translation: fear
+  category: 13. Prüfung und Ehrenamt
+- article: die
+  noun: Arbeitserlaubnis
+  plural: Arbeitserlaubnisse
+  translation: work permit
+  category: 13. Prüfung und Ehrenamt
+- article: der
+  noun: Helfer
+  plural: Helfer
+  translation: helper (m)
+  category: 13. Prüfung und Ehrenamt
+- article: die
+  noun: Helferin
+  plural: Helferinnen
+  translation: helper (f)
+  category: 13. Prüfung und Ehrenamt
+- article: die
+  noun: Tafel
+  plural: Tafeln
+  translation: food bank/board
+  category: 13. Prüfung und Ehrenamt
+- article: die
+  noun: Kleiderkammer
+  plural: Kleiderkammern
+  translation: clothing bank
+  category: 13. Prüfung und Ehrenamt
+- article: die
+  noun: Freiwillige Feuerwehr
+  plural: Freiwilligen Feuerwehren
+  translation: volunteer fire department
+  category: 13. Prüfung und Ehrenamt
+- article: das
+  noun: Tierheim
+  plural: Tierheime
+  translation: animal shelter
+  category: 13. Prüfung und Ehrenamt
+- article: die
+  noun: Notsituation
+  plural: Notsituationen
+  translation: emergency situation
+  category: 13. Prüfung und Ehrenamt
+- article: die
+  noun: Unterstützung
+  plural: Unterstützungen
+  translation: support
+  category: 13. Prüfung und Ehrenamt
+- article: der
+  noun: Mann
+  plural: Männer
+  translation: man
+  category: 14. Grundlegende Nomen
+- article: die
+  noun: Frau
+  plural: Frauen
+  translation: woman
+  category: 14. Grundlegende Nomen
+- article: das
+  noun: Kind
+  plural: Kinder
+  translation: child
+  category: 14. Grundlegende Nomen
+- article: der
+  noun: Mensch
+  plural: Menschen
+  translation: human/person
+  category: 14. Grundlegende Nomen
+- article: die
+  noun: Leute
+  plural: Leute
+  translation: people
+  category: 14. Grundlegende Nomen
+- article: der
+  noun: Tag
+  plural: Tage
+  translation: day
+  category: 14. Grundlegende Nomen
+- article: die
+  noun: Woche
+  plural: Wochen
+  translation: week
+  category: 14. Grundlegende Nomen
+- article: der
+  noun: Monat
+  plural: Monate
+  translation: month
+  category: 14. Grundlegende Nomen
+- article: das
+  noun: Jahr
+  plural: Jahre
+  translation: year
+  category: 14. Grundlegende Nomen
+- article: die
+  noun: Zeit
+  plural: Zeiten
+  translation: time
+  category: 14. Grundlegende Nomen
+- article: die
+  noun: Stunde
+  plural: Stunden
+  translation: hour
+  category: 14. Grundlegende Nomen
+- article: die
+  noun: Minute
+  plural: Minuten
+  translation: minute
+  category: 14. Grundlegende Nomen
+- article: die
+  noun: Sekunde
+  plural: Sekunden
+  translation: second
+  category: 14. Grundlegende Nomen
+- article: die
+  noun: Straße
+  plural: Straßen
+  translation: street
+  category: 14. Grundlegende Nomen
+- article: die
+  noun: Stadt
+  plural: Städte
+  translation: city
+  category: 14. Grundlegende Nomen
+- article: das
+  noun: Dorf
+  plural: Dörfer
+  translation: village
+  category: 14. Grundlegende Nomen
+- article: das
+  noun: Land
+  plural: Länder
+  translation: country
+  category: 14. Grundlegende Nomen
+- article: der
+  noun: Bahnhof
+  plural: Bahnhöfe
+  translation: train station
+  category: 14. Grundlegende Nomen
+- article: der
+  noun: Zug
+  plural: Züge
+  translation: train
+  category: 14. Grundlegende Nomen
+- article: der
+  noun: Bus
+  plural: Busse
+  translation: bus
+  category: 14. Grundlegende Nomen
+- article: das
+  noun: Auto
+  plural: Autos
+  translation: car
+  category: 14. Grundlegende Nomen
+- article: das
+  noun: Fahrrad
+  plural: Fahrräder
+  translation: bicycle
+  category: 14. Grundlegende Nomen
+- article: der
+  noun: Koffer
+  plural: Koffer
+  translation: suitcase
+  category: 14. Grundlegende Nomen
+- article: die
+  noun: Schule
+  plural: Schulen
+  translation: school
+  category: 14. Grundlegende Nomen
+- article: die
+  noun: Universität
+  plural: Universitäten
+  translation: university
+  category: 14. Grundlegende Nomen
+- article: der
+  noun: Lehrer
+  plural: Lehrer
+  translation: teacher (m)
+  category: 14. Grundlegende Nomen
+- article: die
+  noun: Lehrerin
+  plural: Lehrerinnen
+  translation: teacher (f)
+  category: 14. Grundlegende Nomen
+- article: der
+  noun: Schüler
+  plural: Schüler
+  translation: student (m)
+  category: 14. Grundlegende Nomen
+- article: die
+  noun: Schülerin
+  plural: Schülerinnen
+  translation: student (f)
+  category: 14. Grundlegende Nomen
+- article: das
+  noun: Buch
+  plural: Bücher
+  translation: book
+  category: 14. Grundlegende Nomen
+- article: das
+  noun: Heft
+  plural: Hefte
+  translation: notebook
+  category: 14. Grundlegende Nomen
+- article: der
+  noun: Stift
+  plural: Stifte
+  translation: pen
+  category: 14. Grundlegende Nomen
+- article: der
+  noun: Tisch
+  plural: Tische
+  translation: table
+  category: 14. Grundlegende Nomen
+- article: der
+  noun: Stuhl
+  plural: Stühle
+  translation: chair
+  category: 14. Grundlegende Nomen
+- article: das
+  noun: Bett
+  plural: Betten
+  translation: bed
+  category: 14. Grundlegende Nomen
+- article: der
+  noun: Schrank
+  plural: Schränke
+  translation: cupboard/wardrobe
+  category: 14. Grundlegende Nomen
+- article: das
+  noun: Essen
+  plural: Essen
+  translation: food/meal
+  category: 14. Grundlegende Nomen
+- article: das
+  noun: Frühstück
+  plural: Frühstücke
+  translation: breakfast
+  category: 14. Grundlegende Nomen
+- article: das
+  noun: Mittagessen
+  plural: Mittagessen
+  translation: lunch
+  category: 14. Grundlegende Nomen
+- article: das
+  noun: Abendessen
+  plural: Abendessen
+  translation: dinner
+  category: 14. Grundlegende Nomen
+- article: das
+  noun: Brot
+  plural: Brote
+  translation: bread
+  category: 14. Grundlegende Nomen
+- article: die
+  noun: Butter
+  plural: Butter
+  translation: butter
+  category: 14. Grundlegende Nomen
+- article: der
+  noun: Käse
+  plural: Käse
+  translation: cheese
+  category: 14. Grundlegende Nomen
+- article: die
+  noun: Milch
+  plural: Milche
+  translation: milk
+  category: 14. Grundlegende Nomen
+- article: das
+  noun: Wasser
+  plural: Wasser
+  translation: water
+  category: 14. Grundlegende Nomen
+- article: der
+  noun: Kaffee
+  plural: Kaffee
+  translation: coffee
+  category: 14. Grundlegende Nomen
+- article: der
+  noun: Tee
+  plural: Tee
+  translation: tea
+  category: 14. Grundlegende Nomen
+- article: der
+  noun: Apfel
+  plural: Äpfel
+  translation: apple
+  category: 14. Grundlegende Nomen
+- article: die
+  noun: Banane
+  plural: Bananen
+  translation: banana
+  category: 14. Grundlegende Nomen
+- article: die
+  noun: Orange
+  plural: Orangen
+  translation: orange
+  category: 14. Grundlegende Nomen
+- article: die
+  noun: Tomate
+  plural: Tomaten
+  translation: tomato
+  category: 14. Grundlegende Nomen
+- article: die
+  noun: Kartoffel
+  plural: Kartoffeln
+  translation: potato
+  category: 14. Grundlegende Nomen
+- article: das
+  noun: Fleisch
+  plural: Fleisch
+  translation: meat
+  category: 14. Grundlegende Nomen
+- article: der
+  noun: Fisch
+  plural: Fische
+  translation: fish
+  category: 14. Grundlegende Nomen
+- article: das
+  noun: Ei
+  plural: Eier
+  translation: egg
+  category: 14. Grundlegende Nomen
+- article: der
+  noun: Salat
+  plural: Salate
+  translation: salad/lettuce
+  category: 14. Grundlegende Nomen
+- article: das
+  noun: Gemüse
+  plural: Gemüse
+  translation: vegetables
+  category: 14. Grundlegende Nomen
+- article: das
+  noun: Obst
+  plural: Obst
+  translation: fruit
+  category: 14. Grundlegende Nomen
+- article: der
+  noun: Körper
+  plural: Körper
+  translation: body
+  category: 14. Grundlegende Nomen
+- article: der
+  noun: Kopf
+  plural: Köpfen
+  translation: head
+  category: 14. Grundlegende Nomen
+- article: das
+  noun: Gesicht
+  plural: Gesichter
+  translation: face
+  category: 14. Grundlegende Nomen
+- article: das
+  noun: Auge
+  plural: Augen
+  translation: eye
+  category: 14. Grundlegende Nomen
+- article: das
+  noun: Ohr
+  plural: Ohren
+  translation: ear
+  category: 14. Grundlegende Nomen
+- article: die
+  noun: Nase
+  plural: Nasen
+  translation: nose
+  category: 14. Grundlegende Nomen
+- article: der
+  noun: Mund
+  plural: Münder
+  translation: mouth
+  category: 14. Grundlegende Nomen
+- article: die
+  noun: Hand
+  plural: Hände
+  translation: hand
+  category: 14. Grundlegende Nomen
+- article: der
+  noun: Fuß
+  plural: Füße
+  translation: foot
+  category: 14. Grundlegende Nomen
+- article: das
+  noun: Bein
+  plural: Beine
+  translation: leg
+  category: 14. Grundlegende Nomen
+- article: der
+  noun: Arm
+  plural: Arme
+  translation: arm
+  category: 14. Grundlegende Nomen
+- article: der
+  noun: Rücken
+  plural: Rücken
+  translation: back
+  category: 14. Grundlegende Nomen
+- article: der
+  noun: Bauch
+  plural: Bäuche
+  translation: belly/stomach
+  category: 14. Grundlegende Nomen
+- article: das
+  noun: Herz
+  plural: Herzen
+  translation: heart
+  category: 14. Grundlegende Nomen
+- article: der
+  noun: Beruf
+  plural: Berufe
+  translation: profession
+  category: 14. Grundlegende Nomen
+- article: die
+  noun: Arbeit
+  plural: Arbeiten
+  translation: work
+  category: 14. Grundlegende Nomen
+- article: das
+  noun: Büro
+  plural: Büros
+  translation: office
+  category: 14. Grundlegende Nomen
+- article: die
+  noun: Firma
+  plural: Firmen
+  translation: company
+  category: 14. Grundlegende Nomen
+- article: der
+  noun: Kollege
+  plural: Kollegen
+  translation: colleague (m)
+  category: 14. Grundlegende Nomen
+- article: die
+  noun: Kollegin
+  plural: Kolleginnen
+  translation: colleague (f)
+  category: 14. Grundlegende Nomen
+- article: der
+  noun: Chef
+  plural: Chefs
+  translation: boss (m)
+  category: 14. Grundlegende Nomen
+- article: die
+  noun: Chefin
+  plural: Chefinnen
+  translation: boss (f)
+  category: 14. Grundlegende Nomen
+- article: das
+  noun: Geld
+  plural: Gelder
+  translation: money
+  category: 14. Grundlegende Nomen
+- article: der
+  noun: Euro
+  plural: Euros
+  translation: euro
+  category: 14. Grundlegende Nomen
+- article: der
+  noun: Cent
+  plural: Cents
+  translation: cent
+  category: 14. Grundlegende Nomen
+- article: die
+  noun: Bank
+  plural: Banken
+  translation: bank
+  category: 14. Grundlegende Nomen
+- article: das
+  noun: Konto
+  plural: Konten
+  translation: account
+  category: 14. Grundlegende Nomen
+- article: die
+  noun: Kreditkarte
+  plural: Kreditkarten
+  translation: credit card
+  category: 14. Grundlegende Nomen
+- article: der
+  noun: Preis
+  plural: Preise
+  translation: price
+  category: 14. Grundlegende Nomen
+- article: die
+  noun: Familie
+  plural: Familien
+  translation: family
+  category: 14. Grundlegende Nomen
+- article: der
+  noun: Vater
+  plural: Väter
+  translation: father
+  category: 14. Grundlegende Nomen
+- article: die
+  noun: Mutter
+  plural: Mütter
+  translation: mother
+  category: 14. Grundlegende Nomen
+- article: der
+  noun: Bruder
+  plural: Brüder
+  translation: brother
+  category: 14. Grundlegende Nomen
+- article: die
+  noun: Schwester
+  plural: Schwestern
+  translation: sister
+  category: 14. Grundlegende Nomen
+- article: der
+  noun: Sohn
+  plural: Söhne
+  translation: son
+  category: 14. Grundlegende Nomen
+- article: die
+  noun: Tochter
+  plural: Töchter
+  translation: daughter
+  category: 14. Grundlegende Nomen
+- article: der
+  noun: Großvater
+  plural: Großväter
+  translation: grandfather
+  category: 14. Grundlegende Nomen
+- article: die
+  noun: Großmutter
+  plural: Großmütter
+  translation: grandmother
+  category: 14. Grundlegende Nomen
+- article: das
+  noun: Wetter
+  plural: Wetter
+  translation: weather
+  category: 14. Grundlegende Nomen
+- article: die
+  noun: Sonne
+  plural: Sonnen
+  translation: sun
+  category: 14. Grundlegende Nomen
+- article: der
+  noun: Regen
+  plural: Regen
+  translation: rain
+  category: 14. Grundlegende Nomen
+- article: der
+  noun: Schnee
+  plural: Schnee
+  translation: snow
+  category: 14. Grundlegende Nomen
+- article: der
+  noun: Wind
+  plural: Winde
+  translation: wind
+  category: 14. Grundlegende Nomen
+- article: die
+  noun: Wolke
+  plural: Wolken
+  translation: cloud
+  category: 14. Grundlegende Nomen
+- article: der
+  noun: Frühling
+  plural: Frühlings
+  translation: spring
+  category: 14. Grundlegende Nomen
+- article: der
+  noun: Sommer
+  plural: Sommer
+  translation: summer
+  category: 14. Grundlegende Nomen
+- article: der
+  noun: Herbst
+  plural: Herbste
+  translation: autumn
+  category: 14. Grundlegende Nomen
+- article: der
+  noun: Winter
+  plural: Winter
+  translation: winter
+  category: 14. Grundlegende Nomen
+- article: der
+  noun: Montag
+  plural: Montage
+  translation: Monday
+  category: 14. Grundlegende Nomen
+- article: der
+  noun: Januar
+  plural: Januare
+  translation: January
+  category: 14. Grundlegende Nomen
+- article: die
+  noun: Farbe
+  plural: Farben
+  translation: color
+  category: 14. Grundlegende Nomen
+- article: die
+  noun: Größe
+  plural: Größen
+  translation: size
+  category: 14. Grundlegende Nomen
+- article: das
+  noun: Gewicht
+  plural: Gewichte
+  translation: weight
+  category: 14. Grundlegende Nomen
+- article: die
+  noun: Länge
+  plural: Längen
+  translation: length
+  category: 14. Grundlegende Nomen
+- article: die
+  noun: Breite
+  plural: Breiten
+  translation: width
+  category: 14. Grundlegende Nomen
+- article: die
+  noun: Höhe
+  plural: Höhen
+  translation: height
+  category: 14. Grundlegende Nomen
+- article: das
+  noun: Baby
+  plural: Babys
+  translation: baby
+  category: 14. Grundlegende Nomen

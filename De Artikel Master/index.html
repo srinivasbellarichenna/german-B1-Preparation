@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>German Article Trainer | Der Die Das Lernen</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Introduction Screen -->
+        <div id="intro-screen" class="screen active">
+            <div class="intro-content">
+                <h1>🇩🇪 German Article Trainer 🇬🇧</h1>
+                <h2>Der • Die • Das Lernen</h2>
+                
+                <div class="intro-text">
+                    <p><strong>Deutsch:</strong> Willkommen zum interaktiven Artikeltrainer! Lerne die deutschen Artikel (der, die, das) schnell und effektiv.</p>
+                    <p><strong>English:</strong> Welcome to the interactive article trainer! Learn German articles (der, die, das) quickly and effectively.</p>
+                </div>
+
+                <div class="how-it-works">
+                    <h3>🎯 Wie es funktioniert | How it works</h3>
+                    <ul>
+                        <li><strong>DE:</strong> Ein Substantiv wird angezeigt → Wähle den richtigen Artikel → Sofortiges Feedback</li>
+                        <li><strong>EN:</strong> A noun is displayed → Choose the correct article → Immediate feedback</li>
+                    </ul>
+                    <div class="keyboard-shortcuts">
+                        <p><strong>⌨️ Shortcuts:</strong> 1 = der | 2 = die | 3 = das | Space = Skip | Enter = Continue</p>
+                    </div>
+                </div>
+
+                <div class="topic-selection">
+                    <h3>📚 Thema wählen | Choose Topic</h3>
+                    <div class="category-grid" id="category-buttons">
+                        <!-- Categories will be populated by JavaScript -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Practice Screen -->
+        <div id="practice-screen" class="screen">
+            <div class="practice-header">
+                <div class="stats-bar">
+                    <div class="stat">
+                        <span class="stat-label">Score | Punkte</span>
+                        <span class="stat-value" id="score">0</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-label">Streak | Serie</span>
+                        <span class="stat-value" id="streak">0</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-label">Progress | Fortschritt</span>
+                        <span class="stat-value" id="progress">0/0</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-label">Accuracy | Genauigkeit</span>
+                        <span class="stat-value" id="accuracy">0%</span>
+                    </div>
+                </div>
+                <button class="btn btn--outline btn--sm" onclick="showIntro()">← Zurück | Back</button>
+            </div>
+
+            <div class="practice-content">
+                <div class="noun-display">
+                    <div class="category-badge" id="category-badge"></div>
+                    <div class="noun-main" id="noun-main">Substantiv</div>
+                    <div class="noun-translation" id="noun-translation">Translation</div>
+                    <div class="noun-plural" id="noun-plural">Plural form</div>
+                </div>
+
+                <div class="article-selection">
+                    <h3>Wähle den richtigen Artikel | Choose the correct article</h3>
+                    <div class="article-buttons">
+                        <button class="btn btn--article" data-article="der" onclick="selectArticle('der')">der</button>
+                        <button class="btn btn--article" data-article="die" onclick="selectArticle('die')">die</button>
+                        <button class="btn btn--article" data-article="das" onclick="selectArticle('das')">das</button>
+                    </div>
+                </div>
+
+                <div class="feedback-area" id="feedback-area"></div>
+
+                <div class="controls">
+                    <button class="btn btn--outline" onclick="skipNoun()">⏭️ Überspringen | Skip</button>
+                    <button class="btn btn--secondary" onclick="showHint()" id="hint-btn">💡 Tipp | Hint</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Results Screen -->
+        <div id="results-screen" class="screen">
+            <div class="results-content">
+                <h1>🎉 Ergebnisse | Results</h1>
+                
+                <div class="results-stats">
+                    <div class="result-stat">
+                        <div class="result-number" id="final-score">0</div>
+                        <div class="result-label">Gesamtpunkte<br>Total Score</div>
+                    </div>
+                    <div class="result-stat">
+                        <div class="result-number" id="final-accuracy">0%</div>
+                        <div class="result-label">Genauigkeit<br>Accuracy</div>
+                    </div>
+                    <div class="result-stat">
+                        <div class="result-number" id="final-streak">0</div>
+                        <div class="result-label">Beste Serie<br>Best Streak</div>
+                    </div>
+                </div>
+
+                <div class="encouragement" id="encouragement-text">
+                    <p>Großartig gemacht! | Great job!</p>
+                </div>
+
+                <div class="results-actions">
+                    <button class="btn btn--primary" onclick="showIntro()">🏠 Neues Spiel | New Game</button>
+                    <button class="btn btn--secondary" onclick="restartSameCategory()">🔄 Wiederholen | Repeat</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

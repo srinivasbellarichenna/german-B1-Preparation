@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>German Conjunctions Master - B1 Learning App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Splash Screen -->
+    <div id="splash-screen" class="splash-screen">
+        <div class="splash-content">
+            <img src="https://pplx-res.cloudinary.com/image/upload/v1761247783/pplx_project_search_images/b7a5c97683265af1e42a43ebcc17312fd6414f5f.png" alt="German Learning Collage" class="splash-image">
+            <h1 class="splash-title">German Conjunctions Master</h1>
+            <p class="splash-subtitle">Master Konjunktionen for B1 Level &amp; Beyond!</p>
+            <button class="btn btn--primary btn--lg splash-start-btn" onclick="startApp()">Start Learning →</button>
+        </div>
+    </div>
+
+    <!-- Main App -->
+    <div id="main-app" class="main-app hidden">
+        <!-- Header -->
+        <header class="app-header">
+            <div class="container">
+                <div class="header-content">
+                    <h1 class="app-title">
+                        <img src="https://pplx-res.cloudinary.com/image/upload/v1761247783/pplx_project_search_images/9d910775bbff217574b6b086c09d6e49e9eac45e.png" alt="Connection" class="title-icon">
+                        German Conjunctions Master
+                    </h1>
+                    <div class="progress-info">
+                        <span id="progress-text">Ready to learn!</span>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Navigation -->
+        <nav class="main-nav">
+            <div class="container">
+                <div class="nav-tabs">
+                    <button class="nav-tab active" data-section="coordinating">Coordinating<br><small>Nebenordnende</small></button>
+                    <button class="nav-tab" data-section="subordinating">Subordinating<br><small>Unterordnende</small></button>
+                    <button class="nav-tab" data-section="two-part">Two-Part<br><small>Zweiteilige</small></button>
+                    <button class="nav-tab" data-section="adverbs">Adverbs<br><small>Konjunktionaladverbien</small></button>
+                    <button class="nav-tab special" data-section="memory-tips">
+                        <img src="https://pplx-res.cloudinary.com/image/upload/v1756194847/pplx_project_search_images/6b741e472f419a03facffcac566fca718d6efa8a.png" alt="Brain" class="nav-icon">
+                        Memory Tips
+                    </button>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <div class="container">
+                
+                <!-- Coordinating Conjunctions Section -->
+                <section id="coordinating-section" class="content-section active">
+                    <div class="section-header">
+                        <h2>Coordinating Conjunctions (Nebenordnende Konjunktionen)</h2>
+                        <p class="section-description">Connect two main clauses (Hauptsätze). Verb position stays in 2nd place.</p>
+                        <div class="structure-info coord-structure">
+                            <span class="structure-label">Structure:</span>
+                            <div class="structure-visual">
+                                <span class="hauptsatz">Hauptsatz</span>
+                                <span class="conjunction">+ Conjunction +</span>
+                                <span class="hauptsatz">Hauptsatz</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="cards-grid" id="coordinating-cards"></div>
+                    
+                    <div class="action-buttons">
+                        <button class="btn btn--secondary" onclick="startGame('coordinating')">🎯 Practice Game</button>
+                        <button class="btn btn--primary" onclick="startQuiz('coordinating')">📝 Quick Quiz</button>
+                    </div>
+                </section>
+
+                <!-- Subordinating Conjunctions Section -->
+                <section id="subordinating-section" class="content-section">
+                    <div class="section-header">
+                        <h2>Subordinating Conjunctions (Unterordnende Konjunktionen)</h2>
+                        <p class="section-description">Introduce a Nebensatz and send the verb to the end.</p>
+                        <div class="structure-info sub-structure">
+                            <span class="structure-label">Structure:</span>
+                            <div class="structure-visual">
+                                <span class="hauptsatz">Hauptsatz</span>
+                                <span class="conjunction">+ Conjunction +</span>
+                                <span class="nebensatz">Nebensatz [verb at end]</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="cards-grid" id="subordinating-cards"></div>
+                    
+                    <div class="action-buttons">
+                        <button class="btn btn--secondary" onclick="startGame('subordinating')">🎯 Practice Game</button>
+                        <button class="btn btn--primary" onclick="startQuiz('subordinating')">📝 Quick Quiz</button>
+                    </div>
+                </section>
+
+                <!-- Two-Part Conjunctions Section -->
+                <section id="two-part-section" class="content-section">
+                    <div class="section-header">
+                        <h2>Two-Part Conjunctions (Zweiteilige Konjunktionen)</h2>
+                        <p class="section-description">Use two parts in different places in a sentence.</p>
+                        <div class="structure-info twopart-structure">
+                            <span class="structure-label">Structure:</span>
+                            <div class="structure-visual">
+                                <span class="conjunction">Part 1...</span>
+                                <span class="hauptsatz">Hauptsatz</span>
+                                <span class="conjunction">...Part 2</span>
+                                <span class="hauptsatz">Hauptsatz</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="cards-grid" id="two-part-cards"></div>
+                    
+                    <div class="action-buttons">
+                        <button class="btn btn--secondary" onclick="startGame('two-part')">🎯 Practice Game</button>
+                        <button class="btn btn--primary" onclick="startQuiz('two-part')">📝 Quick Quiz</button>
+                    </div>
+                </section>
+
+                <!-- Conjunctive Adverbs Section -->
+                <section id="adverbs-section" class="content-section">
+                    <div class="section-header">
+                        <h2>Conjunctive Adverbs (Konjunktionaladverbien)</h2>
+                        <p class="section-description">Connect sentences; verb is always at 2nd position.</p>
+                        <div class="structure-info adverb-structure">
+                            <span class="structure-label">Structure:</span>
+                            <div class="structure-visual">
+                                <span class="hauptsatz">Sentence 1.</span>
+                                <span class="conjunction">Adverb</span>
+                                <span class="hauptsatz">Sentence 2 [V in 2nd]</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="cards-grid" id="adverbs-cards"></div>
+                    
+                    <div class="action-buttons">
+                        <button class="btn btn--secondary" onclick="startGame('adverbs')">🎯 Practice Game</button>
+                        <button class="btn btn--primary" onclick="startQuiz('adverbs')">📝 Quick Quiz</button>
+                    </div>
+                </section>
+
+                <!-- Memory Tips Section -->
+                <section id="memory-tips-section" class="content-section">
+                    <div class="section-header">
+                        <h2>Memory Tips &amp; Common Mistakes</h2>
+                        <img src="https://pplx-res.cloudinary.com/image/upload/v1756194847/pplx_project_search_images/6b741e472f419a03facffcac566fca718d6efa8a.png" alt="Train Your Brain" class="memory-brain-image">
+                    </div>
+                    
+                    <div class="tips-grid">
+                        <div class="tip-card tip-error">
+                            <h3>⚠️ Common Mistake: Word Order</h3>
+                            <p><strong>Wrong:</strong> Ich gehe nicht, weil ich <span class="wrong">bin</span> müde.</p>
+                            <p><strong>Right:</strong> Ich gehe nicht, weil ich müde <span class="correct">bin</span>.</p>
+                            <p class="tip-explanation">Subordinating conjunctions send the verb to the END!</p>
+                        </div>
+                        
+                        <div class="tip-card tip-success">
+                            <h3>💡 Memory Trick: WOBS</h3>
+                            <p><strong>W</strong>eil, <strong>O</strong>bwohl, <strong>B</strong>is, <strong>S</strong>eit = Verb at end</p>
+                            <p class="tip-explanation">Remember these common subordinating conjunctions with WOBS!</p>
+                        </div>
+                        
+                        <div class="tip-card tip-warning">
+                            <h3>🔍 Exam Tip: wenn vs. als</h3>
+                            <p><strong>wenn:</strong> repeated/present/future actions</p>
+                            <p><strong>als:</strong> one-time past events only</p>
+                            <p class="tip-explanation">This distinction appears frequently in B1 exams!</p>
+                        </div>
+                        
+                        <div class="tip-card tip-info">
+                            <h3>🎯 Practice Strategy</h3>
+                            <p>1. Learn the meaning first</p>
+                            <p>2. Practice with sentence structure</p>
+                            <p>3. Use in your own sentences</p>
+                            <p class="tip-explanation">Build confidence step by step!</p>
+                        </div>
+                    </div>
+                </section>
+                
+            </div>
+        </main>
+
+        <!-- Game Modal -->
+        <div id="game-modal" class="modal hidden">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 id="game-title">Practice Game</h3>
+                    <button class="close-btn" onclick="closeModal()">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <p class="game-instructions">Drag each conjunction to the correct sentence type:</p>
+                    
+                    <div class="game-area">
+                        <div class="drag-source" id="drag-items"></div>
+                        
+                        <div class="drop-zones">
+                            <div class="drop-zone hauptsatz-zone" data-type="hauptsatz">
+                                <h4>Hauptsatz Only</h4>
+                                <p>Normal word order</p>
+                            </div>
+                            <div class="drop-zone nebensatz-zone" data-type="nebensatz">
+                                <h4>Creates Nebensatz</h4>
+                                <p>Verb to the end</p>
+                            </div>
+                            <div class="drop-zone both-zone" data-type="both">
+                                <h4>Both Types</h4>
+                                <p>Depends on usage</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="game-controls">
+                        <button class="btn btn--secondary" onclick="resetGame()">Reset</button>
+                        <button class="btn btn--primary" onclick="checkGameAnswers()">Check Answers</button>
+                    </div>
+                    
+                    <div id="game-feedback" class="game-feedback hidden"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Quiz Modal -->
+        <div id="quiz-modal" class="modal hidden">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 id="quiz-title">Quick Quiz</h3>
+                    <button class="close-btn" onclick="closeModal()">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <div id="quiz-area"></div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
